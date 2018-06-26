@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <!--{% autoescape None %}-->
+	<TITLE> APP Action Operation </TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/static/Action_JS_CSS/demo.css" type="text/css">
+	<link rel="stylesheet" href="/static/Action_JS_CSS/zTreeStyle.css" type="text/css">
+
+	<script src="/static/Action_JS_CSS/jquery-1.4.4.min.js"></script>
+	<script src="/static/Action_JS_CSS/jquery.ztree.core.js"></script>
+	<script src="/static/Action_JS_CSS/jquery.ztree.excheck.js"></script>
+    <style>
+        div.content_wrap {
+            width: 1000px;
+        }
+        ul.ztree {
+            width: 400px;
+            height: 2000px;
+        }
+    </style>
+	<script>
+		var setting = {
+			check: {
+				enable: true
+			},
+			data: {
+				simpleData: {
+					enable: true
+                    // idKey: "id",
+                    // pIdKey: "pId",
+                    // rootPId: 0
+				}
+			},
+            callback: {
+                onClick: zTreeOnClick
+            }
+		};
+		var b = new Array();
+		b.push({ id:1, pId:0, name:"Action", open:true});
+		b.push({ id:2, pId:1, name:"APP", open:true});
+		var m=21;
+   		{% for i in app_L_1 %};
+		    b.push({ id:m, pId:2, name:"{{i}}", open:true  });
+
+		    n=1;
+            {% for j in dict_All_1[app_L_1.index(i)][i] %}
+                b.push({ id:m*10+n, pId:m, name:"{{j}}" });
+                n+=1;
+            {% end %}
+            m+=1;
+        {% end %}
+
+		var zNodes =b;
+
+		var code;
+		// function zTreeOnClick(event, treeId, treeNode, clickFlag) {
+         //    if (treeNode.isParent) {
+         //    　　var zTree = $.fn.zTree.getZTreeObj(treeId);
+         //    　　zTree.expandNode(treeNode);
+         //    }
+         //    onClickAjax(treeNode.name);
+		// }
+
+		function zTreeOnClick(event,treeId, treeNode) {
+            method(treeNode.id,treeNode.name);
+        }
+
+        function method(id,name){
+            var form = document.getElementById("formId");
+            form.id.value=id;
+
+            form.name.value=name;
+
+            form.submit();
+
+        }
+        // function onClickAjax(treeNodeName) {
+        //     　　$.ajax({
+        //     　　url:"/http://127.0.0.1:8000/action",
+        //     　　data:{ ORG_NAME:treeNodeName}, //向后台传递的数据是名字 也可以是id 可以根据实际情况来定
+        //     　　type : 'post',
+        //     　　async : false,
+        //     　　dataType : "json", //返回的数据类型是json
+        //     　　success: function(data){
+        //     　　//alert('got it!');
+        //     　　$('#dg').datagrid('loadData', data);//回调成功后重新加载表格的数据 ，前提是表格的字段已经确定
+        //     },
+        //     });
+        //
+        //
+        //
+        // }
+
+
+		function setCheck() {
+			var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
+			py = $("#py").attr("checked")? "p":"",
+			sy = $("#sy").attr("checked")? "s":"",
+			pn = $("#pn").attr("checked")? "p":"",
+			sn = $("#sn").attr("checked")? "s":"",
+			type = { "Y":py + sy, "N":pn + sn};
+			zTree.setting.check.chkboxType = type;
+			showCode('setting.check.chkboxType = { "Y" : "' + type.Y + '", "N" : "' + type.N + '" };');
+		}
+		function showCode(str) {
+			if (!code) code = $("#code");
+			code.empty();
+			code.append("<li>"+str+"</li>");
+		}
+		
+		$(document).ready(function(){
+			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+			setCheck();
+			$("#py").bind("change", setCheck);
+			$("#sy").bind("change", setCheck);
+			$("#pn").bind("change", setCheck);
+			$("#sn").bind("change", setCheck);
+		});
+	</script>
+</HEAD>
+
+<BODY>
+
+<h1>APP 勾选操作</h1>
+<div class="content_wrap">
+
+    <form action="/action" id="formId"  method="post">
+        <div class="zTreeDemoBackground left">
+            <ul id="treeDemo" class="ztree"></ul>
+        </div>
+        <!--<p><input type="submit" value="提交确认">-->
+        <input type="hidden" name="id"/>
+	    <input type="hidden" name="name"/>
+    </form>
+
+	<div class="right">
+		<ul class="info">
+			<li class="title"><h2>1、setting 配置信息说明</h2>
+				<ul class="list">
+					<li><p>父子关联关系：<br/>
+						被勾选时：<input type="checkbox" id="py" class="checkbox first" checked /><span>关联父</span>
+						<input type="checkbox" id="sy" class="checkbox first" checked /><span>关联子</span><br/>
+						取消勾选时：<input type="checkbox" id="pn" class="checkbox first" checked /><span>关联父</span>
+						<input type="checkbox" id="sn" class="checkbox first" checked /><span>关联子</span><br/>
+						<ul id="code" class="log" style="height:20px;"></ul></p>
+				    </li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</BODY>
+</HTML>

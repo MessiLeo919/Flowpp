@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>00001</div>
+    <div>00002</div>
+    <div>00003</div>
+    <div>00004</div>
+    <script>
+        // document.body.innerHTML += "55555";
+        // document.write("<p>55555</p>");
+        /*
+        document.write()
+            在文档流关闭之前，给body部分新增内容
+            在文档流关闭之后，修改整个html的内容
+         */
+        window.onload = function () {
+            document.write("<p>55555</p>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="04-元素获取补充.html" target="_blank" class="box" id="box" tz="xp">去百度</a>
+    <script>
+        /*
+        js操作元素的标签属性：
+            规范的标签属性：
+                . 符号直接操作（可读可写）
+            不规范（自定义）的标签属性：
+                获取：.getAttribute
+                设置：.setAttribute
+                移除：.removeAttribute
+
+          注意：
+          所有的 路径、颜色 获取的结果不一定是你写的内容
+          通过id获取的元素赋值给变量后，假设修改了id，这个变量还是表示这个元素
+          自定义标签属性的操作方式，同样可以操作符合规范的标签属性
+         */
+        var oA = document.getElementById("box");
+        // alert(oA.target);//可读
+        // oA.target = "_self";
+        // oA.id = "box1";
+        // oA.href = "http://www.taobao.com";
+        // oA.tz = "haha"
+        // alert(oA.className);//class属性  要用className
+        // oA.className = "";
+        // alert(oA.getAttribute("id"));
+        oA.setAttribute("target","_self");
+        oA.setAttribute("py","web");
+        oA.removeAttribute("class");
+        alert(oA.href);
+    </script>
+</body>
+</html>

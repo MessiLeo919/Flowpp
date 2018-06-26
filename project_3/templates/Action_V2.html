@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <!--{% autoescape None %}-->
+	<TITLE> APP Action Operation </TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/static/zTree_v3-master/css/demo.css" type="text/css">
+	<link rel="stylesheet" href="/static/zTree_v3-master/css/zTreeStyle/zTreeStyle.css" type="text/css">
+
+	<script src="/static/zTree_v3-master/js/jquery-1.4.4.min.js"></script>
+	<script src="/static/zTree_v3-master/js/jquery.ztree.core.js"></script>
+	<script src="/static/zTree_v3-master/js/jquery.ztree.excheck.js"></script>
+    <style>
+        div.content_wrap {
+            width: 1000px;
+        }
+        ul.ztree {
+            width: 400px;
+            height: 2000px;
+        }
+    </style>
+	<script>
+		var setting = {
+			check: {
+				enable: true
+			},
+			data: {
+				simpleData: {
+					enable: true
+				}
+			}
+		};
+		var b = new Array();
+		b.push({ id:1, pId:0, name:"Action", open:true});
+		b.push({ id:2, pId:1, name:"APP", open:true});
+		var m=3;
+   		{% for i in app_L_1 %};
+		    b.push({ id:m, pId:2, name:"{{i}}" });
+		    m+=1;
+        {% end %}
+
+		var zNodes =b;
+
+		var code;
+		function setCheck() {
+			var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
+			py = $("#py").attr("checked")? "p":"",
+			sy = $("#sy").attr("checked")? "s":"",
+			pn = $("#pn").attr("checked")? "p":"",
+			sn = $("#sn").attr("checked")? "s":"",
+			type = { "Y":py + sy, "N":pn + sn};
+			zTree.setting.check.chkboxType = type;
+			showCode('setting.check.chkboxType = { "Y" : "' + type.Y + '", "N" : "' + type.N + '" };');
+		}
+		function showCode(str) {
+			if (!code) code = $("#code");
+			code.empty();
+			code.append("<li>"+str+"</li>");
+		}
+		
+		$(document).ready(function(){
+			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+			setCheck();
+			// $("#py").bind("change", setCheck);
+			// $("#sy").bind("change", setCheck);
+			// $("#pn").bind("change", setCheck);
+			// $("#sn").bind("change", setCheck);
+		});
+	</script>
+</HEAD>
+
+<BODY>
+
+<h1>APP 勾选操作</h1>
+<div class="content_wrap">
+	<div class="zTreeDemoBackground left">
+		<ul id="treeDemo" class="ztree"></ul>
+	</div>
+	<div class="right">
+		<ul class="info">
+			<li class="title"><h2>1、setting 配置信息说明</h2>
+				<ul class="list">
+					<li><p>父子关联关系：<br/>
+						被勾选时：<input type="checkbox" id="py" class="checkbox first" checked /><span>关联父</span>
+						<input type="checkbox" id="sy" class="checkbox first" checked /><span>关联子</span><br/>
+						取消勾选时：<input type="checkbox" id="pn" class="checkbox first" checked /><span>关联父</span>
+						<input type="checkbox" id="sn" class="checkbox first" checked /><span>关联子</span><br/>
+						<ul id="code" class="log" style="height:20px;"></ul></p>
+				    </li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</BODY>
+</HTML>

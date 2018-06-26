@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE> APP Action Operation </TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/static/Action_JS_CSS/demo.css" type="text/css">
+	<link rel="stylesheet" href="/static/Action_JS_CSS/zTreeStyle.css" type="text/css">
+
+	<script src="/static/Action_JS_CSS/jquery-1.4.4.min.js"></script>
+	<script src="/static/Action_JS_CSS/jquery.ztree.core.js"></script>
+	<script src="/static/Action_JS_CSS/jquery.ztree.excheck.js"></script>
+    <style>
+        div.content_wrap {
+            width: 1000px;
+        }
+        ul.ztree {
+            width: 400px;
+            height: 800px;
+        }
+    </style>
+
+</HEAD>
+
+<BODY>
+<form action="/action" method="POST">
+
+</form>
+<h1>APP 勾选操作</h1>
+<button id="submit">提交数据</button>
+<div class="content_wrap">
+        <div class="zTreeDemoBackground left">
+            <ul id="treeDemo" class="ztree"></ul>
+        </div>
+</div>
+
+<script>
+		var setting = {
+			check: {
+				enable: true
+			},
+			data: {
+				simpleData: {
+					enable: true
+				}
+			}
+		};
+		var b = new Array();
+		b.push({ id:1, pId:-1, name:"Action", open:true});
+		b.push({ id:11, pId:1, name:"APP", open:true});
+		var m=11001;
+   		{% for i in app_L_1 %};
+		    b.push({ id:m, pId:11, name:"{{i}}", open:true  });
+
+		    n=1;
+            {% for j in dict_All_1[app_L_1.index(i)][i] %}
+                b.push({ id:0, pId:m, name:"{{j}}" });
+                // b.push({ id:m*1000+n, pId:m, name:"{{j}}" });
+                n+=1;
+            {% end %}
+            m+=1;
+        {% end %}
+
+		var zNodes =b;
+		$(document).ready(function(){
+			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+		});
+
+        result = new Array();
+		var submit_0 = document.getElementById("submit");
+
+		function filter(node) {
+                return (node.id == 0 && node.checked
+                );
+            }
+		submit_0.onclick=function (){
+
+            var treeObj=$.fn.zTree.getZTreeObj("treeDemo");
+            var nodes=treeObj.getNodesByFilter(filter);
+            for(var i=0;i<nodes.length;i++){
+                v="";
+				v+=nodes[i].name + ",";
+				console.log("节点id:"+nodes[i].id+"  节点名称："+v);
+				result.push(nodes[i].name)
+            }
+            console.log("----------");
+            console.log(result);
+            console.log(typeof(result));
+
+            $.ajax({
+                type: "POST",
+                url : "action",
+                data:  JSON.stringify(result),
+                success: function(msg){
+                       if (msg) {//根据返回值进行跳转
+                        window.location.href = '/test';
+                        }
+            	}
+			});
+		};
+
+	</script>
+</BODY>
+</HTML>

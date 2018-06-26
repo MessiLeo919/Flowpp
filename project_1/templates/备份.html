@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Selection{% end %}</title>
+</head>
+<style>
+    #title{
+    width: 100%;
+    height: 80px;
+    /*border: 1px solid red;*/
+    background: rgba(0, 0, 0, 0.51);
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+}
+.choice_title{
+    line-height: 80px;
+    font-size: 28px;
+}
+.choice{
+    margin-left: 50px;
+    font-size: 20px;
+}
+</style>
+<body>
+<div id="title">
+    汇总选择
+</div>
+<div>
+    <form action="/login" method="post">
+        {{for i in app_class}}
+        <div class="choice_title">汽车类
+                <input type="button" class="all" id="all_1" value="全选" />
+                <input type="button" class="uncheck" id="uncheck_1" value="不选" />
+                <input type="button" class="othercheck" id="othercheck_1" value="反选" />
+            <div class="choice">
+                <input type="checkbox" name="car" value="one">选择一
+                <input type="checkbox" name="car" value="two">选择二
+                <input type="checkbox" name="car" value="three">选择三
+                <input type="checkbox" name="car" value="four">选择四
+                <input type="checkbox" name="car" value="five">选择五
+                <input type="checkbox" name="car" value="six">选择六
+                <input type="checkbox" name="car" value="seven">选择七
+                <input type="checkbox" name="car" value="eight">选择八
+            </div>
+        </div>
+
+        <div class="choice_title">汽车类
+                <input type="button" class="all" id="all_1" value="全选" />
+                <input type="button" class="uncheck" id="uncheck_1" value="不选" />
+                <input type="button" class="othercheck" id="othercheck_1" value="反选" />
+            <div class="choice">
+                <input type="checkbox" name="car" value="one">选择一
+                <input type="checkbox" name="car" value="two">选择二
+                <input type="checkbox" name="car" value="three">选择三
+                <input type="checkbox" name="car" value="four">选择四
+                <input type="checkbox" name="car" value="five">选择五
+                <input type="checkbox" name="car" value="six">选择六
+                <input type="checkbox" name="car" value="seven">选择七
+                <input type="checkbox" name="car" value="eight">选择八
+            </div>
+        </div>
+
+        <p><input type="submit" value="提交确认"></p>
+    </form>
+</div>
+
+<script>
+window.onload=function(){
+    var CheckAll=document.getElementById('all_1');
+    var UnCheck=document.getElementById('uncheck_1');
+    var OtherCheck=document.getElementById('othercheck_1');
+    var CheckBox=document.getElementsByTagName('input');
+    CheckAll.onclick=function(){
+            for(i=0;i<CheckBox.length;i++){
+                    CheckBox[i].checked=true;
+                }
+        };
+    UnCheck.onclick=function(){
+            for(i=0;i<CheckBox.length;i++){
+                    CheckBox[i].checked=false;
+                }
+        };
+    OtherCheck.onclick=function(){
+            for(i=0;i<CheckBox.length;i++){
+                if(CheckBox[i].checked==true){
+                    CheckBox[i].checked=false
+                    }
+                else{
+                    CheckBox[i].checked=true
+                    }
+
+                }
+        }
+}
+</script>
+</body>
+</html>

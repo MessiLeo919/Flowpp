@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE> APP Action Operation </TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="zTree_v3-master/css/demo.css" type="text/css">
+	<link rel="stylesheet" href="zTree_v3-master/css/zTreeStyle/zTreeStyle.css" type="text/css">
+
+	<script src="zTree_v3-master/js/jquery-1.4.4.min.js"></script>
+	<script src="zTree_v3-master/js/jquery.ztree.core.js"></script>
+	<script src="zTree_v3-master/js/jquery.ztree.excheck.js"></script>
+    <style>
+        div.content_wrap {
+            width: 1000px;
+        }
+        ul.ztree {
+            width: 400px;
+            height: 2000px;
+        }
+    </style>
+	<script>
+		var setting = {
+			check: {
+				enable: true
+			},
+			data: {
+				simpleData: {
+					enable: true
+				}
+			}
+		};
+/*
+		var zNodes =[
+			{ id:1, pId:0, name:"随意勾选 1", open:true},
+			{ id:11, pId:1, name:"随意勾选 1-1", open:true},
+			{ id:111, pId:11, name:"随意勾选 1-1-1"},
+			{ id:112, pId:11, name:"随意勾选 1-1-2"},
+			{ id:12, pId:1, name:"随意勾选 1-2", open:true},
+			{ id:121, pId:12, name:"随意勾选 1-2-1"},
+			{ id:122, pId:12, name:"随意勾选 1-2-2"},
+			{ id:2, pId:0, name:"随意勾选 2", checked:true, open:true},
+			{ id:21, pId:2, name:"随意勾选 2-1"},
+			{ id:22, pId:2, name:"随意勾选 2-2", open:true},
+			{ id:221, pId:22, name:"随意勾选 2-2-1", checked:true},
+			{ id:222, pId:22, name:"随意勾选 2-2-2"},
+			{ id:23, pId:2, name:"随意勾选 2-3"}
+		];
+*/
+		var b=5555;
+		var a="fff"+b.toString();
+		var zNodes =[
+			{ id:1, pId:0, name:"Action", open:true},
+			{ id:11, pId:1, name:"APP", open:true},
+			{ id:111, pId:11, name:"微信",open:true},
+
+            { id:1111, pId:111, name:"微信_表情_接收"},
+			{ id:1112, pId:111, name:"微信_朋友圈_图片_浏览"},
+			{ id:1113, pId:111, name:"微信_朋友圈_图片_点击"},
+			{ id:1114, pId:111, name:"微信_朋友圈_视频_浏览"},
+			{ id:1115, pId:111, name:"微信_朋友圈_视频_点击"},
+			{ id:1116, pId:111, name:"微信_朋友圈_外部广告_点击"},
+
+
+			{ id:112, pId:11, name:"QQ",open:true},
+            { id:1121, pId:112, name:"QQ_视频_发送"},
+			{ id:1122, pId:112, name:"QQ_视频_接收"},
+			{ id:1123, pId:112, name:"QQ_视频_缩略图_接收"},
+			{ id:1124, pId:112, name:"QQ_分享链接_接收"},
+			{ id:1125, pId:112, name:"QQ_扫一扫链接_点击"},
+			{ id:1126, pId:112, name:"QQ_广告_浏览"},
+
+
+
+
+			{ id:113, pId:11, name:"微博",open:true},
+            { id:1131, pId:113, name:"微博_登录"},
+			{ id:1132, pId:113, name:"微博_文章_点击"},
+			{ id:1133, pId:113, name:"微博_普通_图片_点击"},
+			{ id:1134, pId:113, name:"微博_高清_图片_点击"},
+			{ id:1135, pId:113, name:"微博_普通_视频_点击"},
+			{ id:1136, pId:113, name:"微博_秒拍_视频_点击"},
+
+			{ id:114, pId:11, name:"陌陌"},
+            { id:1141, pId:114, name:"陌陌_登录"},
+			{ id:1142, pId:114, name:"陌陌_文章_点击"},
+			{ id:1143, pId:114, name:"陌陌_普通_图片_点击"},
+			{ id:1144, pId:114, name:"陌陌_高清_图片_点击"},
+			{ id:1145, pId:114, name:"陌陌_普通_视频_点击"},
+			{ id:1146, pId:114, name:"陌陌_秒拍_视频_点击"},
+
+
+
+			{ id:115, pId:11, name:"百度贴吧"},
+            { id:1151, pId:115, name:"百度贴吧_登录"},
+			{ id:1152, pId:115, name:"百度贴吧_文章_点击"},
+			{ id:1153, pId:115, name:"百度贴吧_普通_图片_点击"},
+			{ id:1154, pId:115, name:"百度贴吧_高清_图片_点击"},
+			{ id:1155, pId:115, name:"百度贴吧_普通_视频_点击"},
+			{ id:1156, pId:115, name:"百度贴吧_秒拍_视频_点击"},
+
+			// { id:12, pId:1, name:"Service", open:true},
+			// { id:121, pId:12, name:"微信"},
+			// { id:122, pId:12, name:"QQ"},
+			// { id:123, pId:12, name:"微博"},
+			// { id:124, pId:12, name:"陌陌"},
+			// { id:125, pId:12, name:"百度贴吧"},
+
+			// { id:2, pId:0, name:"application", checked:true, open:true},
+			// { id:21, pId:2, name:"随意勾选 2-1"},
+			// { id:22, pId:2, name:"随意勾选 2-2", open:true},
+			// { id:221, pId:22, name:"随意勾选 2-2-1", checked:true},
+			// { id:222, pId:22, name:"随意勾选 2-2-2"},
+			// { id:23, pId:2, name:"随意勾选 2-3"}
+		];
+
+
+
+		var code;
+		
+		function setCheck() {
+			var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
+			py = $("#py").attr("checked")? "p":"",
+			sy = $("#sy").attr("checked")? "s":"",
+			pn = $("#pn").attr("checked")? "p":"",
+			sn = $("#sn").attr("checked")? "s":"",
+			type = { "Y":py + sy, "N":pn + sn};
+			zTree.setting.check.chkboxType = type;
+			showCode('setting.check.chkboxType = { "Y" : "' + type.Y + '", "N" : "' + type.N + '" };');
+		}
+		function showCode(str) {
+			if (!code) code = $("#code");
+			code.empty();
+			code.append("<li>"+str+"</li>");
+		}
+		
+		$(document).ready(function(){
+			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+			setCheck();
+			// $("#py").bind("change", setCheck);
+			// $("#sy").bind("change", setCheck);
+			// $("#pn").bind("change", setCheck);
+			// $("#sn").bind("change", setCheck);
+		});
+	</script>
+</HEAD>
+
+<BODY>
+	{{ dict_All }}
+    {{ app_L_1 }}
+<h1>APP 勾选操作</h1>
+<div class="content_wrap">
+	<div class="zTreeDemoBackground left">
+		<ul id="treeDemo" class="ztree"></ul>
+	</div>
+	<div class="right">
+		<ul class="info">
+			<li class="title"><h2>1、setting 配置信息说明</h2>
+				<ul class="list">
+					<li><p>父子关联关系：<br/>
+						被勾选时：<input type="checkbox" id="py" class="checkbox first" checked /><span>关联父</span>
+						<input type="checkbox" id="sy" class="checkbox first" checked /><span>关联子</span><br/>
+						取消勾选时：<input type="checkbox" id="pn" class="checkbox first" checked /><span>关联父</span>
+						<input type="checkbox" id="sn" class="checkbox first" checked /><span>关联子</span><br/>
+						<ul id="code" class="log" style="height:20px;"></ul></p>
+				    </li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</BODY>
+</HTML>

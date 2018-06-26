@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        b{
+            font-size: 20px;
+            color: #ff6700;
+        }
+        #box1 .wrap2 .wrap3{
+            background: #18ffd5;
+        }
+    </style>
+</head>
+<body>
+    <div>同学们 晚上好</div>
+    <div id="box">我是id</div>
+    <div class="box"></div>
+    <p>0001</p>
+    <p>0002<b>hhhh</b></p>
+    <b>5555</b>
+    <p>0003</p>
+    <p>0004</p>
+    <div id="box1">
+        <i class="wrap1">iiii1</i>
+        <p class="wrap2">pppp2
+            <i class="wrap3">iiii3</i>
+        </p>
+    </div>
+    <script>
+        /*
+       那么JS如何操作页面：
+           其实，要操作页面，就是操作标签，JS要操作标签，就要先获取标签
+       js如何获取独有标签
+           document.title
+           document.head
+           document.body
+
+       其他标签的获取，id前面必须是document,其他的前面可以是某个元素(id,document)，但不能是集合
+               通过id获取元素，
+                   document.getElementById()
+               通过className获取元素(不支持IE8及以下)
+                   .getElementsByClassName()
+               通过标签名获取元素
+                   .getElementsByTagName()
+
+               通过选择器的写法获取元素（不兼容IE7及以下）
+                   .querySelector()
+                   .querySelectorAll()
+               通过name值获取
+                    document.getElementsByName（）
+        */
+        document.title = "我想把标题改了+1";
+        //修改别的标签的内容，得用innerHTML(会解析标签)，innerText（不会解析标签）
+        document.body.innerHTML += "<b>我很好呀</b>";
+        //a = a +10; //a += 10;
+        // document.body.innerText = "<b>我很好呀</b>";
+
+        //获取的是确切的某个元素，可以直接操作这个元素
+        /*var oBox = document.getElementById("box");
+        oBox.innerHTML = "<b>ahhh</b>";*/
+
+        //获取的是一堆元素的集合，设置操作的时候要通过下标（索引、序号）拿到对应的某一个
+        var oBox1 = document.getElementsByClassName("box");
+        oBox1[0].innerHTML = " hahahah";
+
+        var oP = document.getElementsByTagName("p");
+        // alert(oP.length);//.length 获取长度
+        oP[0].innerHTML += "<b>ahh</b>";
+        oP[3].innerHTML += "<b>ahh</b>";
+
+        //获取第一个对应的元素
+        // var oI = document.querySelector("#box1 i");
+        // oI.innerHTML += "hahahahah";
+
+        var oI1 = document.querySelectorAll("#box1 i");
+        oI1[1].innerHTML += "qqqqqqq";
+    </script>
+</body>
+</html>

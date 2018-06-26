@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Selection{% end %}</title>
+</head>
+<style>
+    #choose_all{
+        font-size: 25px;
+    }
+    #title{
+        width: 100%;
+        height: 80px;
+        background: rgba(0, 0, 0, 0.51);
+        text-align: center;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    .choice_title{
+        line-height: 80px;
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    .choice{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+</style>
+<body>
+<div id="title">
+    汇总选择
+</div>
+<div>
+    <form action="/login" method="post">
+        <div id="choose_all">全文全选</div>
+        {% set a=0 %}
+        {% for i in app_class %}
+        {% set a+=1 %}
+        {% set m=0 %}
+            <div class="choice_title" id={{ app_class[a-1] }} >{{app_class[a-1]}}
+                    <input type="button" class="all" id={{"all_"+str(a)}} value="全选" />
+                    <input type="button" class="uncheck" id={{"uncheck_"+str(a)}} value="不选" />
+                    <input type="button" class="othercheck" id={{"othercheck_"+str(a)}} value="反选" />
+                <div class="choice">
+                    {% for j in dict_app[i] %}
+                        <input type="checkbox" name={{ app_class[a-1] }} value={{app_class[a-1]+str(m+1)}} > {{ j }}
+                        {% set m+=1 %}
+                    {% end %}
+
+                </div>
+            </div>
+
+        {% end %}
+
+        <p><input type="submit" value="提交确认"></p>
+    </form>
+</div>
+
+<script>
+
+window.onload=function(){
+    var class_app = document.getElementsByClassName('choice_title');//获取所有名为choice_title的div
+
+    choose_all=document.getElementById("choose_all");
+    all_apps=document.querySelectorAll("form div.choice_title div.choice input");
+    choose_all.onclick=function () {
+        for(var m=0;m<all_apps.length;m++){
+        all_apps[m].checked=true
+        }
+    };
+
+    for (var i=0; i<class_app.length; i++){
+
+        class_app_index_all=class_app[i].id+"index";
+        class_app_index_all=document.getElementById("all_"+(i+1).toString());  //获取all按钮
+
+        class_app_index_uncheck=class_app[i].id+"index";
+        class_app_index_uncheck=document.getElementById("uncheck_"+(i+1).toString());  //获取uncheck按钮
+
+        class_app_index_othercheck=class_app[i].id+"index";
+        class_app_index_othercheck=document.getElementById("othercheck_"+(i+1).toString());  //获取othercheck按钮
+
+        class_app_detail=class_app[i].id+"detail";
+        class_app_detail=document.getElementsByName(class_app[i].id);   //获取类对应的app
+
+        //各部分全选按钮
+        (function(class_app_detail){
+            class_app_index_all.onclick=function(){
+                for(var j=0;j<class_app_detail.length;j++){
+                        class_app_detail[j].checked=true;
+                    }
+            };
+        })(class_app_detail);
+
+        //各部分不选按钮
+        (function(class_app_detail){
+            class_app_index_uncheck.onclick=function(){
+                for(var j=0;j<class_app_detail.length;j++){
+                    class_app_detail[j].checked=false;
+                }
+            };
+        })(class_app_detail);
+
+        //各部分反选按钮
+        (function(class_app_detail){
+            class_app_index_othercheck.onclick=function(){
+                for(var j=0;j<class_app_detail.length;j++){
+                        if(class_app_detail[j].checked==true){
+                        class_app_detail[j].checked=false
+                    }
+                    else {class_app_detail[j].checked=true}
+                    }
+            };
+
+        })(class_app_detail);
+    }
+
+}
+</script>
+</body>
+</html>

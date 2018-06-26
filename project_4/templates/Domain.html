@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <!--{% autoescape None %}-->
+	<TITLE> APP Domain Operation </TITLE>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="/static/Action_JS_CSS/demo.css" type="text/css">
+	<link rel="stylesheet" href="/static/Action_JS_CSS/zTreeStyle.css" type="text/css">
+
+	<script src="/static/Action_JS_CSS/jquery-1.4.4.min.js"></script>
+	<script src="/static/Action_JS_CSS/jquery.ztree.core.js"></script>
+	<script src="/static/Action_JS_CSS/jquery.ztree.excheck.js"></script>
+    <style>
+        div.content_wrap {
+            width: 1000px;
+        }
+        ul.ztree {
+            width: 400px;
+            height: 800px;
+        }
+    </style>
+
+</HEAD>
+
+<BODY>
+<h1>APP Domain&Service勾选操作</h1>
+<button id="submit_2">提交数据</button>
+<a href="/action"><button id="change">跳转Action</button></a>
+
+<div class="content_wrap">
+	<div class="zTreeDemoBackground left">
+		<ul id="treeDemo" class="ztree"></ul>
+	</div>
+</div>
+
+<script>
+		var setting = {
+			check: {
+				enable: true
+			},
+			data: {
+				simpleData: {
+					enable: true
+				}
+			},
+            // callback:{
+			 //    onCheck:onCheck
+            // }
+		};
+		var b = new Array();
+		b.push({ id:1, pId:0, name:"Domain", open:true});
+		var m=1001;
+   		{% for i in app_L_2 %};
+		    b.push({ id:m, pId:1, name:"{{i}}", open:true });
+		    n=1;
+            {% for j in dict_All_2[app_L_2.index(i)][i] %}
+                b.push({ id:m*1000+n, pId:m, name:"{{j}}" });
+                n+=1;
+            {% end %}
+            m+=1;
+        {% end %}
+
+        b.push({ id:2, pId:0, name:"Service", open:true});
+        var x=2001;
+   		{% for i in app_L_3 %};
+		    b.push({ id:x, pId:2, name:"{{i}}", open:true  });
+		    y=1;
+            {% for j in dict_All_3[app_L_3.index(i)][i] %}
+                b.push({ id:x*1000+y, pId:x, name:"{{j}}" });
+                y+=1;
+            {% end %}
+            x+=1;
+        {% end %}
+
+
+
+		var zNodes =b;
+
+
+		$(document).ready(function(){
+			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+		});
+
+		// function onCheck(){
+         //    var treeObj=$.fn.zTree.getZTreeObj("treeDemo"),
+         //    nodes=treeObj.getCheckedNodes(true);
+         //    // for(var i=0;i<nodes.length;i++){
+         //    // v+=nodes[i].name + ",";
+         //    // console.log("节点id:"+nodes[i].id+"   节点名称"+v); //获取选中节点的值
+         //    // }
+         //    for(var i=0;i<nodes.length;i++){
+         //        v=""
+         //    v+=nodes[i].name + ",";
+         //    console.log("节点id:"+nodes[i].id+"  节点名称："+v); //获取选中节点的值
+         //    }
+         //    console.log("----------")
+        //
+         //    }
+        result = new Array();
+		var submit_2 = document.getElementById("submit_2");
+
+		function filter(node) {
+                return (node.id == 0 && node.checked
+                );
+            }
+		submit_2.onclick=function (){
+
+            var treeObj=$.fn.zTree.getZTreeObj("treeDemo");
+            var nodes=treeObj.getNodesByFilter(filter);
+            for(var i=0;i<nodes.length;i++){
+                v="";
+				v+=nodes[i].name + ",";
+				console.log("节点id:"+nodes[i].id+"  节点名称："+v);
+				result.push(nodes[i].name)
+            }
+            console.log("----------");
+            console.log(result);
+            console.log(typeof(result));
+
+            $.ajax({
+                type: "POST",
+                url : "domain",
+                data:  JSON.stringify(result),
+                success: function(msg){
+                       if (msg) {//根据返回值进行跳转
+                        window.location.href = '/test';
+                        }
+            	}
+			});
+		};
+
+
+
+	</script>
+</BODY>
+</HTML>

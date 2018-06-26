@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://127.0.0.1:8000/login -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Selection</title>
+<style>
+#title{
+width: 100%;
+height: 80px;
+background: rgba(0, 0, 0, 0.51);
+text-align: center;
+line-height: 80px;
+font-size: 30px;
+}
+.choice_title{
+line-height: 80px;
+font-size: 28px;
+}
+.choice{
+margin-left: 50px;
+font-size: 20px;
+}
+</style></head>
+
+<body>
+<div id="title">
+汇总选择
+</div>
+<div>
+<form action="http://127.0.0.1:8000/login" method="post">
+
+
+
+
+<div class="choice_title" id="action">action
+<input type="button" class="all" id="all_1" value="全选">
+<input type="button" class="uncheck" id="uncheck_1" value="不选">
+<input type="button" class="othercheck" id="othercheck_1" value="反选">
+<div class="choice">
+
+<input type="checkbox" name="action" value="action1"> 微信_朋友圈1
+
+
+<input type="checkbox" name="action" value="action2"> 微信_朋友圈2
+
+
+<input type="checkbox" name="action" value="action3"> 微信_朋友圈3
+
+
+<input type="checkbox" name="action" value="action4"> 微信_朋友圈4
+
+
+<input type="checkbox" name="action" value="action5"> 微信_朋友圈5
+
+
+<input type="checkbox" name="action" value="action6"> 微信_朋友圈6
+
+
+<input type="checkbox" name="action" value="action7"> 微信_朋友圈7
+
+
+<input type="checkbox" name="action" value="action8"> 微信_朋友圈8
+
+
+<input type="checkbox" name="action" value="action9"> 微信_朋友圈9
+
+
+<input type="checkbox" name="action" value="action10"> 微信_朋友圈10
+
+
+</div>
+</div>
+
+
+
+<div class="choice_title" id="app">app
+<input type="button" class="all" id="all_2" value="全选">
+<input type="button" class="uncheck" id="uncheck_2" value="不选">
+<input type="button" class="othercheck" id="othercheck_2" value="反选">
+<div class="choice">
+
+<input type="checkbox" name="app" value="app1"> 微信1
+
+
+<input type="checkbox" name="app" value="app2"> 微信2
+
+
+<input type="checkbox" name="app" value="app3"> 微信3
+
+
+<input type="checkbox" name="app" value="app4"> 微信4
+
+
+<input type="checkbox" name="app" value="app5"> 微信5
+
+
+<input type="checkbox" name="app" value="app6"> 微信6
+
+
+<input type="checkbox" name="app" value="app7"> 微信7
+
+
+<input type="checkbox" name="app" value="app8"> 微信8
+
+
+<input type="checkbox" name="app" value="app9"> 微信9
+
+
+</div>
+</div>
+
+
+
+<div class="choice_title" id="service">service
+<input type="button" class="all" id="all_3" value="全选">
+<input type="button" class="uncheck" id="uncheck_3" value="不选">
+<input type="button" class="othercheck" id="othercheck_3" value="反选">
+<div class="choice">
+
+<input type="checkbox" name="service" value="service1"> 腾讯服务0
+
+
+<input type="checkbox" name="service" value="service2"> 腾讯服务1
+
+
+<input type="checkbox" name="service" value="service3"> 腾讯服务2
+
+
+<input type="checkbox" name="service" value="service4"> 腾讯服务3
+
+
+<input type="checkbox" name="service" value="service5"> 腾讯服务4
+
+
+<input type="checkbox" name="service" value="service6"> 腾讯服务5
+
+
+<input type="checkbox" name="service" value="service7"> 腾讯服务6
+
+
+<input type="checkbox" name="service" value="service8"> 腾讯服务7
+
+
+<input type="checkbox" name="service" value="service9"> 腾讯服务8
+
+
+<input type="checkbox" name="service" value="service10"> 腾讯服务9
+
+
+</div>
+</div>
+
+
+
+<div class="choice_title" id="domain">domain
+<input type="button" class="all" id="all_4" value="全选">
+<input type="button" class="uncheck" id="uncheck_4" value="不选">
+<input type="button" class="othercheck" id="othercheck_4" value="反选">
+<div class="choice">
+
+<input type="checkbox" name="domain" value="domain1"> 社交0
+
+
+<input type="checkbox" name="domain" value="domain2"> 社交1
+
+
+<input type="checkbox" name="domain" value="domain3"> 社交2
+
+
+<input type="checkbox" name="domain" value="domain4"> 社交3
+
+
+<input type="checkbox" name="domain" value="domain5"> 社交4
+
+
+<input type="checkbox" name="domain" value="domain6"> 社交5
+
+
+<input type="checkbox" name="domain" value="domain7"> 社交6
+
+
+<input type="checkbox" name="domain" value="domain8"> 社交7
+
+
+<input type="checkbox" name="domain" value="domain9"> 社交8
+
+
+<input type="checkbox" name="domain" value="domain10"> 社交9
+
+
+</div>
+</div>
+
+<p><input type="submit" value="提交确认"></p>
+</form>
+</div>
+<script>
+
+
+window.onload=function(){
+
+    var class_app = document.getElementsByClassName('choice_title');//获取所有名为choice_title的div，共4种
+    for (let i=0; i<class_app.length; i++){
+            class_app_index_all=class_app[i].id+"index";
+            class_app_index_all=document.getElementById("all_"+(i+1).toString());  //获取all按钮
+            console.log(class_app_index_all);
+            class_app_detail=class_app[i].id+"detail";
+            console.log(class_app_detail);
+            class_app_detail=document.getElementsByName(class_app[i].id);   //获取类下面的app
+
+
+
+            class_app_index_all.onclick=function(){
+                console.log(class_app_detail[0]);
+                for(let j=0;j<class_app_detail.length;j++){
+                    class_app_detail[j].checked=true;
+
+                }
+
+            };
+       }
+}
+</script>
+
+</body></html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>
+    <p>00001</p>
+    <p>00002</p>
+    <p>00003</p>
+    <p>00004</p>
+    <script>
+        var oP = document.getElementsByTagName("p");
+        alert(oP.length);
+
+        var oBox = document.getElementById("box"),
+            oP1 = oBox.getElementsByTagName("p");
+        alert(oP1.length);
+
+        var oP2 = document.querySelectorAll("p");
+        alert(oP2.length);
+
+        var oP3 = document.querySelectorAll("#box p");
+        alert(oP3.length);
+    </script>
+</body>
+</html>

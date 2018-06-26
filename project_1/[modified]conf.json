@@ -1,0 +1,206 @@
+{
+    "action": [
+        {
+            "id": 1,
+            "name_cn": "微信_朋友圈1",
+            "name_en": "wechat_moments1"
+        },
+        {
+            "id": 2,
+            "name_cn": "微信_朋友圈2",
+            "name_en": "wechat_moments2"
+        },
+        {
+            "id": 3,
+            "name_cn": "微信_朋友圈3",
+            "name_en": "wechat_moments3"
+        },
+        {
+            "id": 4,
+            "name_cn": "微信_朋友圈4",
+            "name_en": "wechat_moments4"
+        },
+        {
+            "id": 5,
+            "name_cn": "微信_朋友圈5",
+            "name_en": "wechat_moments5"
+        },
+        {
+            "id": 6,
+            "name_cn": "微信_朋友圈6",
+			“selection”:true,
+            "name_en": "wechat_moments6"
+        },
+        {
+            "id": 7,
+            "name_cn": "微信_朋友圈7",
+            "name_en": "wechat_moments7"
+        },
+        {
+            "id": 8,
+            "name_cn": "微信_朋友圈8",
+            "name_en": "wechat_moments8"
+        },
+        {
+            "id": 9,
+            "name_cn": "微信_朋友圈9",
+            "name_en": "wechat_moments9"
+        },
+        {
+            "id": 10,
+            "name_cn": "微信_朋友圈10",
+            "name_en": "wechat_moments10"
+        }
+    ],
+    "app": [
+        {
+            "id": 1,
+            "name_cn": "微信1",
+            "name_en": "wecha1"
+        },
+        {
+            "id": 2,
+            "name_cn": "微信2",
+            "name_en": "wechat2"
+        },
+        {
+            "id": 3,
+            "name_cn": "微信3",
+            "name_en": "wechat3"
+        },
+        {
+            "id": 4,
+            "name_cn": "微信4",
+            "name_en": "wechat4"
+        },
+        {
+            "id": 5,
+            "name_cn": "微信5",
+            "name_en": "wechat5"
+        },
+        {
+            "id": 6,
+            "name_cn": "微信6",
+            "name_en": "wechat6"
+        },
+        {
+            "id": 7,
+            "name_cn": "微信7",
+            "name_en": "wechat7"
+        },
+        {
+            "id": 8,
+            "name_cn": "微信8",
+            "name_en": "wechat8"
+        },
+        {
+            "id": 9,
+            "name_cn": "微信9",
+            "name_en": "wechat9"
+        }
+    ],
+    "service": [
+        {
+            "id": 0,
+            "name_cn": "腾讯服务0",
+            "name_en": "tencent_service0"
+        },
+        {
+            "id": 1,
+            "name_cn": "腾讯服务1",
+            "name_en": "tencent_service1"
+        },
+        {
+            "id": 2,
+            "name_cn": "腾讯服务2",
+            "name_en": "tencent_service2"
+        },
+        {
+            "id": 3,
+            "name_cn": "腾讯服务3",
+            "name_en": "tencent_service3"
+        },
+        {
+            "id": 4,
+            "name_cn": "腾讯服务4",
+            "name_en": "tencent_service4"
+        },
+        {
+            "id": 5,
+            "name_cn": "腾讯服务5",
+            "name_en": "tencent_service5"
+        },
+        {
+            "id": 6,
+            "name_cn": "腾讯服务6",
+            "name_en": "tencent_service6"
+        },
+        {
+            "id": 7,
+            "name_cn": "腾讯服务7",
+            "name_en": "tencent_service7"
+        },
+        {
+            "id": 8,
+            "name_cn": "腾讯服务8",
+            "name_en": "tencent_service8"
+        },
+        {
+            "id": 9,
+            "name_cn": "腾讯服务9",
+            "name_en": "tencent_service9"
+        }
+    ],
+    "domain": [
+        {
+            "id": 0,
+            "name_cn": "社交0",
+            "name_en": "social0"
+        },
+        {
+            "id": 1,
+            "name_cn": "社交1",
+            "name_en": "social1"
+        },
+        {
+            "id": 2,
+            "name_cn": "社交2",
+            "name_en": "social2"
+        },
+        {
+            "id": 3,
+            "name_cn": "社交3",
+            "name_en": "social3"
+        },
+        {
+            "id": 4,
+            "name_cn": "社交4",
+            "name_en": "social4"
+        },
+        {
+            "id": 5,
+            "name_cn": "社交5",
+            "name_en": "social5"
+        },
+        {
+            "id": 6,
+            "name_cn": "社交6",
+            "name_en": "social6"
+        },
+        {
+            "id": 7,
+            "name_cn": "社交7",
+            "name_en": "social7"
+        },
+        {
+            "id": 8,
+            "name_cn": "社交8",
+            "name_en": "social8"
+        },
+        {
+            "id": 9,
+            "name_cn": "社交9",
+            "name_en": "social9"
+        }
+    ]
+}

@@ -1,0 +1,6349 @@
+{
+    "action": [
+        {
+            "id": 0,
+            "name_cn": "微信_表情_接收",
+            "name_display": "微信_表情_接收",
+            "name_en": "wechat_emoji_recv",
+            "proto": "http"
+			"selection":true
+        },
+        {
+            "id": 1,
+            "name_cn": "微信_朋友圈_图片_浏览",
+            "name_display": "微信_朋友圈_图片_浏览",
+            "name_en": "wechat_moments_image_view",
+            "proto": "http"
+        },
+        {
+            "id": 2,
+            "name_cn": "微信_朋友圈_图片_点击",
+            "name_display": "微信_朋友圈_图片_点击",
+            "name_en": "wechat_moments_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 3,
+            "name_cn": "微信_朋友圈_视频_浏览",
+            "name_display": "微信_朋友圈_视频_浏览",
+            "name_en": "wechat_moments_video_view",
+            "proto": "http"
+        },
+        {
+            "id": 4,
+            "name_cn": "微信_朋友圈_视频_点击",
+            "name_display": "微信_朋友圈_视频_点击",
+            "name_en": "wechat_moments_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 5,
+            "name_cn": "微信_朋友圈_外部广告_点击",
+            "name_display": "微信_朋友圈_外部广告_点击",
+            "name_en": "wechat_moments_ext_ad_link_click",
+            "proto": "http"
+        },
+        {
+            "id": 6,
+            "name_cn": "微信_朋友圈_内部广告_点击",
+            "name_display": "微信_朋友圈_内部广告_点击",
+            "name_en": "wechat_moments_int_ad_link_click",
+            "proto": "http"
+        },
+        {
+            "id": 7,
+            "name_cn": "微信_朋友圈_广告视频_点击",
+            "name_display": "微信_朋友圈_广告视频_点击",
+            "name_en": "wechat_moments_ad_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 8,
+            "name_cn": "微信_公众号_脚本_下载",
+            "name_display": "微信_公众号_脚本_下载",
+            "name_en": "wechat_offaccnt_jsmon_dload",
+            "proto": "http"
+        },
+        {
+            "id": 9,
+            "name_cn": "微信_公众号_图片_下载",
+            "name_display": "微信_公众号_图片_下载",
+            "name_en": "wechat_offaccnt_image_dload",
+            "proto": "http"
+        },
+        {
+            "id": 10,
+            "name_cn": "微信_公众号_头像_下载",
+            "name_display": "微信_公众号_头像_下载",
+            "name_en": "wechat_offaccnt_head_dload",
+            "proto": "http"
+        },
+        {
+            "id": 11,
+            "name_cn": "微信_网页_链接_点击",
+            "name_display": "微信_网页_链接_点击",
+            "name_en": "wechat_web_link_click",
+            "proto": "http"
+        },
+        {
+            "id": 12,
+            "name_cn": "微信_朋友圈_广告图片_浏览",
+            "name_display": "微信_朋友圈_广告图片_浏览",
+            "name_en": "wechat_moments_ad_image_view",
+            "proto": "http"
+        },
+        {
+            "id": 13,
+            "name_cn": "微信_朋友圈_广告图片_点击",
+            "name_display": "微信_朋友圈_广告图片_点击",
+            "name_en": "wechat_moments_ad_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 200,
+            "name_cn": "微信_摇一摇_安卓",
+            "name_display": "微信_摇一摇",
+            "name_en": "wechat_shake_droid",
+            "proto": "http"
+        },
+        {
+            "id": 201,
+            "name_cn": "微信_位置分享_安卓",
+            "name_display": "微信_位置分享",
+            "name_en": "wechat_location_droid",
+            "proto": "http"
+        },
+        {
+            "id": 202,
+            "name_cn": "微信_位置分享_地图下载_安卓",
+            "name_display": "微信_位置分享_地图下载",
+            "name_en": "wechat_location_map_dload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 203,
+            "name_cn": "微信_群收款_安卓",
+            "name_display": "微信_群收款",
+            "name_en": "wechat_go_dutch_droid",
+            "proto": "http"
+        },
+        {
+            "id": 204,
+            "name_cn": "微信_收红包_安卓",
+            "name_display": "微信_收红包",
+            "name_en": "wechat_red_packet_recv_droid",
+            "proto": "http"
+        },
+        {
+            "id": 205,
+            "name_cn": "微信_位置分享_地图下载_安卓_v1",
+            "name_display": "微信_位置分享_地图下载",
+            "name_en": "wechat_location_map_dload_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 350,
+            "name_cn": "微信_位置分享_苹果",
+            "name_display": "微信_位置分享",
+            "name_en": "wechat_location_ios",
+            "proto": "http"
+        },
+        {
+            "id": 400,
+            "name_cn": "微信_消息_登录",
+            "name_display": "微信_消息_登录",
+            "name_en": "wechat_message_login",
+            "proto": "private"
+        },
+        {
+            "id": 401,
+            "name_cn": "微信_消息_同步",
+            "name_display": "微信_消息_同步",
+            "name_en": "wechat_message_sync",
+            "proto": "private"
+        },
+        {
+            "id": 402,
+            "name_cn": "微信_消息_发送",
+            "name_display": "微信_消息_发送",
+            "name_en": "wechat_message_send",
+            "proto": "private"
+        },
+        {
+            "id": 403,
+            "name_cn": "微信_消息_声音_发送",
+            "name_display": "微信_消息_声音_发送",
+            "name_en": "wechat_message_voice_send",
+            "proto": "private"
+        },
+        {
+            "id": 404,
+            "name_cn": "微信_表情_发送",
+            "name_display": "微信_表情_发送",
+            "name_en": "wechat_message_emoji_send",
+            "proto": "private"
+        },
+        {
+            "id": 405,
+            "name_cn": "微信_消息_联系人_接受",
+            "name_display": "微信_消息_联系人_接受",
+            "name_en": "wechat_message_contact_accept",
+            "proto": "private"
+        },
+        {
+            "id": 500,
+            "name_cn": "QQ_视频_发送",
+            "name_display": "QQ_视频_发送",
+            "name_en": "qq_video_send",
+            "proto": "http"
+        },
+        {
+            "id": 501,
+            "name_cn": "QQ_视频_接收",
+            "name_display": "QQ_视频_接收",
+            "name_en": "qq_video_recv",
+            "proto": "http"
+        },
+        {
+            "id": 502,
+            "name_cn": "QQ_视频_缩略图_接收",
+            "name_display": "QQ_视频_缩略图_接收",
+            "name_en": "qq_video_thumb_recv",
+            "proto": "http"
+        },
+        {
+            "id": 503,
+            "name_cn": "QQ_分享链接_接收",
+            "name_display": "QQ_分享链接_接收",
+            "name_en": "qq_shared_link_recv",
+            "proto": "http"
+        },
+        {
+            "id": 504,
+            "name_cn": "QQ_扫一扫链接_点击",
+            "name_display": "QQ_扫一扫链接_点击",
+            "name_en": "qq_scanned_link_click",
+            "proto": "http"
+        },
+        {
+            "id": 505,
+            "name_cn": "QQ_广告_浏览",
+            "name_display": "QQ_广告_浏览",
+            "name_en": "qq_ad_view",
+            "proto": "http"
+        },
+        {
+            "id": 506,
+            "name_cn": "QQ_广告_点击",
+            "name_display": "QQ_广告_点击",
+            "name_en": "qq_ad_click",
+            "proto": "http"
+        },
+        {
+            "id": 507,
+            "name_cn": "QQ_网页_链接_点击",
+            "name_display": "QQ_网页_链接_点击",
+            "name_en": "qq_web_link_click",
+            "proto": "http"
+        },
+        {
+            "id": 508,
+            "name_cn": "QQ_空间_图片_浏览",
+            "name_display": "QQ_空间_图片_浏览",
+            "name_en": "qq_qzone_moments_image_view",
+            "proto": "http"
+        },
+        {
+            "id": 509,
+            "name_cn": "QQ_空间_图片_点击",
+            "name_display": "QQ_空间_图片_点击",
+            "name_en": "qq_qzone_moments_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 510,
+            "name_cn": "QQ_空间_视频_浏览",
+            "name_display": "QQ_空间_视频_浏览",
+            "name_en": "qq_qzone_moments_video_view",
+            "proto": "http"
+        },
+        {
+            "id": 511,
+            "name_cn": "QQ_空间_视频_点击",
+            "name_display": "QQ_空间_视频_点击",
+            "name_en": "qq_qzone_moments_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 512,
+            "name_cn": "QQ_空间_热门视频_浏览",
+            "name_display": "QQ_空间_热门视频_浏览",
+            "name_en": "qq_qzone_moments_hot_video_view",
+            "proto": "http"
+        },
+        {
+            "id": 513,
+            "name_cn": "QQ_空间_热门视频_点击",
+            "name_display": "QQ_空间_热门视频_点击",
+            "name_en": "qq_qzone_moments_hot_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 514,
+            "name_cn": "QQ_空间_链接_点击",
+            "name_display": "QQ_空间_链接_点击",
+            "name_en": "qq_qzone_moments_web_link_click",
+            "proto": "http"
+        },
+        {
+            "id": 700,
+            "name_cn": "QQ_登录_安卓",
+            "name_display": "QQ_登录",
+            "name_en": "qq_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 701,
+            "name_cn": "QQ_文件_发送_安卓",
+            "name_display": "QQ_文件_发送",
+            "name_en": "qq_file_send_droid",
+            "proto": "http"
+        },
+        {
+            "id": 702,
+            "name_cn": "QQ_文件_接收_安卓",
+            "name_display": "QQ_文件_接收",
+            "name_en": "qq_file_recv_droid",
+            "proto": "http"
+        },
+        {
+            "id": 703,
+            "name_cn": "QQ_图片_接收_安卓",
+            "name_display": "QQ_图片_接收",
+            "name_en": "qq_image_recv_droid",
+            "proto": "http"
+        },
+        {
+            "id": 704,
+            "name_cn": "QQ_群文件_下载_安卓",
+            "name_display": "QQ_群文件_下载",
+            "name_en": "qq_troop_file_dload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 705,
+            "name_cn": "QQ_位置分享_地图下载_安卓",
+            "name_display": "QQ_位置分享_地图下载",
+            "name_en": "qq_location_map_dload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 706,
+            "name_cn": "QQ_应用广告_点击_安卓",
+            "name_display": "QQ_应用广告_点击",
+            "name_en": "qq_app_ad_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 707,
+            "name_cn": "QQ_空间_媒体_发表_安卓",
+            "name_display": "QQ_空间_媒体_发表",
+            "name_en": "qq_qzone_moments_media_tweet_droid",
+            "proto": "http"
+        },
+        {
+            "id": 850,
+            "name_cn": "QQ_群文件_下载_苹果",
+            "name_display": "QQ_群文件_下载",
+            "name_en": "qq_troop_file_dload_ios",
+            "proto": "http"
+        },
+        {
+            "id": 900,
+            "name_cn": "QQ_消息_登录",
+            "name_display": "QQ_消息_登录",
+            "name_en": "qq_message_login",
+            "proto": "private"
+        },
+        {
+            "id": 1000,
+            "name_cn": "微博_登录",
+            "name_display": "微博_登录",
+            "name_en": "weibo_login",
+            "proto": "http"
+        },
+        {
+            "id": 1001,
+            "name_cn": "微博_文章_点击",
+            "name_display": "微博_文章_点击",
+            "name_en": "weibo_text_click",
+            "proto": "http"
+        },
+        {
+            "id": 1002,
+            "name_cn": "微博_普通_图片_点击",
+            "name_display": "微博_普通_图片_点击",
+            "name_en": "weibo_normal_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 1003,
+            "name_cn": "微博_高清_图片_点击",
+            "name_display": "微博_高清_图片_点击",
+            "name_en": "weibo_large_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 1004,
+            "name_cn": "微博_普通_视频_点击",
+            "name_display": "微博_普通_视频_点击",
+            "name_en": "weibo_normal_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 1005,
+            "name_cn": "微博_秒拍_视频_点击",
+            "name_display": "微博_秒拍_视频_点击",
+            "name_en": "weibo_miaopai_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 1006,
+            "name_cn": "微博_视频_发表",
+            "name_display": "微博_视频_发表",
+            "name_en": "weibo_video_tweet",
+            "proto": "http"
+        },
+        {
+            "id": 1007,
+            "name_cn": "微博_登录_广告_展示",
+            "name_display": "微博_登录_广告_展示",
+            "name_en": "weibo_login_ad_show",
+            "proto": "http"
+        },
+        {
+            "id": 1008,
+            "name_cn": "微博_用户_抽取",
+            "name_display": "微博_用户_抽取",
+            "name_en": "weibo_user_expose",
+            "proto": "http"
+        },
+        {
+            "id": 1200,
+            "name_cn": "微博_文章_长文_图片_发表_转发_安卓",
+            "name_display": "微博_文章_长文_图片_发表_转发",
+            "name_en": "weibo_text_ltext_image_tweet_retweet_droid",
+            "proto": "http"
+        },
+        {
+            "id": 1350,
+            "name_cn": "微博_文章_长文_图片_发表_苹果",
+            "name_display": "微博_文章_长文_图片_发表",
+            "name_en": "weibo_text_ltext_image_tweet_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2000,
+            "name_cn": "易车_登录",
+            "name_display": "易车_登录",
+            "name_en": "bitauto_login",
+            "proto": "http"
+        },
+        {
+            "id": 2001,
+            "name_cn": "易车_登录_广告0_展示",
+            "name_display": "易车_登录_广告_展示",
+            "name_en": "bitauto_login_ad0_show",
+            "proto": "http"
+        },
+        {
+            "id": 2002,
+            "name_cn": "易车_登录_广告1_展示",
+            "name_display": "易车_登录_广告_展示",
+            "name_en": "bitauto_login_ad1_show",
+            "proto": "http"
+        },
+        {
+            "id": 2003,
+            "name_cn": "易车_车型_点击",
+            "name_display": "易车_车型_点击",
+            "name_en": "bitauto_model_click",
+            "proto": "http"
+        },
+        {
+            "id": 2004,
+            "name_cn": "易车_款式_点击",
+            "name_display": "易车_款式_点击",
+            "name_en": "bitauto_style_click",
+            "proto": "http"
+        },
+        {
+            "id": 2005,
+            "name_cn": "易车_文章_点击",
+            "name_display": "易车_文章_点击",
+            "name_en": "bitauto_article_click",
+            "proto": "http"
+        },
+        {
+            "id": 2006,
+            "name_cn": "易车_视频_点击",
+            "name_display": "易车_视频_点击",
+            "name_en": "bitauto_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 2007,
+            "name_cn": "易车_违章_查询",
+            "name_display": "易车_违章_查询",
+            "name_en": "bitauto_violation_query",
+            "proto": "http"
+        },
+        {
+            "id": 2008,
+            "name_cn": "易车_询底价_点击",
+            "name_display": "易车_询底价_点击",
+            "name_en": "bitauto_xundijia_click",
+            "proto": "http"
+        },
+        {
+            "id": 2009,
+            "name_cn": "易车_对比_点击",
+            "name_display": "易车_对比_点击",
+            "name_en": "bitauto_pk_click",
+            "proto": "http"
+        },
+        {
+            "id": 2010,
+            "name_cn": "易车_条件_选择",
+            "name_display": "易车_条件_选择",
+            "name_en": "bitauto_conditional_car_selection",
+            "proto": "http"
+        },
+        {
+            "id": 2011,
+            "name_cn": "易车_询底价_点击_网页_手机_v1",
+            "name_display": "易车_询底价_点击_网页_手机",
+            "name_en": "bitauto_xundijia_click_web_mobile_v1",
+            "proto": "http"
+        },
+        {
+            "id": 2200,
+            "name_cn": "易车_登录_安卓_v1",
+            "name_display": "易车_登录",
+            "name_en": "bitauto_login_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 2201,
+            "name_cn": "易车_登录_广告0_展示_安卓_v1",
+            "name_display": "易车_登录_广告_展示",
+            "name_en": "bitauto_login_ad0_show_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 2202,
+            "name_cn": "易车_登录_广告1_展示_安卓_v1",
+            "name_display": "易车_登录_广告_展示",
+            "name_en": "bitauto_login_ad1_show_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 2203,
+            "name_cn": "易车_款式_点击_安卓",
+            "name_display": "易车_款式_点击",
+            "name_en": "bitauto_style_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 2350,
+            "name_cn": "易车_登录_苹果",
+            "name_display": "易车_登录",
+            "name_en": "bitauto_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2351,
+            "name_cn": "易车_登出_苹果",
+            "name_display": "易车_登出",
+            "name_en": "bitauto_logout_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2352,
+            "name_cn": "易车_车型_点击_苹果",
+            "name_display": "易车_车型_点击",
+            "name_en": "bitauto_model_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2353,
+            "name_cn": "易车_文章_点击_苹果",
+            "name_display": "易车_文章_点击",
+            "name_en": "bitauto_article_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2354,
+            "name_cn": "易车_视频_点击_苹果",
+            "name_display": "易车_视频_点击",
+            "name_en": "bitauto_video_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2355,
+            "name_cn": "易车_款式_点击_苹果",
+            "name_display": "易车_款式_点击",
+            "name_en": "bitauto_style_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2450,
+            "name_cn": "易车_询底价_点击_网页_电脑",
+            "name_display": "易车_询底价_点击_网页_电脑",
+            "name_en": "bitauto_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 2451,
+            "name_cn": "易车_询底价_点击_网页_手机",
+            "name_display": "易车_询底价_点击_网页_手机",
+            "name_en": "bitauto_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 2452,
+            "name_cn": "易车_对比_点击_网页_电脑",
+            "name_display": "易车_对比_点击_网页_电脑",
+            "name_en": "bitauto_pk_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 2453,
+            "name_cn": "易车_对比_点击_网页_手机",
+            "name_display": "易车_对比_点击_网页_手机",
+            "name_en": "bitauto_pk_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 2500,
+            "name_cn": "汽车报价大全_车型_点击",
+            "name_display": "汽车报价大全_车型_点击",
+            "name_en": "autoprice_model_click",
+            "proto": "http"
+        },
+        {
+            "id": 2501,
+            "name_cn": "汽车报价大全_款式_点击",
+            "name_display": "汽车报价大全_款式_点击",
+            "name_en": "autoprice_style_click",
+            "proto": "http"
+        },
+        {
+            "id": 2502,
+            "name_cn": "汽车报价大全_二手车_点击",
+            "name_display": "汽车报价大全_二手车_点击",
+            "name_en": "autoprice_secondhand_click",
+            "proto": "http"
+        },
+        {
+            "id": 2700,
+            "name_cn": "汽车报价大全_登录_安卓",
+            "name_display": "汽车报价大全_登录",
+            "name_en": "autoprice_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 2850,
+            "name_cn": "汽车报价大全_登录_苹果",
+            "name_display": "汽车报价大全_登录",
+            "name_en": "autoprice_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 2851,
+            "name_cn": "汽车报价大全_车型_点击_苹果",
+            "name_display": "汽车报价大全_车型_点击",
+            "name_en": "autoprice_model_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 3000,
+            "name_cn": "搜房网_登录",
+            "name_display": "搜房网_登录",
+            "name_en": "soufun_login",
+            "proto": "http"
+        },
+        {
+            "id": 3001,
+            "name_cn": "搜房网_新房_浏览",
+            "name_display": "搜房网_新房_浏览",
+            "name_en": "soufun_new_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 3002,
+            "name_cn": "搜房网_二手房_浏览",
+            "name_display": "搜房网_二手房_浏览",
+            "name_en": "soufun_secondhand_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 3003,
+            "name_cn": "搜房网_租房_浏览",
+            "name_display": "搜房网_租房_浏览",
+            "name_en": "soufun_rental_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 3004,
+            "name_cn": "搜房网_手机_抽取",
+            "name_display": "搜房网_手机_抽取",
+            "name_en": "soufun_phone_expose",
+            "proto": "http"
+        },
+        {
+            "id": 3200,
+            "name_cn": "搜房网_登录_安卓_v1",
+            "name_display": "搜房网_登录",
+            "name_en": "soufun_login_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 3500,
+            "name_cn": "安居客_二手房_浏览",
+            "name_display": "安居客_二手房_浏览",
+            "name_en": "anjuke_secondhand_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 3501,
+            "name_cn": "安居客_二手房_点击",
+            "name_display": "安居客_二手房_点击",
+            "name_en": "anjuke_secondhand_house_click",
+            "proto": "http"
+        },
+        {
+            "id": 3502,
+            "name_cn": "安居客_租房_浏览",
+            "name_display": "安居客_租房_浏览",
+            "name_en": "anjuke_rental_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 3503,
+            "name_cn": "安居客_租房_点击",
+            "name_display": "安居客_租房_点击",
+            "name_en": "anjuke_rental_house_click",
+            "proto": "http"
+        },
+        {
+            "id": 3504,
+            "name_cn": "安居客_办公写字楼_浏览",
+            "name_display": "安居客_办公写字楼_浏览",
+            "name_en": "anjuke_office_premises_view",
+            "proto": "http"
+        },
+        {
+            "id": 3505,
+            "name_cn": "安居客_办公写字楼_点击",
+            "name_display": "安居客_办公写字楼_点击",
+            "name_en": "anjuke_office_premises_click",
+            "proto": "http"
+        },
+        {
+            "id": 3506,
+            "name_cn": "安居客_商铺_浏览",
+            "name_display": "安居客_商铺_浏览",
+            "name_en": "anjuke_retail_premises_view",
+            "proto": "http"
+        },
+        {
+            "id": 3507,
+            "name_cn": "安居客_商铺_点击",
+            "name_display": "安居客_商铺_点击",
+            "name_en": "anjuke_retail_premises_click",
+            "proto": "http"
+        },
+        {
+            "id": 3508,
+            "name_cn": "安居客_地图_搜索",
+            "name_display": "安居客_地图_搜索",
+            "name_en": "anjuke_map_search",
+            "proto": "http"
+        },
+        {
+            "id": 3509,
+            "name_cn": "安居客_手机_抽取",
+            "name_display": "安居客_手机_抽取",
+            "name_en": "anjuke_phone_expose",
+            "proto": "http"
+        },
+        {
+            "id": 3700,
+            "name_cn": "安居客_登录_安卓",
+            "name_display": "安居客_登录",
+            "name_en": "anjuke_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 3701,
+            "name_cn": "安居客_新房_浏览_安卓",
+            "name_display": "安居客_新房_浏览",
+            "name_en": "anjuke_new_house_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 3702,
+            "name_cn": "安居客_新房_点击_安卓",
+            "name_display": "安居客_新房_点击",
+            "name_en": "anjuke_new_house_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 3850,
+            "name_cn": "安居客_登录_苹果",
+            "name_display": "安居客_登录",
+            "name_en": "anjuke_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 3851,
+            "name_cn": "安居客_新房_浏览_苹果",
+            "name_display": "安居客_新房_浏览",
+            "name_en": "anjuke_new_house_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 3852,
+            "name_cn": "安居客_新房_点击_苹果",
+            "name_display": "安居客_新房_点击",
+            "name_en": "anjuke_new_house_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 4000,
+            "name_cn": "链家网_登录",
+            "name_display": "链家网_登录",
+            "name_en": "lianjia_login",
+            "proto": "http"
+        },
+        {
+            "id": 4001,
+            "name_cn": "链家网_新房_浏览",
+            "name_display": "链家网_新房_浏览",
+            "name_en": "lianjia_new_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 4002,
+            "name_cn": "链家网_二手房_浏览",
+            "name_display": "链家网_二手房_浏览",
+            "name_en": "lianjia_second_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 4450,
+            "name_cn": "链家网_上海_二手房_浏览",
+            "name_display": "链家网_上海_二手房_浏览",
+            "name_en": "lianjia_shanghai_second_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 4500,
+            "name_cn": "丁香医生_登录",
+            "name_display": "丁香医生_登录",
+            "name_en": "dxyisheng_login",
+            "proto": "http"
+        },
+        {
+            "id": 4501,
+            "name_cn": "丁香医生_医院_点击",
+            "name_display": "丁香医生_医院_点击",
+            "name_en": "dxyisheng_hospital_click",
+            "proto": "http"
+        },
+        {
+            "id": 4502,
+            "name_cn": "丁香医生_病症_药品_点击",
+            "name_display": "丁香医生_病症_药品_点击",
+            "name_en": "dxyisheng_disease_drug_click",
+            "proto": "http"
+        },
+        {
+            "id": 4503,
+            "name_cn": "丁香医生_文章_点击",
+            "name_display": "丁香医生_文章_点击",
+            "name_en": "dxyisheng_article_click",
+            "proto": "http"
+        },
+        {
+            "id": 4504,
+            "name_cn": "丁香医生_搜索",
+            "name_display": "丁香医生_搜索",
+            "name_en": "dxyisheng_search",
+            "proto": "http"
+        },
+        {
+            "id": 4505,
+            "name_cn": "丁香医生_订阅_添加",
+            "name_display": "丁香医生_订阅_添加",
+            "name_en": "dxyisheng_subscription_add",
+            "proto": "http"
+        },
+        {
+            "id": 4506,
+            "name_cn": "丁香医生_订阅_删除",
+            "name_display": "丁香医生_订阅_删除",
+            "name_en": "dxyisheng_subscription_del",
+            "proto": "http"
+        },
+        {
+            "id": 4507,
+            "name_cn": "丁香医生_喜欢_添加",
+            "name_display": "丁香医生_喜欢_添加",
+            "name_en": "dxyisheng_favorite_add",
+            "proto": "http"
+        },
+        {
+            "id": 4508,
+            "name_cn": "丁香医生_喜欢_删除",
+            "name_display": "丁香医生_喜欢_删除",
+            "name_en": "dxyisheng_favorite_del",
+            "proto": "http"
+        },
+        {
+            "id": 5000,
+            "name_cn": "宝宝树_登录",
+            "name_display": "宝宝树_登录",
+            "name_en": "babytree_login",
+            "proto": "http"
+        },
+        {
+            "id": 5001,
+            "name_cn": "宝宝树_地址_设置",
+            "name_display": "宝宝树_地址_设置",
+            "name_en": "babytree_address_set",
+            "proto": "http"
+        },
+        {
+            "id": 5002,
+            "name_cn": "宝宝树_商品_点击",
+            "name_display": "宝宝树_商品_点击",
+            "name_en": "babytree_product_click",
+            "proto": "http"
+        },
+        {
+            "id": 5003,
+            "name_cn": "宝宝树_商品_选择",
+            "name_display": "宝宝树_商品_选择",
+            "name_en": "babytree_product_select",
+            "proto": "http"
+        },
+        {
+            "id": 5004,
+            "name_cn": "宝宝树_商品_搜索",
+            "name_display": "宝宝树_商品_搜索",
+            "name_en": "babytree_product_search",
+            "proto": "http"
+        },
+        {
+            "id": 5005,
+            "name_cn": "宝宝树_问题_提问",
+            "name_display": "宝宝树_问题_提问",
+            "name_en": "babytree_question_ask",
+            "proto": "http"
+        },
+        {
+            "id": 5006,
+            "name_cn": "宝宝树_问题_点击",
+            "name_display": "宝宝树_问题_点击",
+            "name_en": "babytree_question_click",
+            "proto": "http"
+        },
+        {
+            "id": 5007,
+            "name_cn": "宝宝树_听答案",
+            "name_display": "宝宝树_听答案",
+            "name_en": "babytree_answer_listen",
+            "proto": "http"
+        },
+        {
+            "id": 5008,
+            "name_cn": "宝宝树_话题_新建",
+            "name_display": "宝宝树_话题_新建",
+            "name_en": "babytree_topic_new",
+            "proto": "http"
+        },
+        {
+            "id": 5009,
+            "name_cn": "宝宝树_话题_浏览",
+            "name_display": "宝宝树_话题_浏览",
+            "name_en": "babytree_topic_view",
+            "proto": "http"
+        },
+        {
+            "id": 5010,
+            "name_cn": "宝宝树_日志_新建",
+            "name_display": "宝宝树_日志_新建",
+            "name_en": "babytree_diary_new",
+            "proto": "http"
+        },
+        {
+            "id": 5011,
+            "name_cn": "宝宝树_日志_保存",
+            "name_display": "宝宝树_日志_保存",
+            "name_en": "babytree_diary_save",
+            "proto": "http"
+        },
+        {
+            "id": 5012,
+            "name_cn": "宝宝树_日志_浏览",
+            "name_display": "宝宝树_日志_浏览",
+            "name_en": "babytree_diary_view",
+            "proto": "http"
+        },
+        {
+            "id": 5013,
+            "name_cn": "宝宝树_用户_应用列表_抽取",
+            "name_display": "宝宝树_用户_应用列表_抽取",
+            "name_en": "babytree_user_applist_expose",
+            "proto": "http"
+        },
+        {
+            "id": 5200,
+            "name_cn": "宝宝树_搜索_安卓",
+            "name_display": "宝宝树_搜索",
+            "name_en": "babytree_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5350,
+            "name_cn": "宝宝树_搜索_苹果",
+            "name_display": "宝宝树_搜索",
+            "name_en": "babytree_search_ios",
+            "proto": "http"
+        },
+        {
+            "id": 5700,
+            "name_cn": "贝贝_登录_安卓",
+            "name_display": "贝贝_登录",
+            "name_en": "beibei_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5701,
+            "name_cn": "贝贝_品牌_点击_安卓",
+            "name_display": "贝贝_品牌_点击",
+            "name_en": "beibei_brand_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5702,
+            "name_cn": "贝贝_商品_点击_安卓",
+            "name_display": "贝贝_商品_点击",
+            "name_en": "beibei_product_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5703,
+            "name_cn": "贝贝_商品_选择_安卓",
+            "name_display": "贝贝_商品_选择",
+            "name_en": "beibei_product_select_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5704,
+            "name_cn": "贝贝_地址_设置_安卓",
+            "name_display": "贝贝_地址_设置",
+            "name_en": "beibei_address_set_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5705,
+            "name_cn": "贝贝_衣服_点击_安卓",
+            "name_display": "贝贝_衣服_点击",
+            "name_en": "beibei_clothing_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5706,
+            "name_cn": "贝贝_鞋子_点击_安卓",
+            "name_display": "贝贝_鞋子_点击",
+            "name_en": "beibei_shoes_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5707,
+            "name_cn": "贝贝_孕妇_点击_安卓",
+            "name_display": "贝贝_孕妇_点击",
+            "name_en": "beibei_maternity_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5708,
+            "name_cn": "贝贝_玩具_点击_安卓",
+            "name_display": "贝贝_玩具_点击",
+            "name_en": "beibei_toy_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5709,
+            "name_cn": "贝贝_女装_点击_安卓",
+            "name_display": "贝贝_女装_点击",
+            "name_en": "beibei_dress_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5710,
+            "name_cn": "贝贝_书包_点击_安卓",
+            "name_display": "贝贝_书包_点击",
+            "name_en": "beibei_bag_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5711,
+            "name_cn": "贝贝_日用品_点击_安卓",
+            "name_display": "贝贝_日用品_点击",
+            "name_en": "beibei_commodity_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5712,
+            "name_cn": "贝贝_化妆品_点击_安卓",
+            "name_display": "贝贝_化妆品_点击",
+            "name_en": "beibei_cosmetic_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5713,
+            "name_cn": "贝贝_食品_点击_安卓",
+            "name_display": "贝贝_食品_点击",
+            "name_en": "beibei_food_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5714,
+            "name_cn": "贝贝_促销_点击_安卓",
+            "name_display": "贝贝_促销_点击",
+            "name_en": "beibei_promotion_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5715,
+            "name_cn": "贝贝_老公_点击_安卓",
+            "name_display": "贝贝_老公_点击",
+            "name_en": "beibei_husband_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 5716,
+            "name_cn": "贝贝_用户_抽取_安卓",
+            "name_display": "贝贝_用户_抽取",
+            "name_en": "beibei_user_expose_droid",
+            "proto": "http"
+        },
+        {
+            "id": 6000,
+            "name_cn": "作业帮_用户行为_抽取",
+            "name_display": "作业帮_用户行为_抽取",
+            "name_en": "zuoyebang_useraction_expose",
+            "proto": "http"
+        },
+        {
+            "id": 6200,
+            "name_cn": "作业帮_登录_安卓",
+            "name_display": "作业帮_登录",
+            "name_en": "zuoyebang_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 6201,
+            "name_cn": "作业帮_手机_抽取_安卓",
+            "name_display": "作业帮_手机_抽取",
+            "name_en": "zuoyebang_phone_expose_droid",
+            "proto": "http"
+        },
+        {
+            "id": 6700,
+            "name_cn": "猿搜题_用户行为_抽取_安卓",
+            "name_display": "猿搜题_用户行为_抽取",
+            "name_en": "yuansouti_useraction_expose_droid",
+            "proto": "http"
+        },
+        {
+            "id": 7200,
+            "name_cn": "支付宝_用户行为_抽取_安卓",
+            "name_display": "支付宝_用户行为_抽取",
+            "name_en": "alipay_useraction_expose_droid",
+            "proto": "http"
+        },
+        {
+            "id": 7350,
+            "name_cn": "支付宝_余额宝_理财_点击_苹果",
+            "name_display": "支付宝_余额宝_理财_点击",
+            "name_en": "alipay_yuebao_finance_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 7351,
+            "name_cn": "支付宝_充值中心_点击_苹果",
+            "name_display": "支付宝_充值中心_点击",
+            "name_en": "alipay_recharge_center_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 7352,
+            "name_cn": "支付宝_蚂蚁聚宝_点击_苹果",
+            "name_display": "支付宝_蚂蚁聚宝_点击",
+            "name_en": "alipay_mayijubao_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 7353,
+            "name_cn": "支付宝_蚂蚁花呗_点击_苹果",
+            "name_display": "支付宝_蚂蚁花呗_点击",
+            "name_en": "alipay_mayihuabei_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 7500,
+            "name_cn": "小米金融_基金_点击",
+            "name_display": "小米金融_基金_点击",
+            "name_en": "xiaomijinrong_fund_click",
+            "proto": "http"
+        },
+        {
+            "id": 7700,
+            "name_cn": "小米金融_登录_安卓",
+            "name_display": "小米金融_登录",
+            "name_en": "xiaomijinrong_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8000,
+            "name_cn": "携程_登录",
+            "name_display": "携程_登录",
+            "name_en": "ctrip_login",
+            "proto": "http"
+        },
+        {
+            "id": 8001,
+            "name_cn": "携程_火车票_点击",
+            "name_display": "携程_火车票_点击",
+            "name_en": "ctrip_train_ticket_click",
+            "proto": "http"
+        },
+        {
+            "id": 8002,
+            "name_cn": "携程_搜索",
+            "name_display": "携程_搜索",
+            "name_en": "ctrip_search",
+            "proto": "http"
+        },
+        {
+            "id": 8003,
+            "name_cn": "携程_位置_抽取",
+            "name_display": "携程_位置_抽取",
+            "name_en": "ctrip_location_expose",
+            "proto": "http"
+        },
+        {
+            "id": 8700,
+            "name_cn": "去哪儿_登录_安卓",
+            "name_display": "去哪儿_登录",
+            "name_en": "qunar_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8701,
+            "name_cn": "去哪儿_个人主页_安卓",
+            "name_display": "去哪儿_个人主页",
+            "name_en": "qunar_homepage_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8702,
+            "name_cn": "去哪儿_酒店页面_点击_安卓",
+            "name_display": "去哪儿_酒店页面_点击",
+            "name_en": "qunar_hotels_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8703,
+            "name_cn": "去哪儿_酒店_搜索_点击_安卓",
+            "name_display": "去哪儿_酒店_搜索_点击",
+            "name_en": "qunar_hotels_search_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8704,
+            "name_cn": "去哪儿_酒店_搜索_安卓",
+            "name_display": "去哪儿_酒店_搜索",
+            "name_en": "qunar_hotels_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8705,
+            "name_cn": "去哪儿_酒店_点击_安卓",
+            "name_display": "去哪儿_酒店_点击",
+            "name_en": "qunar_hotel_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8706,
+            "name_cn": "去哪儿_酒店_预订中_安卓",
+            "name_display": "去哪儿_酒店_预订中",
+            "name_en": "qunar_hotel_booking_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8707,
+            "name_cn": "去哪儿_酒店_已预订_安卓",
+            "name_display": "去哪儿_酒店_已预订",
+            "name_en": "qunar_hotel_book_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8708,
+            "name_cn": "去哪儿_机票_服务_安卓",
+            "name_display": "去哪儿_机票_服务",
+            "name_en": "qunar_air_tickets_service_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8709,
+            "name_cn": "去哪儿_机票_选择_城市_安卓",
+            "name_display": "去哪儿_机票_选择_城市",
+            "name_en": "qunar_air_tickets_choose_city_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8710,
+            "name_cn": "去哪儿_机票_搜索_安卓",
+            "name_display": "去哪儿_机票_搜索",
+            "name_en": "qunar_air_tickets_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8711,
+            "name_cn": "去哪儿_机票_点击_安卓",
+            "name_display": "去哪儿_机票_点击",
+            "name_en": "qunar_air_ticket_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8712,
+            "name_cn": "去哪儿_机票_预定_安卓",
+            "name_display": "去哪儿_机票_预定",
+            "name_en": "qunar_air_ticket_booking_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8713,
+            "name_cn": "去哪儿_机票_国内_预定_安卓",
+            "name_display": "去哪儿_机票_国内_预定",
+            "name_en": "qunar_air_ticket_domestic_book_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8714,
+            "name_cn": "去哪儿_机票_国际_预定_安卓",
+            "name_display": "去哪儿_机票_国际_预定",
+            "name_en": "qunar_air_ticket_international_book_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8715,
+            "name_cn": "去哪儿_机票_取消_安卓",
+            "name_display": "去哪儿_机票_取消",
+            "name_en": "qunar_air_ticket_cancel_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8716,
+            "name_cn": "去哪儿_旅游_点击_安卓",
+            "name_display": "去哪儿_旅游_点击",
+            "name_en": "qunar_tourism_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8717,
+            "name_cn": "去哪儿_旅游_订单_新建_安卓",
+            "name_display": "去哪儿_旅游_订单_新建",
+            "name_en": "qunar_tourism_order_new_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8718,
+            "name_cn": "去哪儿_旅游_订单_保存_安卓",
+            "name_display": "去哪儿_旅游_订单_保存",
+            "name_en": "qunar_tourism_order_save_droid",
+            "proto": "http"
+        },
+        {
+            "id": 8719,
+            "name_cn": "去哪儿_旅游_订单_取消_安卓",
+            "name_display": "去哪儿_旅游_订单_取消",
+            "name_en": "qunar_tourism_order_cancel_droid",
+            "proto": "http"
+        },
+        {
+            "id": 9350,
+            "name_cn": "苹果应用商店_应用_下载",
+            "name_display": "苹果应用商店_应用_下载",
+            "name_en": "appleappstore_app_download",
+            "proto": "http"
+        },
+        {
+            "id": 9351,
+            "name_cn": "苹果应用商店_应用_下载_继续",
+            "name_display": "苹果应用商店_应用_下载_继续",
+            "name_en": "appleappstore_app_download_continue",
+            "proto": "http"
+        },
+        {
+            "id": 9352,
+            "name_cn": "苹果应用商店_应用_更新",
+            "name_display": "苹果应用商店_应用_更新",
+            "name_en": "appleappstore_app_update",
+            "proto": "http"
+        },
+        {
+            "id": 9353,
+            "name_cn": "苹果应用商店_应用_更新_继续",
+            "name_display": "苹果应用商店_应用_更新_继续",
+            "name_en": "appleappstore_app_update_continue",
+            "proto": "http"
+        },
+        {
+            "id": 9700,
+            "name_cn": "腾讯应用宝_应用_下载",
+            "name_display": "腾讯应用宝_应用_下载",
+            "name_en": "tencentappstore_app_download",
+            "proto": "http"
+        },
+        {
+            "id": 9701,
+            "name_cn": "腾讯应用宝_应用_更新",
+            "name_display": "腾讯应用宝_应用_更新",
+            "name_en": "tencentappstore_app_update",
+            "proto": "http"
+        },
+        {
+            "id": 9702,
+            "name_cn": "腾讯应用宝_用户_抽取",
+            "name_display": "腾讯应用宝_用户_抽取",
+            "name_en": "tencentappstore_user_expose",
+            "proto": "http"
+        },
+        {
+            "id": 10200,
+            "name_cn": "百度手机助手_应用_下载",
+            "name_display": "百度手机助手_应用_下载",
+            "name_en": "baiduappstore_app_download",
+            "proto": "http"
+        },
+        {
+            "id": 10201,
+            "name_cn": "百度手机助手_应用_更新",
+            "name_display": "百度手机助手_应用_更新",
+            "name_en": "baiduappstore_app_update",
+            "proto": "http"
+        },
+        {
+            "id": 10202,
+            "name_cn": "百度手机助手_应用列表_抽取",
+            "name_display": "百度手机助手_应用列表_抽取",
+            "name_en": "baiduappstore_applist_expose",
+            "proto": "http"
+        },
+        {
+            "id": 10203,
+            "name_cn": "百度手机助手_用户行为_抽取",
+            "name_display": "百度手机助手_用户行为_抽取",
+            "name_en": "baiduappstore_useraction_expose",
+            "proto": "http"
+        },
+        {
+            "id": 10204,
+            "name_cn": "百度手机助手_应用_智能更新",
+            "name_display": "百度手机助手_应用_智能更新",
+            "name_en": "baiduappstore_app_smart_update",
+            "proto": "http"
+        },
+        {
+            "id": 10700,
+            "name_cn": "360应用市场_登录",
+            "name_display": "360应用市场_登录",
+            "name_en": "360appstore_login",
+            "proto": "http"
+        },
+        {
+            "id": 10701,
+            "name_cn": "360应用市场_游戏_点击",
+            "name_display": "360应用市场_游戏_点击",
+            "name_en": "360appstore_game_click",
+            "proto": "http"
+        },
+        {
+            "id": 10702,
+            "name_cn": "360应用市场_软件_点击",
+            "name_display": "360应用市场_软件_点击",
+            "name_en": "360appstore_software_click",
+            "proto": "http"
+        },
+        {
+            "id": 10703,
+            "name_cn": "360应用市场_娱乐_点击",
+            "name_display": "360应用市场_娱乐_点击",
+            "name_en": "360appstore_entertainment_click",
+            "proto": "http"
+        },
+        {
+            "id": 10704,
+            "name_cn": "360应用市场_必备_点击",
+            "name_display": "360应用市场_必备_点击",
+            "name_en": "360appstore_necessity_click",
+            "proto": "http"
+        },
+        {
+            "id": 10705,
+            "name_cn": "360应用市场_福利_点击",
+            "name_display": "360应用市场_福利_点击",
+            "name_en": "360appstore_welfare_click",
+            "proto": "http"
+        },
+        {
+            "id": 10706,
+            "name_cn": "360应用市场_话题_点击",
+            "name_display": "360应用市场_话题_点击",
+            "name_en": "360appstore_topic_click",
+            "proto": "http"
+        },
+        {
+            "id": 10707,
+            "name_cn": "360应用市场_分类_点击",
+            "name_display": "360应用市场_分类_点击",
+            "name_en": "360appstore_category_click",
+            "proto": "http"
+        },
+        {
+            "id": 10708,
+            "name_cn": "360应用市场_游戏_排行_点击",
+            "name_display": "360应用市场_游戏_排行_点击",
+            "name_en": "360appstore_game_rank_click",
+            "proto": "http"
+        },
+        {
+            "id": 10709,
+            "name_cn": "360应用市场_应用_排行_点击",
+            "name_display": "360应用市场_应用_排行_点击",
+            "name_en": "360appstore_app_rank_click",
+            "proto": "http"
+        },
+        {
+            "id": 10710,
+            "name_cn": "360应用市场_热点_点击",
+            "name_display": "360应用市场_热点_点击",
+            "name_en": "360appstore_hot_click",
+            "proto": "http"
+        },
+        {
+            "id": 10711,
+            "name_cn": "360应用市场_应用_点击",
+            "name_display": "360应用市场_应用_点击",
+            "name_en": "360appstore_app_click",
+            "proto": "http"
+        },
+        {
+            "id": 10712,
+            "name_cn": "360应用市场_应用_下载",
+            "name_display": "360应用市场_应用_下载",
+            "name_en": "360appstore_app_download",
+            "proto": "http"
+        },
+        {
+            "id": 10713,
+            "name_cn": "360应用市场_搜索",
+            "name_display": "360应用市场_搜索",
+            "name_en": "360appstore_search",
+            "proto": "http"
+        },
+        {
+            "id": 10714,
+            "name_cn": "360应用市场_应用_更新",
+            "name_display": "360应用市场_应用_更新",
+            "name_en": "360appstore_app_update",
+            "proto": "http"
+        },
+        {
+            "id": 10715,
+            "name_cn": "360应用市场_游戏_点击_v1",
+            "name_display": "360应用市场_游戏_点击",
+            "name_en": "360appstore_game_click_v1",
+            "proto": "http"
+        },
+        {
+            "id": 10716,
+            "name_cn": "360应用市场_软件_点击_v1",
+            "name_display": "360应用市场_软件_点击",
+            "name_en": "360appstore_software_click_v1",
+            "proto": "http"
+        },
+        {
+            "id": 10717,
+            "name_cn": "360应用市场_必备_点击_v1",
+            "name_display": "360应用市场_必备_点击",
+            "name_en": "360appstore_necessity_click_v1",
+            "proto": "http"
+        },
+        {
+            "id": 10718,
+            "name_cn": "360应用市场_推荐_点击",
+            "name_display": "360应用市场_推荐_点击",
+            "name_en": "360appstore_recommend_click",
+            "proto": "http"
+        },
+        {
+            "id": 10720,
+            "name_cn": "360应用市场_游戏_排行_点击_v1",
+            "name_display": "360应用市场_游戏_排行_点击",
+            "name_en": "360appstore_game_rank_click_v1",
+            "proto": "http"
+        },
+        {
+            "id": 10721,
+            "name_cn": "360应用市场_应用_排行_点击_v1",
+            "name_display": "360应用市场_应用_排行_点击",
+            "name_en": "360appstore_app_rank_click_v1",
+            "proto": "http"
+        },
+        {
+            "id": 10722,
+            "name_cn": "360应用市场_热点_点击_v1",
+            "name_display": "360应用市场_热点_点击",
+            "name_en": "360appstore_hot_click_v1",
+            "proto": "http"
+        },
+        {
+            "id": 10723,
+            "name_cn": "360应用市场_应用_更新_v1",
+            "name_display": "360应用市场_应用_更新",
+            "name_en": "360appstore_app_update_v1",
+            "proto": "http"
+        },
+        {
+            "id": 11201,
+            "name_cn": "滴滴_目的地_设置_出租_安卓",
+            "name_display": "滴滴_目的地_设置_出租",
+            "name_en": "didi_destination_set_taxi_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11202,
+            "name_cn": "滴滴_目的地_设置_快车_安卓",
+            "name_display": "滴滴_目的地_设置_快车",
+            "name_en": "didi_destination_set_kuaiche_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11203,
+            "name_cn": "滴滴_目的地_设置_专车_安卓",
+            "name_display": "滴滴_目的地_设置_专车",
+            "name_en": "didi_destination_set_zhuanche_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11204,
+            "name_cn": "滴滴_出租_订单_安卓",
+            "name_display": "滴滴_出租_订单",
+            "name_en": "didi_taxi_order_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11205,
+            "name_cn": "滴滴_快车_订单_安卓",
+            "name_display": "滴滴_快车_订单",
+            "name_en": "didi_kuaiche_order_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11206,
+            "name_cn": "滴滴_专车_订单_安卓",
+            "name_display": "滴滴_专车_订单",
+            "name_en": "didi_zhuanche_order_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11207,
+            "name_cn": "滴滴_目的地_设置_出租_安卓_v1",
+            "name_display": "滴滴_目的地_设置_出租",
+            "name_en": "didi_destination_set_taxi_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 11208,
+            "name_cn": "滴滴_目的地_设置_快车_安卓_v1",
+            "name_display": "滴滴_目的地_设置_快车",
+            "name_en": "didi_destination_set_kuaiche_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 11209,
+            "name_cn": "滴滴_目的地_设置_专车_安卓_v1",
+            "name_display": "滴滴_目的地_设置_专车",
+            "name_en": "didi_destination_set_zhuanche_droid_v1",
+            "proto": "http"
+        },
+        {
+            "id": 11350,
+            "name_cn": "滴滴_登录_苹果",
+            "name_display": "滴滴_登录",
+            "name_en": "didi_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 11351,
+            "name_cn": "滴滴_登录_安卓",
+            "name_display": "滴滴_登录",
+            "name_en": "didi_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11352,
+            "name_cn": "滴滴_目的地_设置_出租_苹果",
+            "name_display": "滴滴_目的地_设置_出租",
+            "name_en": "didi_destination_set_taxi_ios",
+            "proto": "http"
+        },
+        {
+            "id": 11353,
+            "name_cn": "滴滴_目的地_设置_快车_苹果",
+            "name_display": "滴滴_目的地_设置_快车",
+            "name_en": "didi_destination_set_kuaiche_ios",
+            "proto": "http"
+        },
+        {
+            "id": 11354,
+            "name_cn": "滴滴_目的地_设置_专车_苹果",
+            "name_display": "滴滴_目的地_设置_专车",
+            "name_en": "didi_destination_set_zhuanche_ios",
+            "proto": "http"
+        },
+        {
+            "id": 11700,
+            "name_cn": "百度地图_目的地_设置_安卓",
+            "name_display": "百度地图_目的地_设置",
+            "name_en": "baidumap_destination_set_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11701,
+            "name_cn": "百度地图_驾车_路线_设置_安卓",
+            "name_display": "百度地图_驾车_路线_设置",
+            "name_en": "baidumap_car_route_set_droid",
+            "proto": "http"
+        },
+        {
+            "id": 11702,
+            "name_cn": "百度地图_步行_路线_设置_安卓",
+            "name_display": "百度地图_步行_路线_设置",
+            "name_en": "baidumap_walk_route_set_droid",
+            "proto": "http"
+        },
+        {
+            "id": 12000,
+            "name_cn": "高德地图_位置_搜索",
+            "name_display": "高德地图_位置_搜索",
+            "name_en": "amap_site_search",
+            "proto": "http"
+        },
+        {
+            "id": 12001,
+            "name_cn": "高德地图_路线_规划",
+            "name_display": "高德地图_路线_规划",
+            "name_en": "amap_route_plan",
+            "proto": "http"
+        },
+        {
+            "id": 12200,
+            "name_cn": "高德地图_登录_安卓",
+            "name_display": "高德地图_登录",
+            "name_en": "amap_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 12201,
+            "name_cn": "高德地图_导航_安卓",
+            "name_display": "高德地图_导航",
+            "name_en": "amap_navigate_droid",
+            "proto": "http"
+        },
+        {
+            "id": 12500,
+            "name_cn": "腾讯新闻_新闻_评论_发表",
+            "name_display": "腾讯新闻_新闻_评论_发表",
+            "name_en": "tencentnews_news_comment_tweet",
+            "proto": "http"
+        },
+        {
+            "id": 12501,
+            "name_cn": "腾讯新闻_评论_抽取",
+            "name_display": "腾讯新闻_评论_抽取",
+            "name_en": "tencentnews_comments_expose",
+            "proto": "http"
+        },
+        {
+            "id": 12502,
+            "name_cn": "腾讯新闻_新闻_搜索",
+            "name_display": "腾讯新闻_新闻_搜索",
+            "name_en": "tencentnews_news_search",
+            "proto": "http"
+        },
+        {
+            "id": 12503,
+            "name_cn": "腾讯新闻_新闻_直播_浏览",
+            "name_display": "腾讯新闻_新闻_直播_浏览",
+            "name_en": "tencentnews_news_live_view",
+            "proto": "http"
+        },
+        {
+            "id": 12700,
+            "name_cn": "腾讯新闻_登录_安卓",
+            "name_display": "腾讯新闻_登录",
+            "name_en": "tencentnews_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 12701,
+            "name_cn": "腾讯新闻_新闻_浏览_安卓",
+            "name_display": "腾讯新闻_新闻_浏览",
+            "name_en": "tencentnews_news_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 12850,
+            "name_cn": "腾讯新闻_登录_苹果",
+            "name_display": "腾讯新闻_登录",
+            "name_en": "tencentnews_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 12851,
+            "name_cn": "腾讯新闻_新闻_浏览_苹果",
+            "name_display": "腾讯新闻_新闻_浏览",
+            "name_en": "tencentnews_news_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 12852,
+            "name_cn": "腾讯新闻_新闻_图片_浏览_苹果",
+            "name_display": "腾讯新闻_新闻_图片_浏览",
+            "name_en": "tencentnews_news_image_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 12853,
+            "name_cn": "腾讯新闻_新闻_推荐_浏览_苹果",
+            "name_display": "腾讯新闻_新闻_推荐_浏览",
+            "name_en": "tencentnews_news_recommend_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 13000,
+            "name_cn": "今日头条_新闻_图片_浏览",
+            "name_display": "今日头条_新闻_图片_浏览",
+            "name_en": "toutiao_news_image_view",
+            "proto": "http"
+        },
+        {
+            "id": 13001,
+            "name_cn": "今日头条_新闻_操作",
+            "name_display": "今日头条_新闻_操作",
+            "name_en": "toutiao_news_operation",
+            "proto": "http"
+        },
+        {
+            "id": 13002,
+            "name_cn": "今日头条_媒体_关注_推荐",
+            "name_display": "今日头条_媒体_关注_推荐",
+            "name_en": "toutiao_media_follow_recommend",
+            "proto": "http"
+        },
+        {
+            "id": 13003,
+            "name_cn": "今日头条_视频_点击",
+            "name_display": "今日头条_视频_点击",
+            "name_en": "toutiao_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 13004,
+            "name_cn": "今日头条_视频_列表_浏览",
+            "name_display": "今日头条_视频_列表_浏览",
+            "name_en": "toutiao_video_list_view",
+            "proto": "http"
+        },
+        {
+            "id": 13200,
+            "name_cn": "今日头条_登录_安卓",
+            "name_display": "今日头条_登录",
+            "name_en": "toutiao_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 13201,
+            "name_cn": "今日头条_媒体_关注_安卓",
+            "name_display": "今日头条_媒体_关注",
+            "name_en": "toutiao_media_follow_droid",
+            "proto": "http"
+        },
+        {
+            "id": 13350,
+            "name_cn": "今日头条_媒体_关注_苹果",
+            "name_display": "今日头条_媒体_关注",
+            "name_en": "toutiao_media_follow_ios",
+            "proto": "http"
+        },
+        {
+            "id": 13500,
+            "name_cn": "网易新闻_用户行为_抽取",
+            "name_display": "网易新闻_用户行为_抽取",
+            "name_en": "neteasenews_useraction_expose",
+            "proto": "http"
+        },
+        {
+            "id": 14000,
+            "name_cn": "QQ音乐_音乐_播放",
+            "name_display": "QQ音乐_音乐_播放",
+            "name_en": "qqmusic_music_play",
+            "proto": "http"
+        },
+        {
+            "id": 14200,
+            "name_cn": "QQ音乐_登录_安卓",
+            "name_display": "QQ音乐_登录",
+            "name_en": "qqmusic_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 14350,
+            "name_cn": "QQ音乐_登录_苹果",
+            "name_display": "QQ音乐_登录",
+            "name_en": "qqmusic_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 14500,
+            "name_cn": "网易音乐_搜索",
+            "name_display": "网易音乐_搜索",
+            "name_en": "neteasemusic_search",
+            "proto": "http"
+        },
+        {
+            "id": 14501,
+            "name_cn": "网易音乐_音乐_推荐",
+            "name_display": "网易音乐_音乐_推荐",
+            "name_en": "neteasemusic_music_recommend",
+            "proto": "http"
+        },
+        {
+            "id": 14502,
+            "name_cn": "网易音乐_音乐_评论",
+            "name_display": "网易音乐_音乐_评论",
+            "name_en": "neteasemusic_music_comment",
+            "proto": "http"
+        },
+        {
+            "id": 14503,
+            "name_cn": "网易音乐_音乐_列表",
+            "name_display": "网易音乐_音乐_列表",
+            "name_en": "neteasemusic_music_list",
+            "proto": "http"
+        },
+        {
+            "id": 14504,
+            "name_cn": "网易音乐_音乐_喜欢",
+            "name_display": "网易音乐_音乐_喜欢",
+            "name_en": "neteasemusic_music_like",
+            "proto": "http"
+        },
+        {
+            "id": 14505,
+            "name_cn": "网易音乐_音乐_排行",
+            "name_display": "网易音乐_音乐_排行",
+            "name_en": "neteasemusic_music_rank",
+            "proto": "http"
+        },
+        {
+            "id": 14506,
+            "name_cn": "网易音乐_音乐_播放",
+            "name_display": "网易音乐_音乐_播放",
+            "name_en": "neteasemusic_music_play",
+            "proto": "http"
+        },
+        {
+            "id": 14700,
+            "name_cn": "网易音乐_登录_安卓",
+            "name_display": "网易音乐_登录",
+            "name_en": "neteasemusic_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 14850,
+            "name_cn": "网易音乐_登录_苹果",
+            "name_display": "网易音乐_登录",
+            "name_en": "neteasemusic_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 15000,
+            "name_cn": "酷狗音乐_搜索",
+            "name_display": "酷狗音乐_搜索",
+            "name_en": "kugoumusic_search",
+            "proto": "http"
+        },
+        {
+            "id": 15001,
+            "name_cn": "酷狗音乐_音乐_推荐",
+            "name_display": "酷狗音乐_音乐_推荐",
+            "name_en": "kugoumusic_music_recommend",
+            "proto": "http"
+        },
+        {
+            "id": 15002,
+            "name_cn": "酷狗音乐_音乐_播放",
+            "name_display": "酷狗音乐_音乐_播放",
+            "name_en": "kugoumusic_music_play",
+            "proto": "http"
+        },
+        {
+            "id": 15003,
+            "name_cn": "酷狗音乐_音乐_评论",
+            "name_display": "酷狗音乐_音乐_评论",
+            "name_en": "kugoumusic_music_comment",
+            "proto": "http"
+        },
+        {
+            "id": 15004,
+            "name_cn": "酷狗音乐_音乐_喜欢",
+            "name_display": "酷狗音乐_音乐_喜欢",
+            "name_en": "kugoumusic_music_like",
+            "proto": "http"
+        },
+        {
+            "id": 15005,
+            "name_cn": "酷狗音乐_音乐_排行",
+            "name_display": "酷狗音乐_音乐_排行",
+            "name_en": "kugoumusic_music_rank",
+            "proto": "http"
+        },
+        {
+            "id": 15006,
+            "name_cn": "酷狗音乐_音乐_发表",
+            "name_display": "酷狗音乐_音乐_发表",
+            "name_en": "kugoumusic_music_tweet",
+            "proto": "http"
+        },
+        {
+            "id": 15201,
+            "name_cn": "酷狗音乐_登录_安卓",
+            "name_display": "酷狗音乐_登录",
+            "name_en": "kugoumusic_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 15202,
+            "name_cn": "酷狗音乐_音乐_列表_安卓",
+            "name_display": "酷狗音乐_音乐_列表",
+            "name_en": "kugoumusic_music_list_droid",
+            "proto": "http"
+        },
+        {
+            "id": 15350,
+            "name_cn": "酷狗音乐_登录_苹果",
+            "name_display": "酷狗音乐_登录",
+            "name_en": "kugoumusic_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 15351,
+            "name_cn": "酷狗音乐_音乐_列表_苹果",
+            "name_display": "酷狗音乐_音乐_列表",
+            "name_en": "kugoumusic_music_list_ios",
+            "proto": "http"
+        },
+        {
+            "id": 15500,
+            "name_cn": "爱奇艺_主页_浏览",
+            "name_display": "爱奇艺_主页_浏览",
+            "name_en": "iqiyi_homepage_view",
+            "proto": "http"
+        },
+        {
+            "id": 15501,
+            "name_cn": "爱奇艺_搜索",
+            "name_display": "爱奇艺_搜索",
+            "name_en": "iqiyi_search",
+            "proto": "http"
+        },
+        {
+            "id": 15502,
+            "name_cn": "爱奇艺_视频_播放",
+            "name_display": "爱奇艺_视频_播放",
+            "name_en": "iqiyi_video_play",
+            "proto": "http"
+        },
+        {
+            "id": 15701,
+            "name_cn": "爱奇艺_视频_分享_安卓",
+            "name_display": "爱奇艺_视频_分享",
+            "name_en": "iqiyi_video_share_droid",
+            "proto": "http"
+        },
+        {
+            "id": 15702,
+            "name_cn": "爱奇艺_视频_收藏_添加_安卓",
+            "name_display": "爱奇艺_视频_收藏_添加",
+            "name_en": "iqiyi_video_collection_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 15703,
+            "name_cn": "爱奇艺_视频_评论_安卓",
+            "name_display": "爱奇艺_视频_评论",
+            "name_en": "iqiyi_video_comment_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16000,
+            "name_cn": "优酷_视频_点击",
+            "name_display": "优酷_视频_点击",
+            "name_en": "youku_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 16200,
+            "name_cn": "优酷_登录_安卓",
+            "name_display": "优酷_登录",
+            "name_en": "youku_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16201,
+            "name_cn": "优酷_视频_点击_安卓",
+            "name_display": "优酷_视频_点击",
+            "name_en": "youku_video_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16202,
+            "name_cn": "优酷_子通道_点击_安卓",
+            "name_display": "优酷_子通道_点击",
+            "name_en": "youku_subchannel_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16203,
+            "name_cn": "优酷_订阅_点击_安卓",
+            "name_display": "优酷_订阅_点击",
+            "name_en": "youku_subscribe_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16204,
+            "name_cn": "优酷_视频_搜索_安卓",
+            "name_display": "优酷_视频_搜索",
+            "name_en": "youku_video_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16350,
+            "name_cn": "优酷_登录_苹果",
+            "name_display": "优酷_登录",
+            "name_en": "youku_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 16351,
+            "name_cn": "优酷_视频_点击_苹果",
+            "name_display": "优酷_视频_点击",
+            "name_en": "youku_video_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 16500,
+            "name_cn": "QQ视频_直播_浏览",
+            "name_display": "QQ视频_直播_浏览",
+            "name_en": "qqlive_live_view",
+            "proto": "http"
+        },
+        {
+            "id": 16700,
+            "name_cn": "QQ视频_登录_安卓",
+            "name_display": "QQ视频_登录",
+            "name_en": "qqlive_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16701,
+            "name_cn": "QQ视频_视频_浏览_安卓",
+            "name_display": "QQ视频_视频_浏览",
+            "name_en": "qqlive_video_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 16850,
+            "name_cn": "QQ视频_登录_苹果",
+            "name_display": "QQ视频_登录",
+            "name_en": "qqlive_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 16851,
+            "name_cn": "QQ视频_视频_浏览_苹果",
+            "name_display": "QQ视频_视频_浏览",
+            "name_en": "qqlive_video_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 17000,
+            "name_cn": "快手_登录",
+            "name_display": "快手_登录",
+            "name_en": "kuaishou_login",
+            "proto": "http"
+        },
+        {
+            "id": 17001,
+            "name_cn": "快手_关注_列表_点击",
+            "name_display": "快手_关注_列表_点击",
+            "name_en": "kuaishou_follow_list_click",
+            "proto": "http"
+        },
+        {
+            "id": 17002,
+            "name_cn": "快手_视频_点击",
+            "name_display": "快手_视频_点击",
+            "name_en": "kuaishou_video_click",
+            "proto": "http"
+        },
+        {
+            "id": 17003,
+            "name_cn": "快手_视频_关注_取消关注",
+            "name_display": "快手_视频_关注_取消关注",
+            "name_en": "kuaishou_video_follow_unfollow",
+            "proto": "http"
+        },
+        {
+            "id": 17004,
+            "name_cn": "快手_视频_喜欢_不喜欢",
+            "name_display": "快手_视频_喜欢_不喜欢",
+            "name_en": "kuaishou_video_like_dislike",
+            "proto": "http"
+        },
+        {
+            "id": 17005,
+            "name_cn": "快手_视频_评论",
+            "name_display": "快手_视频_评论",
+            "name_en": "kuaishou_video_comment",
+            "proto": "http"
+        },
+        {
+            "id": 17006,
+            "name_cn": "快手_视频_发表",
+            "name_display": "快手_视频_发表",
+            "name_en": "kuaishou_video_tweet",
+            "proto": "http"
+        },
+        {
+            "id": 17007,
+            "name_cn": "快手_用户_搜索",
+            "name_display": "快手_用户_搜索",
+            "name_en": "kuaishou_user_search",
+            "proto": "http"
+        },
+        {
+            "id": 17008,
+            "name_cn": "快手_标签_搜索",
+            "name_display": "快手_标签_搜索",
+            "name_en": "kuaishou_tag_search",
+            "proto": "http"
+        },
+        {
+            "id": 17009,
+            "name_cn": "快手_直播_点击",
+            "name_display": "快手_直播_点击",
+            "name_en": "kuaishou_live_click",
+            "proto": "http"
+        },
+        {
+            "id": 17010,
+            "name_cn": "快手_视频_帖子",
+            "name_display": "快手_视频_帖子",
+            "name_en": "kuaishou_video_post",
+            "proto": "http"
+        },
+        {
+            "id": 17500,
+            "name_cn": "斗鱼_直播_点击",
+            "name_display": "斗鱼_直播_点击",
+            "name_en": "douyu_live_click",
+            "proto": "http"
+        },
+        {
+            "id": 17950,
+            "name_cn": "斗鱼_登录_网页_电脑",
+            "name_display": "斗鱼_登录_网页_电脑",
+            "name_en": "douyu_login_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 17951,
+            "name_cn": "斗鱼_直播_点击_网页_电脑",
+            "name_display": "斗鱼_直播_点击_网页_电脑",
+            "name_en": "douyu_live_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 18200,
+            "name_cn": "YY直播_分类_点击_安卓",
+            "name_display": "YY直播_分类_点击",
+            "name_en": "yylive_category_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 18201,
+            "name_cn": "YY直播_直播_浏览_安卓",
+            "name_display": "YY直播_直播_浏览",
+            "name_en": "yylive_live_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 18202,
+            "name_cn": "YY直播_附近_直播_点击_安卓",
+            "name_display": "YY直播_附近_直播_点击",
+            "name_en": "yylive_nearby_live_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 18500,
+            "name_cn": "Wifi万能钥匙_广告_展示",
+            "name_display": "Wifi万能钥匙_广告_展示",
+            "name_en": "51y5_ad_show",
+            "proto": "http"
+        },
+        {
+            "id": 18700,
+            "name_cn": "Wifi万能钥匙_登录_安卓",
+            "name_display": "Wifi万能钥匙_登录",
+            "name_en": "51y5_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 18850,
+            "name_cn": "Wifi万能钥匙_登录_苹果",
+            "name_display": "Wifi万能钥匙_登录",
+            "name_en": "51y5_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 19000,
+            "name_cn": "美柚_用户_个人主页",
+            "name_display": "美柚_用户_个人主页",
+            "name_en": "meetyou_user_homepage",
+            "proto": "http"
+        },
+        {
+            "id": 19001,
+            "name_cn": "美柚_用户_好友",
+            "name_display": "美柚_用户_好友",
+            "name_en": "meetyou_user_friends",
+            "proto": "http"
+        },
+        {
+            "id": 19200,
+            "name_cn": "美柚_登录_安卓",
+            "name_display": "美柚_登录",
+            "name_en": "meetyou_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 19201,
+            "name_cn": "美柚_日记_安卓",
+            "name_display": "美柚_日记",
+            "name_en": "meetyou_diary_droid",
+            "proto": "http"
+        },
+        {
+            "id": 19202,
+            "name_cn": "美柚_签到_安卓",
+            "name_display": "美柚_签到",
+            "name_en": "meetyou_checkin_droid",
+            "proto": "http"
+        },
+        {
+            "id": 19350,
+            "name_cn": "美柚_登录_苹果",
+            "name_display": "美柚_登录",
+            "name_en": "meetyou_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 19700,
+            "name_cn": "咕咚_登录_安卓",
+            "name_display": "咕咚_登录",
+            "name_en": "codoon_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 20000,
+            "name_cn": "美图秀秀_手绘_自拍",
+            "name_display": "美图秀秀_手绘_自拍",
+            "name_en": "meitu_sketch_self",
+            "proto": "http"
+        },
+        {
+            "id": 20200,
+            "name_cn": "美图秀秀_登录_安卓",
+            "name_display": "美图秀秀_登录",
+            "name_en": "meitu_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 20201,
+            "name_cn": "美图秀秀_素材_下载_安卓",
+            "name_display": "美图秀秀_素材_下载",
+            "name_en": "meitu_material_dload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 20350,
+            "name_cn": "美图秀秀_登录_苹果",
+            "name_display": "美图秀秀_登录",
+            "name_en": "meitu_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 20351,
+            "name_cn": "美图秀秀_素材_下载_苹果",
+            "name_display": "美图秀秀_素材_下载",
+            "name_en": "meitu_material_dload_ios",
+            "proto": "http"
+        },
+        {
+            "id": 20700,
+            "name_cn": "美颜相机_贴图扭蛋_安卓",
+            "name_display": "美颜相机_贴图扭蛋",
+            "name_en": "beautycam_sticker_droid",
+            "proto": "http"
+        },
+        {
+            "id": 20701,
+            "name_cn": "美颜相机_动漫自拍_安卓",
+            "name_display": "美颜相机_动漫自拍",
+            "name_en": "beautycam_animation_droid",
+            "proto": "http"
+        },
+        {
+            "id": 20850,
+            "name_cn": "美颜相机_贴图扭蛋_苹果",
+            "name_display": "美颜相机_贴图扭蛋",
+            "name_en": "beautycam_sticker_ios",
+            "proto": "http"
+        },
+        {
+            "id": 21200,
+            "name_cn": "美团_登录_安卓",
+            "name_display": "美团_登录",
+            "name_en": "meituan_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 21201,
+            "name_cn": "美团_搜索_安卓",
+            "name_display": "美团_搜索",
+            "name_en": "meituan_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 21202,
+            "name_cn": "美团_店铺_浏览_安卓",
+            "name_display": "美团_店铺_浏览",
+            "name_en": "meituan_store_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 21203,
+            "name_cn": "美团_酒店_浏览_安卓",
+            "name_display": "美团_酒店_浏览",
+            "name_en": "meituan_hotel_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 21700,
+            "name_cn": "大众点评_登录_安卓",
+            "name_display": "大众点评_登录",
+            "name_en": "dianping_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 22000,
+            "name_cn": "美团外卖_登录",
+            "name_display": "美团外卖_登录",
+            "name_en": "meituantakeout_login",
+            "proto": "http"
+        },
+        {
+            "id": 22001,
+            "name_cn": "美团外卖_搜索",
+            "name_display": "美团外卖_搜索",
+            "name_en": "meituantakeout_search",
+            "proto": "http"
+        },
+        {
+            "id": 22002,
+            "name_cn": "美团外卖_喜欢",
+            "name_display": "美团外卖_喜欢",
+            "name_en": "meituantakeout_favorites",
+            "proto": "http"
+        },
+        {
+            "id": 22003,
+            "name_cn": "美团外卖_店铺_浏览",
+            "name_display": "美团外卖_店铺_浏览",
+            "name_en": "meituantakeout_store_view",
+            "proto": "http"
+        },
+        {
+            "id": 22004,
+            "name_cn": "美团外卖_店铺_点击",
+            "name_display": "美团外卖_店铺_点击",
+            "name_en": "meituantakeout_store_click",
+            "proto": "http"
+        },
+        {
+            "id": 22005,
+            "name_cn": "美团外卖_店铺_收藏",
+            "name_display": "美团外卖_店铺_收藏",
+            "name_en": "meituantakeout_store_mark",
+            "proto": "http"
+        },
+        {
+            "id": 22006,
+            "name_cn": "美团外卖_订单_列表",
+            "name_display": "美团外卖_订单_列表",
+            "name_en": "meituantakeout_order_list",
+            "proto": "http"
+        },
+        {
+            "id": 22007,
+            "name_cn": "美团外卖_登录_v1",
+            "name_display": "美团外卖_登录",
+            "name_en": "meituantakeout_login_v1",
+            "proto": "http"
+        },
+        {
+            "id": 22201,
+            "name_cn": "智联招聘_简历_浏览_安卓",
+            "name_display": "智联招聘_简历_浏览",
+            "name_en": "zhaopin_resume_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 22500,
+            "name_cn": "百度外卖_登录",
+            "name_display": "百度外卖_登录",
+            "name_en": "baidutakeout_login",
+            "proto": "http"
+        },
+        {
+            "id": 22501,
+            "name_cn": "百度外卖_搜索",
+            "name_display": "百度外卖_搜索",
+            "name_en": "baidutakeout_search",
+            "proto": "http"
+        },
+        {
+            "id": 22502,
+            "name_cn": "百度外卖_喜欢",
+            "name_display": "百度外卖_喜欢",
+            "name_en": "baidutakeout_favorites",
+            "proto": "http"
+        },
+        {
+            "id": 22503,
+            "name_cn": "百度外卖_店铺_浏览",
+            "name_display": "百度外卖_店铺_浏览",
+            "name_en": "baidutakeout_store_view",
+            "proto": "http"
+        },
+        {
+            "id": 22504,
+            "name_cn": "百度外卖_店铺_点击",
+            "name_display": "百度外卖_店铺_点击",
+            "name_en": "baidutakeout_store_click",
+            "proto": "http"
+        },
+        {
+            "id": 22505,
+            "name_cn": "百度外卖_店铺_收藏",
+            "name_display": "百度外卖_店铺_收藏",
+            "name_en": "baidutakeout_store_mark",
+            "proto": "http"
+        },
+        {
+            "id": 22506,
+            "name_cn": "百度外卖_订单_列表",
+            "name_display": "百度外卖_订单_列表",
+            "name_en": "baidutakeout_order_list",
+            "proto": "http"
+        },
+        {
+            "id": 22507,
+            "name_cn": "百度外卖_订单_列表_v1",
+            "name_display": "百度外卖_订单_列表",
+            "name_en": "baidutakeout_order_list_v1",
+            "proto": "http"
+        },
+        {
+            "id": 23000,
+            "name_cn": "智联招聘_职位_搜索",
+            "name_display": "智联招聘_职位_搜索",
+            "name_en": "zhaopin_job_search",
+            "proto": "http"
+        },
+        {
+            "id": 23001,
+            "name_cn": "智联招聘_职位_点击",
+            "name_display": "智联招聘_职位_点击",
+            "name_en": "zhaopin_job_click",
+            "proto": "http"
+        },
+        {
+            "id": 23002,
+            "name_cn": "智联招聘_职位_申请",
+            "name_display": "智联招聘_职位_申请",
+            "name_en": "zhaopin_job_apply",
+            "proto": "http"
+        },
+        {
+            "id": 23003,
+            "name_cn": "智联招聘_职位_收藏",
+            "name_display": "智联招聘_职位_收藏",
+            "name_en": "zhaopin_job_mark",
+            "proto": "http"
+        },
+        {
+            "id": 23200,
+            "name_cn": "智联招聘_登录_安卓",
+            "name_display": "智联招聘_登录",
+            "name_en": "zhaopin_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 23350,
+            "name_cn": "智联招聘_登录_苹果",
+            "name_display": "智联招聘_登录",
+            "name_en": "zhaopin_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 23351,
+            "name_cn": "智联招聘_简历_浏览_苹果",
+            "name_display": "智联招聘_简历_浏览",
+            "name_en": "zhaopin_resume_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 23500,
+            "name_cn": "前程无忧_登录",
+            "name_display": "前程无忧_登录",
+            "name_en": "51job_login",
+            "proto": "http"
+        },
+        {
+            "id": 23501,
+            "name_cn": "前程无忧_主页",
+            "name_display": "前程无忧_主页",
+            "name_en": "51job_homepage",
+            "proto": "http"
+        },
+        {
+            "id": 23502,
+            "name_cn": "前程无忧_职位_搜索",
+            "name_display": "前程无忧_职位_搜索",
+            "name_en": "51job_job_search",
+            "proto": "http"
+        },
+        {
+            "id": 23503,
+            "name_cn": "前程无忧_职位_点击",
+            "name_display": "前程无忧_职位_点击",
+            "name_en": "51job_job_click",
+            "proto": "http"
+        },
+        {
+            "id": 23504,
+            "name_cn": "前程无忧_职位_申请",
+            "name_display": "前程无忧_职位_申请",
+            "name_en": "51job_job_apply",
+            "proto": "http"
+        },
+        {
+            "id": 23505,
+            "name_cn": "前程无忧_职位_收藏",
+            "name_display": "前程无忧_职位_收藏",
+            "name_en": "51job_job_mark",
+            "proto": "http"
+        },
+        {
+            "id": 23506,
+            "name_cn": "前程无忧_简历_浏览",
+            "name_display": "前程无忧_简历_浏览",
+            "name_en": "51job_resume_view",
+            "proto": "http"
+        },
+        {
+            "id": 24000,
+            "name_cn": "百姓网_项目_搜索",
+            "name_display": "百姓网_项目_搜索",
+            "name_en": "baixing_item_search",
+            "proto": "http"
+        },
+        {
+            "id": 24350,
+            "name_cn": "百姓网_登录_苹果",
+            "name_display": "百姓网_登录",
+            "name_en": "baixing_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24351,
+            "name_cn": "百姓网_喜欢_苹果",
+            "name_display": "百姓网_喜欢",
+            "name_en": "baixing_favorites_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24352,
+            "name_cn": "百姓网_项目_点击_苹果",
+            "name_display": "百姓网_项目_点击",
+            "name_en": "baixing_item_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24353,
+            "name_cn": "百姓网_简历_更新_苹果",
+            "name_display": "百姓网_简历_更新",
+            "name_en": "baixing_resume_update_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24354,
+            "name_cn": "百姓网_简历_提交_苹果",
+            "name_display": "百姓网_简历_提交",
+            "name_en": "baixing_resume_submit_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24355,
+            "name_cn": "百姓网_简历_浏览_苹果",
+            "name_display": "百姓网_简历_浏览",
+            "name_en": "baixing_resume_view_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24356,
+            "name_cn": "百姓网_职位_订阅_苹果",
+            "name_display": "百姓网_职位_订阅",
+            "name_en": "baixing_job_subscribe_ios",
+            "proto": "http"
+        },
+        {
+            "id": 24700,
+            "name_cn": "京东_喜欢_安卓",
+            "name_display": "京东_喜欢",
+            "name_en": "jd_favorites_droid",
+            "proto": "http"
+        },
+        {
+            "id": 24701,
+            "name_cn": "京东_订单_列表_安卓",
+            "name_display": "京东_订单_列表",
+            "name_en": "jd_order_list_droid",
+            "proto": "http"
+        },
+        {
+            "id": 24702,
+            "name_cn": "京东_商品_搜索_安卓",
+            "name_display": "京东_商品_搜索",
+            "name_en": "jd_product_serach_droid",
+            "proto": "http"
+        },
+        {
+            "id": 24703,
+            "name_cn": "京东_商品_点击_安卓",
+            "name_display": "京东_商品_点击",
+            "name_en": "jd_product_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 24704,
+            "name_cn": "京东_商品_收藏_安卓",
+            "name_display": "京东_商品_收藏",
+            "name_en": "jd_product_mark_droid",
+            "proto": "http"
+        },
+        {
+            "id": 24705,
+            "name_cn": "京东_评论_点击_安卓",
+            "name_display": "京东_评论_点击",
+            "name_en": "jd_comments_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 24706,
+            "name_cn": "京东_购物车_点击_安卓",
+            "name_display": "京东_购物车_点击",
+            "name_en": "jd_cart_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 25000,
+            "name_cn": "苏宁_喜欢",
+            "name_display": "苏宁_喜欢",
+            "name_en": "suning_favorites",
+            "proto": "http"
+        },
+        {
+            "id": 25001,
+            "name_cn": "苏宁_订单_列表",
+            "name_display": "苏宁_订单_列表",
+            "name_en": "suning_order_list",
+            "proto": "http"
+        },
+        {
+            "id": 25002,
+            "name_cn": "苏宁_商品_搜索",
+            "name_display": "苏宁_商品_搜索",
+            "name_en": "suning_product_search",
+            "proto": "http"
+        },
+        {
+            "id": 25003,
+            "name_cn": "苏宁_商品_点击",
+            "name_display": "苏宁_商品_点击",
+            "name_en": "suning_product_click",
+            "proto": "http"
+        },
+        {
+            "id": 25004,
+            "name_cn": "苏宁_评论_点击",
+            "name_display": "苏宁_评论_点击",
+            "name_en": "suning_comments_click",
+            "proto": "http"
+        },
+        {
+            "id": 25005,
+            "name_cn": "苏宁_购物车_点击",
+            "name_display": "苏宁_购物车_点击",
+            "name_en": "suning_cart_click",
+            "proto": "http"
+        },
+        {
+            "id": 25200,
+            "name_cn": "苏宁_商品_收藏_安卓",
+            "name_display": "苏宁_商品_收藏",
+            "name_en": "suning_product_mark_droid",
+            "proto": "http"
+        },
+        {
+            "id": 25350,
+            "name_cn": "苏宁_商品_收藏_苹果",
+            "name_display": "苏宁_商品_收藏",
+            "name_en": "suning_product_mark_ios",
+            "proto": "http"
+        },
+        {
+            "id": 25700,
+            "name_cn": "搜狗输入法_皮肤_搜索_安卓",
+            "name_display": "搜狗输入法_皮肤_搜索",
+            "name_en": "sogouinput_skin_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 25701,
+            "name_cn": "搜狗输入法_皮肤_应用_安卓",
+            "name_display": "搜狗输入法_皮肤_应用",
+            "name_en": "sogouinput_skin_apply_droid",
+            "proto": "http"
+        },
+        {
+            "id": 26200,
+            "name_cn": "讯飞输入法_皮肤_应用_安卓",
+            "name_display": "讯飞输入法_皮肤_应用",
+            "name_en": "iflyinput_skin_apply_droid",
+            "proto": "http"
+        },
+        {
+            "id": 26500,
+            "name_cn": "我爱我家_搜索",
+            "name_display": "我爱我家_搜索",
+            "name_en": "5i5j_search",
+            "proto": "http"
+        },
+        {
+            "id": 26501,
+            "name_cn": "我爱我家_经纪人_浏览",
+            "name_display": "我爱我家_经纪人_浏览",
+            "name_en": "5i5j_broker_view",
+            "proto": "http"
+        },
+        {
+            "id": 26502,
+            "name_cn": "我爱我家_房屋_浏览",
+            "name_display": "我爱我家_房屋_浏览",
+            "name_en": "5i5j_house_view",
+            "proto": "http"
+        },
+        {
+            "id": 26503,
+            "name_cn": "我爱我家_关注",
+            "name_display": "我爱我家_关注",
+            "name_en": "5i5j_follow",
+            "proto": "http"
+        },
+        {
+            "id": 26504,
+            "name_cn": "我爱我家_取消关注",
+            "name_display": "我爱我家_取消关注",
+            "name_en": "5i5j_unfollow",
+            "proto": "http"
+        },
+        {
+            "id": 26700,
+            "name_cn": "我爱我家_登录_安卓",
+            "name_display": "我爱我家_登录",
+            "name_en": "5i5j_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 26850,
+            "name_cn": "我爱我家_登录_苹果",
+            "name_display": "我爱我家_登录",
+            "name_en": "5i5j_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 27200,
+            "name_cn": "蚂蚁短租_登录_安卓",
+            "name_display": "蚂蚁短租_登录",
+            "name_en": "mayiduanzu_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 27201,
+            "name_cn": "蚂蚁短租_房屋_搜索_安卓",
+            "name_display": "蚂蚁短租_房屋_搜索",
+            "name_en": "mayiduanzu_house_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 27202,
+            "name_cn": "蚂蚁短租_房屋_浏览_安卓",
+            "name_display": "蚂蚁短租_房屋_浏览",
+            "name_en": "mayiduanzu_house_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 27203,
+            "name_cn": "蚂蚁短租_房屋_收藏_安卓",
+            "name_display": "蚂蚁短租_房屋_收藏",
+            "name_en": "mayiduanzu_house_collect_droid",
+            "proto": "http"
+        },
+        {
+            "id": 27700,
+            "name_cn": "自如_房屋_浏览_安卓",
+            "name_display": "自如_房屋_浏览",
+            "name_en": "ziroom_house_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 27701,
+            "name_cn": "自如_关注_安卓",
+            "name_display": "自如_关注",
+            "name_en": "ziroom_focus_droid",
+            "proto": "http"
+        },
+        {
+            "id": 27702,
+            "name_cn": "自如_取消关注_安卓",
+            "name_display": "自如_取消关注",
+            "name_en": "ziroom_unfocus_droid",
+            "proto": "http"
+        },
+        {
+            "id": 28200,
+            "name_cn": "京东金融_登录_安卓",
+            "name_display": "京东金融_登录",
+            "name_en": "jdfinance_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 28201,
+            "name_cn": "京东金融_付款码_安卓",
+            "name_display": "京东金融_付款码",
+            "name_en": "jdfinance_pay_code_droid",
+            "proto": "http"
+        },
+        {
+            "id": 28350,
+            "name_cn": "京东金融_登录_苹果",
+            "name_display": "京东金融_登录",
+            "name_en": "jdfinance_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 28700,
+            "name_cn": "UC浏览器_浏览_新闻_安卓",
+            "name_display": "UC浏览器_浏览_新闻",
+            "name_en": "ucbrowser_view_news_droid",
+            "proto": "http"
+        },
+        {
+            "id": 29000,
+            "name_cn": "唱吧_音乐_收听",
+            "name_display": "唱吧_音乐_收听",
+            "name_en": "changba_music_listen",
+            "proto": "http"
+        },
+        {
+            "id": 29001,
+            "name_cn": "唱吧_音乐_演唱",
+            "name_display": "唱吧_音乐_演唱",
+            "name_en": "changba_music_sing",
+            "proto": "http"
+        },
+        {
+            "id": 29002,
+            "name_cn": "唱吧_音乐_搜索",
+            "name_display": "唱吧_音乐_搜索",
+            "name_en": "changba_music_search",
+            "proto": "http"
+        },
+        {
+            "id": 29500,
+            "name_cn": "全民K歌_音乐_播放",
+            "name_display": "全民K歌_音乐_播放",
+            "name_en": "quanminkge_music_play",
+            "proto": "http"
+        },
+        {
+            "id": 29850,
+            "name_cn": "全民K歌_音乐_演唱_苹果",
+            "name_display": "全民K歌_音乐_演唱",
+            "name_en": "quanminkge_music_sing_ios",
+            "proto": "http"
+        },
+        {
+            "id": 30000,
+            "name_cn": "搜狐新闻_登录",
+            "name_display": "搜狐新闻_登录",
+            "name_en": "sohunews_login",
+            "proto": "http"
+        },
+        {
+            "id": 30001,
+            "name_cn": "搜狐新闻_新闻_浏览",
+            "name_display": "搜狐新闻_新闻_浏览",
+            "name_en": "sohunews_news_view",
+            "proto": "http"
+        },
+        {
+            "id": 30002,
+            "name_cn": "搜狐新闻_新闻_评论",
+            "name_display": "搜狐新闻_新闻_评论",
+            "name_en": "sohunews_news_comment",
+            "proto": "http"
+        },
+        {
+            "id": 30003,
+            "name_cn": "搜狐新闻_视频_浏览",
+            "name_display": "搜狐新闻_视频_浏览",
+            "name_en": "sohunews_video_view",
+            "proto": "http"
+        },
+        {
+            "id": 30004,
+            "name_cn": "搜狐新闻_搜索",
+            "name_display": "搜狐新闻_搜索",
+            "name_en": "sohunews_search",
+            "proto": "http"
+        },
+        {
+            "id": 30500,
+            "name_cn": "乐视TV_浏览_视频",
+            "name_display": "乐视TV_浏览_视频",
+            "name_en": "letv_view_video",
+            "proto": "http"
+        },
+        {
+            "id": 30501,
+            "name_cn": "乐视TV_购买_成员",
+            "name_display": "乐视TV_购买_成员",
+            "name_en": "letv_buy_member",
+            "proto": "http"
+        },
+        {
+            "id": 30700,
+            "name_cn": "乐视TV_登录_安卓",
+            "name_display": "乐视TV_登录",
+            "name_en": "letv_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 30701,
+            "name_cn": "乐视TV_搜索_安卓",
+            "name_display": "乐视TV_搜索",
+            "name_en": "letv_search_droid",
+            "proto": "http"
+        },
+        {
+            "id": 30850,
+            "name_cn": "乐视TV_登录_苹果",
+            "name_display": "乐视TV_登录",
+            "name_en": "letv_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 30851,
+            "name_cn": "乐视TV_搜索_苹果",
+            "name_display": "乐视TV_搜索",
+            "name_en": "letv_search_ios",
+            "proto": "http"
+        },
+        {
+            "id": 31000,
+            "name_cn": "芒果TV_登录",
+            "name_display": "芒果TV_登录",
+            "name_en": "mgtv_login",
+            "proto": "http"
+        },
+        {
+            "id": 31001,
+            "name_cn": "芒果TV_搜索",
+            "name_display": "芒果TV_搜索",
+            "name_en": "mgtv_search",
+            "proto": "http"
+        },
+        {
+            "id": 31002,
+            "name_cn": "芒果TV_喜欢_列表",
+            "name_display": "芒果TV_喜欢_列表",
+            "name_en": "mgtv_favorites_list",
+            "proto": "http"
+        },
+        {
+            "id": 31003,
+            "name_cn": "芒果TV_视频_浏览",
+            "name_display": "芒果TV_视频_浏览",
+            "name_en": "mgtv_video_view",
+            "proto": "http"
+        },
+        {
+            "id": 31004,
+            "name_cn": "芒果TV_关注",
+            "name_display": "芒果TV_关注",
+            "name_en": "mgtv_follow",
+            "proto": "http"
+        },
+        {
+            "id": 31500,
+            "name_cn": "映客_登录",
+            "name_display": "映客_登录",
+            "name_en": "inke_login",
+            "proto": "http"
+        },
+        {
+            "id": 31501,
+            "name_cn": "映客_搜索",
+            "name_display": "映客_搜索",
+            "name_en": "inke_search",
+            "proto": "http"
+        },
+        {
+            "id": 31502,
+            "name_cn": "映客_直播_浏览",
+            "name_display": "映客_直播_浏览",
+            "name_en": "inke_live_view",
+            "proto": "http"
+        },
+        {
+            "id": 31503,
+            "name_cn": "映客_关注",
+            "name_display": "映客_关注",
+            "name_en": "inke_follow",
+            "proto": "http"
+        },
+        {
+            "id": 31504,
+            "name_cn": "映客_喜欢_列表",
+            "name_display": "映客_喜欢_列表",
+            "name_en": "inke_favorites_list",
+            "proto": "http"
+        },
+        {
+            "id": 32400,
+            "name_cn": "汽车之家_车型_点击",
+            "name_display": "汽车之家_车型_点击",
+            "name_en": "autohome_model_click",
+            "proto": "ssl"
+        },
+        {
+            "id": 32401,
+            "name_cn": "汽车之家_文章_点击",
+            "name_display": "汽车之家_文章_点击",
+            "name_en": "autohome_article_click",
+            "proto": "http"
+        },
+        {
+            "id": 32450,
+            "name_cn": "汽车之家_车型_点击_网页_电脑",
+            "name_display": "汽车之家_车型_点击_网页_电脑",
+            "name_en": "autohome_model_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 32451,
+            "name_cn": "汽车之家_款式_点击_网页_电脑",
+            "name_display": "汽车之家_款式_点击_网页_电脑",
+            "name_en": "autohome_style_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 32452,
+            "name_cn": "汽车之家_经销商_款式_点击_网页_电脑",
+            "name_display": "汽车之家_经销商_款式_点击_网页_电脑",
+            "name_en": "autohome_dealer_style_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 32453,
+            "name_cn": "汽车之家_询底价_点击_网页_电脑",
+            "name_display": "汽车之家_询底价_点击_网页_电脑",
+            "name_en": "autohome_xunjia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 32454,
+            "name_cn": "汽车之家_询底价_点击_网页_手机",
+            "name_display": "汽车之家_询底价_点击_网页_手机",
+            "name_en": "autohome_xunjia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 32700,
+            "name_cn": "猫眼_登录_安卓",
+            "name_display": "猫眼_登录",
+            "name_en": "maoyan_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 32701,
+            "name_cn": "猫眼_电影_点击_安卓",
+            "name_display": "猫眼_电影_点击",
+            "name_en": "maoyan_movie_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 32702,
+            "name_cn": "猫眼_订单_新建_安卓",
+            "name_display": "猫眼_订单_新建",
+            "name_en": "maoyan_order_new_droid",
+            "proto": "http"
+        },
+        {
+            "id": 32703,
+            "name_cn": "猫眼_订单_支付_安卓",
+            "name_display": "猫眼_订单_支付",
+            "name_en": "maoyan_order_pay_droid",
+            "proto": "http"
+        },
+        {
+            "id": 33200,
+            "name_cn": "格瓦拉_登录_安卓",
+            "name_display": "格瓦拉_登录",
+            "name_en": "gewara_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 33201,
+            "name_cn": "格瓦拉_用户行为_抽取_安卓",
+            "name_display": "格瓦拉_用户行为_抽取",
+            "name_en": "gewara_useraction_expose_droid",
+            "proto": "http"
+        },
+        {
+            "id": 33350,
+            "name_cn": "格瓦拉_登录_苹果",
+            "name_display": "格瓦拉_登录",
+            "name_en": "gewara_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 33351,
+            "name_cn": "格瓦拉_用户行为_抽取_苹果",
+            "name_display": "格瓦拉_用户行为_抽取",
+            "name_en": "gewara_useraction_expose_ios",
+            "proto": "http"
+        },
+        {
+            "id": 33700,
+            "name_cn": "淘票票_登录_安卓",
+            "name_display": "淘票票_登录",
+            "name_en": "taopiaopiao_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 33701,
+            "name_cn": "淘票票_订单_支付_安卓",
+            "name_display": "淘票票_订单_支付",
+            "name_en": "taopiaopiao_order_pay_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34200,
+            "name_cn": "微票_登录_安卓",
+            "name_display": "微票_登录",
+            "name_en": "weipiao_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34201,
+            "name_cn": "微票_分类_点击_安卓",
+            "name_display": "微票_分类_点击",
+            "name_en": "weipiao_category_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34202,
+            "name_cn": "微票_演出_点击_安卓",
+            "name_display": "微票_演出_点击",
+            "name_en": "weipiao_performance_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34203,
+            "name_cn": "微票_订单_支付_安卓",
+            "name_display": "微票_订单_支付",
+            "name_en": "weipiao_order_pay_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34700,
+            "name_cn": "聚合信用_登录_安卓",
+            "name_display": "聚合信用_登录",
+            "name_en": "juhexinyong_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34701,
+            "name_cn": "聚合信用_用户信息_安卓",
+            "name_display": "聚合信用_用户信息",
+            "name_en": "juhexinyong_user_info_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34702,
+            "name_cn": "聚合信用_申请_点击_安卓",
+            "name_display": "聚合信用_申请_点击",
+            "name_en": "juhexinyong_apply_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 34703,
+            "name_cn": "聚合信用_申请_列表_安卓",
+            "name_display": "聚合信用_申请_列表",
+            "name_en": "juhexinyong_apply_list_droid",
+            "proto": "http"
+        },
+        {
+            "id": 35000,
+            "name_cn": "天眼查_查公司_标签_点击",
+            "name_display": "天眼查_查公司_标签_点击",
+            "name_en": "tianyancha_searchcompany_tag_click",
+            "proto": "http"
+        },
+        {
+            "id": 35001,
+            "name_cn": "天眼查_查公司_主页_点击",
+            "name_display": "天眼查_查公司_主页_点击",
+            "name_en": "tianyancha_searchcompany_homepage_click",
+            "proto": "http"
+        },
+        {
+            "id": 35002,
+            "name_cn": "天眼查_查老板_主页_点击",
+            "name_display": "天眼查_查老板_主页_点击",
+            "name_en": "tianyancha_searchhuman_homepage_click",
+            "proto": "http"
+        },
+        {
+            "id": 35003,
+            "name_cn": "天眼查_查老板_标签_点击",
+            "name_display": "天眼查_查老板_标签_点击",
+            "name_en": "tianyancha_searchhuman_tag_click",
+            "proto": "http"
+        },
+        {
+            "id": 35004,
+            "name_cn": "天眼查_查老板_标签页面_点击",
+            "name_display": "天眼查_查老板_标签页面_点击",
+            "name_en": "tianyancha_searchhuman_tagpage_click",
+            "proto": "http"
+        },
+        {
+            "id": 35005,
+            "name_cn": "天眼查_查关系_标签页面_点击",
+            "name_display": "天眼查_查关系_标签页面_点击",
+            "name_en": "tianyancha_searchrelation_tagpage_click",
+            "proto": "http"
+        },
+        {
+            "id": 35006,
+            "name_cn": "天眼查_查关系_主页_点击",
+            "name_display": "天眼查_查关系_主页_点击",
+            "name_en": "tianyancha_searchrelation_homepage_click",
+            "proto": "http"
+        },
+        {
+            "id": 35007,
+            "name_cn": "天眼查_查关系_标签_点击",
+            "name_display": "天眼查_查关系_标签_点击",
+            "name_en": "tianyancha_searchrelation_tag_click",
+            "proto": "http"
+        },
+        {
+            "id": 35008,
+            "name_cn": "天眼查_关注_点击",
+            "name_display": "天眼查_关注_点击",
+            "name_en": "tianyancha_follow_tag_click",
+            "proto": "http"
+        },
+        {
+            "id": 35200,
+            "name_cn": "天眼查_我的_点击_安卓",
+            "name_display": "天眼查_我的_点击",
+            "name_en": "tianyancha_myself_tag_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 35350,
+            "name_cn": "天眼查_我的_点击_苹果",
+            "name_display": "天眼查_我的_点击",
+            "name_en": "tianyancha_myself_tag_click_ios",
+            "proto": "http"
+        },
+        {
+            "id": 35700,
+            "name_cn": "企信宝_企信宝_登录_安卓",
+            "name_display": "企信宝_企信宝_登录",
+            "name_en": "qixinbao_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 36200,
+            "name_cn": "百度钱包_登录_安卓",
+            "name_display": "百度钱包_登录",
+            "name_en": "baiduqianbao_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 36700,
+            "name_cn": "苏宁金融_登录_安卓",
+            "name_display": "苏宁金融_登录",
+            "name_en": "suningjinrong_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 36850,
+            "name_cn": "苏宁金融_登录_苹果",
+            "name_display": "苏宁金融_登录",
+            "name_en": "suningjinrong_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 37200,
+            "name_cn": "宜人贷_登录_安卓",
+            "name_display": "宜人贷_登录",
+            "name_en": "yirendai_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 37201,
+            "name_cn": "宜人贷_广告_安卓",
+            "name_display": "宜人贷_广告",
+            "name_en": "yirendai_ad_droid",
+            "proto": "http"
+        },
+        {
+            "id": 37350,
+            "name_cn": "宜人贷_登录_苹果",
+            "name_display": "宜人贷_登录",
+            "name_en": "yirendai_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 37700,
+            "name_cn": "借贷宝_登录_安卓",
+            "name_display": "借贷宝_登录",
+            "name_en": "jiedaibao_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 38350,
+            "name_cn": "融360_登录_苹果",
+            "name_display": "融360_登录",
+            "name_en": "rong360_login_ios",
+            "proto": "http"
+        },
+        {
+            "id": 38500,
+            "name_cn": "优信二手车_汽车_点击",
+            "name_display": "优信二手车_汽车_点击",
+            "name_en": "youxin_car_click",
+            "proto": "http"
+        },
+        {
+            "id": 38501,
+            "name_cn": "优信二手车_询底价_点击_网页_电脑",
+            "name_display": "优信二手车_询底价_点击_网页_电脑",
+            "name_en": "youxin_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 38502,
+            "name_cn": "优信二手车_询底价_点击_网页_手机",
+            "name_display": "优信二手车_询底价_点击_网页_手机",
+            "name_en": "youxin_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 38503,
+            "name_cn": "优信二手车_图片_点击",
+            "name_display": "优信二手车_图片_点击",
+            "name_en": "youxin_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 39000,
+            "name_cn": "人人车_汽车_点击",
+            "name_display": "人人车_汽车_点击",
+            "name_en": "renrenche_car_click",
+            "proto": "http"
+        },
+        {
+            "id": 39001,
+            "name_cn": "人人车_砍价_点击_网页_手机",
+            "name_display": "人人车_砍价_点击_网页_手机",
+            "name_en": "renrenche_kanjia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 39002,
+            "name_cn": "人人车_砍价_点击_网页_电脑",
+            "name_display": "人人车_砍价_点击_网页_电脑",
+            "name_en": "renrenche_kanjia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 39003,
+            "name_cn": "人人车_图片_点击",
+            "name_display": "人人车_图片_点击",
+            "name_en": "renrenche_image_click",
+            "proto": "http"
+        },
+        {
+            "id": 40450,
+            "name_cn": "爱卡汽车_寻底价_点击_网页_电脑",
+            "name_display": "爱卡汽车_寻底价_点击_网页_电脑",
+            "name_en": "xcar_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 40451,
+            "name_cn": "爱卡汽车_寻底价_点击_网页_手机",
+            "name_display": "爱卡汽车_寻底价_点击_网页_手机",
+            "name_en": "xcar_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 40452,
+            "name_cn": "爱卡汽车_寻底价_点击_网页_手机_v1",
+            "name_display": "爱卡汽车_寻底价_点击_网页_手机",
+            "name_en": "xcar_xundijia_click_web_mobile_v1",
+            "proto": "http"
+        },
+        {
+            "id": 40950,
+            "name_cn": "太平洋汽车网_询底价_点击_网页_电脑",
+            "name_display": "太平洋汽车网_询底价_点击",
+            "name_en": "pcauto_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 40951,
+            "name_cn": "太平洋汽车网_询底价_点击_网页_手机",
+            "name_display": "太平洋汽车网_询底价_点击_网页_手机",
+            "name_en": "pcauto_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 40952,
+            "name_cn": "太平洋汽车网_对比_点击_网页_电脑",
+            "name_display": "太平洋汽车网_对比_点击_网页_电脑",
+            "name_en": "pcauto_pk_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 40953,
+            "name_cn": "太平洋汽车网_对比_点击_网页_手机",
+            "name_display": "太平洋汽车网_对比_点击_网页_手机",
+            "name_en": "pcauto_pk_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 40954,
+            "name_cn": "太平洋汽车网_询底价_点击_网页_手机_v1",
+            "name_display": "太平洋汽车网_对比_点击_网页_手机",
+            "name_en": "pcauto_xunjia_click_web_mobile_v1",
+            "proto": "http"
+        },
+        {
+            "id": 50000,
+            "name_cn": "搜狐汽车_询底价_点击",
+            "name_display": "搜狐汽车_询底价_点击",
+            "name_en": "sohuauto_xundijia_click",
+            "proto": "http"
+        },
+        {
+            "id": 50001,
+            "name_cn": "搜狐汽车_条件_选择",
+            "name_display": "搜狐汽车_条件_选择",
+            "name_en": "sohuauto_conditional_car_selection",
+            "proto": "http"
+        },
+        {
+            "id": 50450,
+            "name_cn": "搜狐汽车_对比_点击_网页_手机",
+            "name_display": "搜狐汽车_对比_点击_网页_手机",
+            "name_en": "sohuauto_pk_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 50950,
+            "name_cn": "新浪汽车_询底价_点击_网页_电脑",
+            "name_display": "新浪汽车_询底价_点击_网页_电脑",
+            "name_en": "sinaauto_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 50951,
+            "name_cn": "新浪汽车_询底价_点击_网页_电脑_v1",
+            "name_display": "新浪汽车_询底价_点击_网页_电脑",
+            "name_en": "sinaauto_xundijia_click_web_pc_v1",
+            "proto": "http"
+        },
+        {
+            "id": 50952,
+            "name_cn": "新浪汽车_询底价_点击_网页_手机",
+            "name_display": "新浪汽车_询底价_点击_网页_手机",
+            "name_en": "sinaauto_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 51200,
+            "name_cn": "熊猫直播_登录_安卓",
+            "name_display": "熊猫直播_登录",
+            "name_en": "pandatv_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51201,
+            "name_cn": "熊猫直播_直播_点击_安卓",
+            "name_display": "熊猫直播_直播_点击",
+            "name_en": "pandatv_live_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51202,
+            "name_cn": "熊猫直播_分类_点击_安卓",
+            "name_display": "熊猫直播_分类_点击",
+            "name_en": "pandatv_category_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51203,
+            "name_cn": "熊猫直播_星颜_播放_安卓",
+            "name_display": "熊猫直播_星颜_播放",
+            "name_en": "pandatv_xingyan_play_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51204,
+            "name_cn": "熊猫直播_竹子_赠送_安卓",
+            "name_display": "熊猫直播_竹子_赠送",
+            "name_en": "pandatv_bamboos_send_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51205,
+            "name_cn": "熊猫直播_现场直播_安卓",
+            "name_display": "熊猫直播_现场直播",
+            "name_en": "pandatv_live_broadcast_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51450,
+            "name_cn": "熊猫直播_现场直播_网页_电脑",
+            "name_display": "熊猫直播_现场直播_网页_电脑",
+            "name_en": "pandatv_live_broadcast_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 51700,
+            "name_cn": "虎牙直播_登录_安卓",
+            "name_display": "虎牙直播_登录",
+            "name_en": "huyatv_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51701,
+            "name_cn": "虎牙直播_直播_点击_安卓",
+            "name_display": "虎牙直播_直播_点击",
+            "name_en": "huyatv_live_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51702,
+            "name_cn": "虎牙直播_订单_安卓",
+            "name_display": "虎牙直播_订单",
+            "name_en": "huyatv_pay_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51703,
+            "name_cn": "虎牙直播_现场直播_上传_安卓",
+            "name_display": "虎牙直播_现场直播_上传",
+            "name_en": "huyatv_live_broadcast_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 51950,
+            "name_cn": "虎牙直播_登录_网页_电脑",
+            "name_display": "虎牙直播_登录_网页_电脑",
+            "name_en": "huyatv_login_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 52200,
+            "name_cn": "花椒直播_登录_安卓",
+            "name_display": "花椒直播_登录",
+            "name_en": "huajiaotv_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 52201,
+            "name_cn": "花椒直播_直播_点击_安卓",
+            "name_display": "花椒直播_直播_点击",
+            "name_en": "huajiaotv_live_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 52202,
+            "name_cn": "花椒直播_分类_点击_安卓",
+            "name_display": "花椒直播_分类_点击",
+            "name_en": "huajiaotv_category_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 52203,
+            "name_cn": "花椒直播_回放_安卓",
+            "name_display": "花椒直播_回放",
+            "name_en": "huajiaotv_video_replay_droid",
+            "proto": "http"
+        },
+        {
+            "id": 52700,
+            "name_cn": "超级VPN_连接_安卓",
+            "name_display": "超级VPN_连接",
+            "name_en": "supervpn_connect_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53200,
+            "name_cn": "百度贴吧_登录_安卓",
+            "name_display": "百度贴吧_登录",
+            "name_en": "baiducom_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53201,
+            "name_cn": "百度贴吧_论坛_主题_添加_安卓",
+            "name_display": "百度贴吧_论坛_主题_添加",
+            "name_en": "baiducom_forum_subject_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53202,
+            "name_cn": "百度贴吧_论坛_点击_安卓",
+            "name_display": "百度贴吧_论坛_点击",
+            "name_en": "baiducom_forum_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53203,
+            "name_cn": "百度贴吧_论坛_分享_安卓",
+            "name_display": "百度贴吧_论坛_分享",
+            "name_en": "baiducom_forum_share_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53204,
+            "name_cn": "百度贴吧_论坛_评论_添加_安卓",
+            "name_display": "百度贴吧_论坛_评论_添加",
+            "name_en": "baiducom_forum_comment_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53205,
+            "name_cn": "百度贴吧_论坛_图片_浏览_安卓",
+            "name_display": "百度贴吧_论坛_图片_浏览",
+            "name_en": "baiducom_forum_image_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53206,
+            "name_cn": "百度贴吧_论坛_视频_点击_安卓",
+            "name_display": "百度贴吧_论坛_视频_点击",
+            "name_en": "baiducom_forum_video_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53207,
+            "name_cn": "百度贴吧_论坛_图片_上传_安卓",
+            "name_display": "百度贴吧_论坛_图片_上传",
+            "name_en": "baiducom_forum_image_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53208,
+            "name_cn": "百度贴吧_论坛_视频_上传_安卓",
+            "name_display": "百度贴吧_论坛_视频_上传",
+            "name_en": "baiducom_forum_video_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53450,
+            "name_cn": "百度贴吧_论坛_点击_网页_电脑",
+            "name_display": "百度贴吧_论坛_点击_网页_电脑",
+            "name_en": "baiducom_forum_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 53451,
+            "name_cn": "百度贴吧_论坛_图片_浏览_网页_电脑",
+            "name_display": "百度贴吧_论坛_图片_浏览_网页_电脑",
+            "name_en": "baiducom_forum_image_view_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 53700,
+            "name_cn": "天涯社区_登录_安卓",
+            "name_display": "天涯社区_登录",
+            "name_en": "tianyacom_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53701,
+            "name_cn": "天涯社区_论坛_主题_添加_安卓",
+            "name_display": "天涯社区_论坛_主题_添加",
+            "name_en": "tianyacom_forum_subject_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53702,
+            "name_cn": "天涯社区_论坛_点击_安卓",
+            "name_display": "天涯社区_论坛_点击",
+            "name_en": "tianyacom_forum_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53703,
+            "name_cn": "天涯社区_论坛_评论_添加_安卓",
+            "name_display": "天涯社区_论坛_评论_添加",
+            "name_en": "tianyacom_forum_comment_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53704,
+            "name_cn": "天涯社区_论坛_图片_浏览_安卓",
+            "name_display": "天涯社区_论坛_图片_浏览",
+            "name_en": "tianyacom_forum_image_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53705,
+            "name_cn": "天涯社区_论坛_视频_点击_安卓",
+            "name_display": "天涯社区_论坛_视频_点击",
+            "name_en": "tianyacom_forum_video_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53706,
+            "name_cn": "天涯社区_论坛_图片_上传_安卓",
+            "name_display": "天涯社区_论坛_图片_上传",
+            "name_en": "tianyacom_forum_image_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53707,
+            "name_cn": "天涯社区_论坛_视频_上传_安卓",
+            "name_display": "天涯社区_论坛_视频_上传",
+            "name_en": "tianyacom_forum_video_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 53950,
+            "name_cn": "天涯社区_登录_网页_电脑",
+            "name_display": "天涯社区_登录_网页_电脑",
+            "name_en": "tianyacom_login_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 53951,
+            "name_cn": "天涯社区_论坛_主题_添加_网页_电脑",
+            "name_display": "天涯社区_论坛_主题_添加_网页_电脑",
+            "name_en": "tianyacom_forum_subject_add_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 53952,
+            "name_cn": "天涯社区_论坛_点击_网页_电脑",
+            "name_display": "天涯社区_论坛_点击_网页_电脑",
+            "name_en": "tianyacom_forum_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 54200,
+            "name_cn": "猫扑_登录_安卓",
+            "name_display": "猫扑_登录",
+            "name_en": "mopcom_login_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54201,
+            "name_cn": "猫扑_论坛_主题_添加_安卓",
+            "name_display": "猫扑_论坛_主题_添加",
+            "name_en": "mopcom_forum_subject_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54202,
+            "name_cn": "猫扑_论坛_点击_安卓",
+            "name_display": "猫扑_论坛_点击",
+            "name_en": "mopcom_forum_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54203,
+            "name_cn": "猫扑_论坛_评论_添加_安卓",
+            "name_display": "猫扑_论坛_评论_添加",
+            "name_en": "mopcom_forum_comment_add_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54204,
+            "name_cn": "猫扑_论坛_图片_浏览_安卓",
+            "name_display": "猫扑_论坛_图片_浏览",
+            "name_en": "mopcom_forum_image_view_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54205,
+            "name_cn": "猫扑_论坛_视频_点击_安卓",
+            "name_display": "猫扑_论坛_视频_点击",
+            "name_en": "mopcom_forum_video_click_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54206,
+            "name_cn": "猫扑_论坛_图片_上传_安卓",
+            "name_display": "猫扑_论坛_图片_上传",
+            "name_en": "mopcom_forum_image_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54207,
+            "name_cn": "猫扑_论坛_视频_浏览_安卓",
+            "name_display": "猫扑_论坛_视频_浏览",
+            "name_en": "mopcom_forum_video_upload_droid",
+            "proto": "http"
+        },
+        {
+            "id": 54400,
+            "name_cn": "瓜子二手车_登录_点击_网页_手机",
+            "name_display": "瓜子二手车_登录_点击_网页_手机",
+            "name_en": "guazi_login_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 54401,
+            "name_cn": "瓜子二手车_砍价_点击_网页_电脑",
+            "name_display": "瓜子二手车_砍价_点击_网页_电脑",
+            "name_en": "guazi_kanjia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 54402,
+            "name_cn": "瓜子二手车_砍价_点击_网页_手机",
+            "name_display": "瓜子二手车_砍价_点击_网页_手机",
+            "name_en": "guazi_kanjia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 54403,
+            "name_cn": "瓜子二手车_询底价_点击_网页_手机",
+            "name_display": "瓜子二手车_询底价_点击_网页_手机",
+            "name_en": "guazi_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 54404,
+            "name_cn": "瓜子二手车_询底价_点击_网页_电脑",
+            "name_display": "瓜子二手车_询底价_点击_网页_电脑",
+            "name_en": "guazi_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 54405,
+            "name_cn": "瓜子二手车_登录_点击_网页_电脑",
+            "name_display": "瓜子二手车_登录_点击_网页_电脑",
+            "name_en": "guazi_login_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 54600,
+            "name_cn": "车讯网_询底价_点击_网页_电脑",
+            "name_display": "车讯网_询底价_点击_网页_电脑",
+            "name_en": "chexun_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 54801,
+            "name_cn": "网上车市_询底价_点击_网页_手机",
+            "name_display": "网上车市_询底价_点击_网页_手机",
+            "name_en": "cheshi_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 54802,
+            "name_cn": "网上车市_询底价_点击_网页_电脑",
+            "name_display": "网上车市_询底价_点击_网页_电脑",
+            "name_en": "cheshi_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 55000,
+            "name_cn": "二手车之家_询底价_点击_网页_电脑",
+            "name_display": "二手车之家_询底价_点击_网页_电脑",
+            "name_en": "che168_xundijia_click_web_pc",
+            "proto": "http"
+        },
+        {
+            "id": 55001,
+            "name_cn": "二手车之家_询底价_点击_网页_手机",
+            "name_display": "二手车之家_询底价_点击_网页_手机",
+            "name_en": "che168_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 55200,
+            "name_cn": "淘车二手车_询底价_点击_网页_手机",
+            "name_display": "淘车二手车_询底价_点击_网页_手机",
+            "name_en": "taoche_xundijia_click_web_mobile",
+            "proto": "http"
+        },
+        {
+            "id": 55201,
+            "name_cn": "淘车二手车_询底价_点击_网页_电脑",
+            "name_display": "淘车二手车_询底价_点击_网页_电脑",
+            "name_en": "taoche_xundijia_click_web_pc",
+            "proto": "http"
+        }
+    ],
+    "application": [
+        {
+            "domain": "social",
+            "id": 0,
+            "name_apk": "com.tencent.mm",
+            "name_cn": "微信",
+            "name_en": "wechat",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 1,
+            "name_apk": "com.tencent.mobileqq",
+            "name_cn": "QQ",
+            "name_en": "qq",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 2,
+            "name_apk": "com.sina.weibo",
+            "name_cn": "微博",
+            "name_en": "weibo",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 3,
+            "name_apk": "com.immomo.momo",
+            "name_cn": "陌陌",
+            "name_en": "momo",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 4,
+            "name_apk": "com.baidu.tieba",
+            "name_cn": "百度贴吧",
+            "name_en": "baiducom",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 5,
+            "name_apk": "com.qzone",
+            "name_cn": "QQ空间",
+            "name_en": "qzone",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 6,
+            "name_apk": "com.zhihu.android",
+            "name_cn": "知乎",
+            "name_en": "zhihu",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 7,
+            "name_apk": "cn.tianya.light",
+            "name_cn": "天涯社区",
+            "name_en": "tianyacom",
+            "popular": true
+        },
+        {
+            "domain": "social",
+            "id": 8,
+            "name_apk": "com.mop.activity",
+            "name_cn": "猫扑",
+            "name_en": "mopcom",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 20,
+            "name_apk": "com.yiche.autoeasy",
+            "name_cn": "易车",
+            "name_en": "bitauto",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 21,
+            "name_apk": "com.yiche.price",
+            "name_cn": "汽车报价大全",
+            "name_en": "autoprice",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 22,
+            "name_apk": "com.cubic.autohome",
+            "name_cn": "汽车之家",
+            "name_en": "autohome",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 23,
+            "name_apk": "com.uxin.usedcar",
+            "name_cn": "优信二手车",
+            "name_en": "youxin",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 24,
+            "name_apk": "com.renrenche.carapp",
+            "name_cn": "人人车",
+            "name_en": "renrenche",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 25,
+            "name_apk": "com.xcar.activity",
+            "name_cn": "爱卡汽车",
+            "name_en": "xcar",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 26,
+            "name_apk": "cn.com.pcauto.android.browser",
+            "name_cn": "太平洋汽车网",
+            "name_en": "pcauto",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 27,
+            "name_apk": "com.sohu.auto.sohuauto",
+            "name_cn": "搜狐汽车",
+            "name_en": "sohuauto",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 28,
+            "name_apk": "cn.com.sina.auto.trial",
+            "name_cn": "新浪汽车",
+            "name_en": "sinaauto",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 29,
+            "name_apk": "com.autohome.usedcar",
+            "name_cn": "二手车之家",
+            "name_en": "che168",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 30,
+            "name_apk": "com.news18a.wangshangcheshi",
+            "name_cn": "网上车市",
+            "name_en": "cheshi",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 31,
+            "name_apk": "com.ganji.android.haoche_c",
+            "name_cn": "瓜子二手车",
+            "name_en": "guazi",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 32,
+            "name_apk": "com.ucar.app",
+            "name_cn": "淘车二手车",
+            "name_en": "taoche",
+            "popular": true
+        },
+        {
+            "domain": "motor",
+            "id": 33,
+            "name_apk": "com.chexun",
+            "name_cn": "车讯网",
+            "name_en": "chexun",
+            "popular": false
+        },
+        {
+            "domain": "motor",
+            "id": 34,
+            "name_apk": "com.cubic.choosecar",
+            "name_cn": "汽车报价",
+            "name_en": "choosecar",
+            "popular": true
+        },
+        {
+            "domain": "estate",
+            "id": 40,
+            "name_apk": "com.soufun.app",
+            "name_cn": "搜房网",
+            "name_en": "soufun",
+            "popular": true
+        },
+        {
+            "domain": "estate",
+            "id": 41,
+            "name_apk": "com.anjuke.android.app",
+            "name_cn": "安居客",
+            "name_en": "anjuke",
+            "popular": true
+        },
+        {
+            "domain": "estate",
+            "id": 42,
+            "name_apk": "com.homelink.android",
+            "name_cn": "链家网",
+            "name_en": "lianjia",
+            "popular": true
+        },
+        {
+            "domain": "estate",
+            "id": 43,
+            "name_apk": "com.wawj.app.t",
+            "name_cn": "我爱我家",
+            "name_en": "5i5j",
+            "popular": true
+        },
+        {
+            "domain": "estate",
+            "id": 44,
+            "name_apk": "com.mayi.android.shortrent",
+            "name_cn": "蚂蚁短租",
+            "name_en": "mayiduanzu",
+            "popular": false
+        },
+        {
+            "domain": "estate",
+            "id": 45,
+            "name_apk": "com.ziroom.ziroomcustomer",
+            "name_cn": "自如",
+            "name_en": "ziroom",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 60,
+            "name_apk": "cn.dxy.android.aspirin",
+            "name_cn": "丁香医生",
+            "name_en": "dxyisheng",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 61,
+            "name_apk": "com.pingan.papd",
+            "name_cn": "平安好医生",
+            "name_en": "pinganhaoyisheng",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 62,
+            "name_apk": "me.chunyu.ChunyuDoctor",
+            "name_cn": "春雨医生",
+            "name_en": "chunyuyisheng",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 63,
+            "name_apk": "com.jiaxun.acupoint",
+            "name_cn": "经络穴位图解",
+            "name_en": "jiudaifu",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 64,
+            "name_apk": "com.greenline.guahao",
+            "name_cn": "微医",
+            "name_en": "guahao",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 65,
+            "name_apk": "com.haodf.android",
+            "name_cn": "好大夫在线",
+            "name_en": "haodf",
+            "popular": true
+        },
+        {
+            "domain": "medical",
+            "id": 66,
+            "name_apk": "com.hk515.patient",
+            "name_cn": "就医宝预约挂号",
+            "name_en": "jiuyibao",
+            "popular": true
+        },
+        {
+            "domain": "maternal",
+            "id": 80,
+            "name_apk": "com.babytree.apps.pregnancy",
+            "name_cn": "宝宝树",
+            "name_en": "babytree",
+            "popular": true
+        },
+        {
+            "domain": "maternal",
+            "id": 81,
+            "name_apk": "com.husor.beibei",
+            "name_cn": "贝贝",
+            "name_en": "beibei",
+            "popular": true
+        },
+        {
+            "domain": "maternal",
+            "id": 82,
+            "name_apk": "com.dw.btime",
+            "name_cn": "亲宝宝",
+            "name_en": "qinbaobao",
+            "popular": true
+        },
+        {
+            "domain": "maternal",
+            "id": 83,
+            "name_apk": "com.lingan.yunqi",
+            "name_cn": "柚宝宝",
+            "name_en": "youbaobao",
+            "popular": true
+        },
+        {
+            "domain": "maternal",
+            "id": 84,
+            "name_apk": "com.yaya.mmbang",
+            "name_cn": "妈妈帮",
+            "name_en": "mmbang",
+            "popular": true
+        },
+        {
+            "domain": "maternal",
+            "id": 85,
+            "name_apk": "com.threegene.yeemiao",
+            "name_cn": "小豆疫苗助手",
+            "name_en": "xiaodouyimiao",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 100,
+            "name_apk": "com.baidu.homework",
+            "name_cn": "作业帮",
+            "name_en": "zuoyebang",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 101,
+            "name_apk": "com.fenbi.android.solar",
+            "name_cn": "猿搜题",
+            "name_en": "yuansouti",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 102,
+            "name_apk": "com.youdao.dict",
+            "name_cn": "有道词典",
+            "name_en": "youdao",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 103,
+            "name_apk": "com.v.study",
+            "name_cn": "互动作业",
+            "name_en": "hdzuoye",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 104,
+            "name_apk": "com.A17zuoye.mobile.homework",
+            "name_cn": "一起作业",
+            "name_en": "17zuoye",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 105,
+            "name_apk": "com.youdao.translator",
+            "name_cn": "有道翻译官",
+            "name_en": "youdaotranslator",
+            "popular": true
+        },
+        {
+            "domain": "education",
+            "id": 106,
+            "name_apk": "com.kingsoft",
+            "name_cn": "金山词霸",
+            "name_en": "kingdict",
+            "popular": true
+        },
+        {
+            "domain": "finance",
+            "id": 120,
+            "name_apk": "com.eg.android.AlipayGphone",
+            "name_cn": "支付宝",
+            "name_en": "alipay",
+            "popular": true
+        },
+        {
+            "domain": "finance",
+            "id": 121,
+            "name_apk": "com.xiaomi.jr",
+            "name_cn": "小米金融",
+            "name_en": "xiaomijinrong",
+            "popular": false
+        },
+        {
+            "domain": "finance",
+            "id": 122,
+            "name_apk": "com.jd.jrapp",
+            "name_cn": "京东金融",
+            "name_en": "jdfinance",
+            "popular": false
+        },
+        {
+            "domain": "finance",
+            "id": 123,
+            "name_apk": "com.supermarket",
+            "name_cn": "聚合信用",
+            "name_en": "juhexinyong",
+            "popular": false
+        },
+        {
+            "domain": "finance",
+            "id": 124,
+            "name_apk": "com.baidu.wallet",
+            "name_cn": "百度钱包",
+            "name_en": "baiduqianbao",
+            "popular": false
+        },
+        {
+            "domain": "finance",
+            "id": 125,
+            "name_apk": "com.suning.mobile.epa",
+            "name_cn": "苏宁金融",
+            "name_en": "suningjinrong",
+            "popular": false
+        },
+        {
+            "domain": "finance",
+            "id": 126,
+            "name_apk": "com.yirendai",
+            "name_cn": "宜人贷",
+            "name_en": "yirendai",
+            "popular": true
+        },
+        {
+            "domain": "finance",
+            "id": 127,
+            "name_apk": "com.rrh.jdb",
+            "name_cn": "借贷宝",
+            "name_en": "jiedaibao",
+            "popular": false
+        },
+        {
+            "domain": "finance",
+            "id": 128,
+            "name_apk": "com.rong360.app",
+            "name_cn": "融360",
+            "name_en": "rong360",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 140,
+            "name_apk": "ctrip.android.view",
+            "name_cn": "携程",
+            "name_en": "ctrip",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 141,
+            "name_apk": "com.Qunar",
+            "name_cn": "去哪儿",
+            "name_en": "qunar",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 142,
+            "name_apk": "com.MobileTicket",
+            "name_cn": "铁路12306",
+            "name_en": "12306",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 143,
+            "name_apk": "com.ygkj.chelaile.standard",
+            "name_cn": "车来了",
+            "name_en": "chelaile",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 144,
+            "name_apk": "com.taobao.trip",
+            "name_cn": "飞猪",
+            "name_en": "feizhu",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 145,
+            "name_apk": "com.tuniu.app.ui",
+            "name_cn": "途牛旅游",
+            "name_en": "tuniu",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 146,
+            "name_apk": "com.gtgj.view",
+            "name_cn": "高铁管家",
+            "name_en": "gaotieguanjia",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 147,
+            "name_apk": "com.flightmanager.view",
+            "name_cn": "航班管家",
+            "name_en": "hangbanguanjia",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 148,
+            "name_apk": "com.tongcheng.android",
+            "name_cn": "同程旅游",
+            "name_en": "tongcheng",
+            "popular": true
+        },
+        {
+            "domain": "tourism",
+            "id": 149,
+            "name_apk": "com.mygolbs.mybus",
+            "name_cn": "掌上公交",
+            "name_en": "mybus",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 160,
+            "name_apk": "com.apple.appstored",
+            "name_cn": "苹果应用商店",
+            "name_en": "appleappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 161,
+            "name_apk": "com.tencent.android.qqdownloader",
+            "name_cn": "腾讯应用宝",
+            "name_en": "tencentappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 162,
+            "name_apk": "com.baidu.appsearch",
+            "name_cn": "百度手机助手",
+            "name_en": "baiduappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 163,
+            "name_apk": "com.qihoo.appstore",
+            "name_cn": "360应用市场",
+            "name_en": "360appstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 164,
+            "name_apk": "com.oppo.market",
+            "name_cn": "OPPO软件商店",
+            "name_en": "oppoappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 165,
+            "name_apk": "com.bbk.appstore",
+            "name_cn": "VIVO应用商店",
+            "name_en": "vivoappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 166,
+            "name_apk": "com.xiaomi.market",
+            "name_cn": "小米应用商店",
+            "name_en": "xiaomiappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 167,
+            "name_apk": "com.huawei.appmarket",
+            "name_cn": "华为应用市场",
+            "name_en": "huaweiappstore",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 168,
+            "name_apk": "com.pp.assistant",
+            "name_cn": "PP助手",
+            "name_en": "ppassistant",
+            "popular": true
+        },
+        {
+            "domain": "appstore",
+            "id": 169,
+            "name_apk": "com.xiaomi.gamecenter",
+            "name_cn": "小米游戏中心",
+            "name_en": "xiaomigamecenter",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 180,
+            "name_apk": "com.panda.videoliveplatform",
+            "name_cn": "熊猫直播",
+            "name_en": "pandatv",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 181,
+            "name_apk": "com.duowan.kiwi",
+            "name_cn": "虎牙直播",
+            "name_en": "huyatv",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 182,
+            "name_apk": "com.huajiao",
+            "name_cn": "花椒直播",
+            "name_en": "huajiaotv",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 183,
+            "name_apk": "com.meelive.ingkee",
+            "name_cn": "映客",
+            "name_en": "inke",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 184,
+            "name_apk": "air.tv.douyu.android",
+            "name_cn": "斗鱼",
+            "name_en": "douyu",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 185,
+            "name_apk": "com.duowan.mobile",
+            "name_cn": "YY直播",
+            "name_en": "yylive",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 186,
+            "name_apk": "com.tencent.qgame",
+            "name_cn": "企鹅电竞",
+            "name_en": "qqesports",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 187,
+            "name_apk": "com.kascend.chushou",
+            "name_cn": "触手TV",
+            "name_en": "chushoutv",
+            "popular": true
+        },
+        {
+            "domain": "live",
+            "id": 188,
+            "name_apk": "com.tencent.qqsports",
+            "name_cn": "腾讯体育",
+            "name_en": "qqsports",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 200,
+            "name_apk": "com.baidu.BaiduMap",
+            "name_cn": "百度地图",
+            "name_en": "baidumap",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 201,
+            "name_apk": "com.autonavi.minimap",
+            "name_cn": "高德地图",
+            "name_en": "amap",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 202,
+            "name_apk": "com.sdu.didi.psnger",
+            "name_cn": "滴滴",
+            "name_en": "didi",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 203,
+            "name_apk": "so.ofo.labofo",
+            "name_cn": "ofo共享单车",
+            "name_en": "ofo",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 204,
+            "name_apk": "com.mobike.mobikeapp",
+            "name_cn": "摩拜单车",
+            "name_en": "mobike",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 205,
+            "name_apk": "com.tencent.map",
+            "name_cn": "腾讯地图",
+            "name_en": "tencentmap",
+            "popular": true
+        },
+        {
+            "domain": "transport",
+            "id": 206,
+            "name_apk": "com.google.android.apps.maps",
+            "name_cn": "谷歌地图",
+            "name_en": "googlemap",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 220,
+            "name_apk": "com.tencent.news",
+            "name_cn": "腾讯新闻",
+            "name_en": "tencentnews",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 221,
+            "name_apk": "com.ss.android.article.news",
+            "name_cn": "今日头条",
+            "name_en": "toutiao",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 222,
+            "name_apk": "com.netease.newsreader.activity",
+            "name_cn": "网易新闻",
+            "name_en": "neteasenews",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 223,
+            "name_apk": "com.sohu.newsclient",
+            "name_cn": "搜狐新闻",
+            "name_en": "sohunews",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 224,
+            "name_apk": "com.tencent.reading",
+            "name_cn": "天天快报",
+            "name_en": "kuaibao",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 225,
+            "name_apk": "com.sina.news",
+            "name_cn": "新浪新闻",
+            "name_en": "sinanews",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 226,
+            "name_apk": "com.hipu.yidian",
+            "name_cn": "一点资讯",
+            "name_en": "yidianzixun",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 227,
+            "name_apk": "com.ifeng.news2",
+            "name_cn": "凤凰新闻",
+            "name_en": "ifengnews",
+            "popular": true
+        },
+        {
+            "domain": "news",
+            "id": 228,
+            "name_apk": "com.jifen.qukan",
+            "name_cn": "趣头条",
+            "name_en": "qutoutiao",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 240,
+            "name_apk": "com.tencent.qqmusic",
+            "name_cn": "QQ音乐",
+            "name_en": "qqmusic",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 241,
+            "name_apk": "com.netease.cloudmusic",
+            "name_cn": "网易音乐",
+            "name_en": "neteasemusic",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 242,
+            "name_apk": "com.kugou.android",
+            "name_cn": "酷狗音乐",
+            "name_en": "kugoumusic",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 243,
+            "name_apk": "com.changba",
+            "name_cn": "唱吧",
+            "name_en": "changba",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 244,
+            "name_apk": "com.tencent.karaoke",
+            "name_cn": "全民K歌",
+            "name_en": "quanminkge",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 245,
+            "name_apk": "cn.kuwo.player",
+            "name_cn": "酷我音乐",
+            "name_en": "kuwomusic",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 246,
+            "name_apk": "com.ximalaya.ting.android",
+            "name_cn": "喜马拉雅",
+            "name_en": "ximalaya",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 247,
+            "name_apk": "com.yibasan.lizhifm",
+            "name_cn": "荔枝FM",
+            "name_en": "lizhifm",
+            "popular": true
+        },
+        {
+            "domain": "music",
+            "id": 248,
+            "name_apk": "fm.qingting.qtradio",
+            "name_cn": "蜻蜓FM",
+            "name_en": "qingtingfm",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 260,
+            "name_apk": "com.qiyi.video",
+            "name_cn": "爱奇艺",
+            "name_en": "iqiyi",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 261,
+            "name_apk": "com.youku.phone",
+            "name_cn": "优酷",
+            "name_en": "youku",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 262,
+            "name_apk": "com.tencent.qqlive",
+            "name_cn": "QQ视频",
+            "name_en": "qqlive",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 263,
+            "name_apk": "com.hunantv.imgo.activity",
+            "name_cn": "芒果TV",
+            "name_en": "mgtv",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 264,
+            "name_apk": "com.letv.android.client",
+            "name_cn": "乐视TV",
+            "name_en": "letv",
+            "popular": false
+        },
+        {
+            "domain": "video",
+            "id": 265,
+            "name_apk": "com.miui.video",
+            "name_cn": "小米视频",
+            "name_en": "xiaomivideo",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 266,
+            "name_apk": "com.pplive.androidphone",
+            "name_cn": "聚力视频",
+            "name_en": "pplive",
+            "popular": true
+        },
+        {
+            "domain": "video",
+            "id": 267,
+            "name_apk": "com.tudou.android",
+            "name_cn": "土豆视频",
+            "name_en": "tudou",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 280,
+            "name_apk": "com.smile.gifmaker",
+            "name_cn": "快手",
+            "name_en": "kuaishou",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 281,
+            "name_apk": "com.ss.android.ugc.aweme",
+            "name_cn": "抖音短视频",
+            "name_en": "douyin",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 282,
+            "name_apk": "com.meitu.meipaimv",
+            "name_cn": "美拍",
+            "name_en": "meipai",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 283,
+            "name_apk": "com.yixia.videoeditor",
+            "name_cn": "秒拍",
+            "name_en": "miaopai",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 284,
+            "name_apk": "com.ss.android.article.video",
+            "name_cn": "西瓜视频",
+            "name_en": "xigua",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 285,
+            "name_apk": "com.ss.android.ugc.live",
+            "name_cn": "火山小视频",
+            "name_en": "huoshan",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 286,
+            "name_apk": "com.lightsky.video",
+            "name_cn": "快视频",
+            "name_en": "360kan",
+            "popular": true
+        },
+        {
+            "domain": "shortvideo",
+            "id": 287,
+            "name_apk": "com.mobile.videonews.li.video",
+            "name_cn": "梨视频",
+            "name_en": "pearvideo",
+            "popular": false
+        },
+        {
+            "domain": "utility",
+            "id": 300,
+            "name_apk": "com.snda.wifilocating",
+            "name_cn": "Wifi万能钥匙",
+            "name_en": "51y5",
+            "popular": true
+        },
+        {
+            "domain": "utility",
+            "id": 301,
+            "name_apk": "com.UCMobile",
+            "name_cn": "UC浏览器",
+            "name_en": "ucbrowser",
+            "popular": true
+        },
+        {
+            "domain": "utility",
+            "id": 302,
+            "name_apk": "com.tianyancha.skyeye",
+            "name_cn": "天眼查",
+            "name_en": "tianyancha",
+            "popular": false
+        },
+        {
+            "domain": "utility",
+            "id": 303,
+            "name_apk": "com.jusfoun.jusfouninquire",
+            "name_cn": "企信宝",
+            "name_en": "qixinbao",
+            "popular": false
+        },
+        {
+            "domain": "utility",
+            "id": 304,
+            "name_apk": "com.jrzheng.supervpnfree",
+            "name_cn": "超级VPN",
+            "name_en": "supervpn",
+            "popular": false
+        },
+        {
+            "domain": "utility",
+            "id": 305,
+            "name_apk": "com.sohu.inputmethod.sogou",
+            "name_cn": "搜狗输入法",
+            "name_en": "sogouinput",
+            "popular": true
+        },
+        {
+            "domain": "utility",
+            "id": 306,
+            "name_apk": "com.tencent.mtt",
+            "name_cn": "QQ浏览器",
+            "name_en": "qqbrowser",
+            "popular": true
+        },
+        {
+            "domain": "utility",
+            "id": 307,
+            "name_apk": "com.iflytek.inputmethod",
+            "name_cn": "讯飞输入法",
+            "name_en": "iflyinput",
+            "popular": false
+        },
+        {
+            "domain": "utility",
+            "id": 308,
+            "name_apk": "com.baidu.searchbox",
+            "name_cn": "手机百度",
+            "name_en": "baidu",
+            "popular": true
+        },
+        {
+            "domain": "utility",
+            "id": 309,
+            "name_apk": "com.tencent.qqpimsecure",
+            "name_cn": "腾讯手机管家",
+            "name_en": "qqpimsecure",
+            "popular": true
+        },
+        {
+            "domain": "utility",
+            "id": 310,
+            "name_apk": "com.qihoo360.mobilesafe",
+            "name_cn": "360安全卫士",
+            "name_en": "360mobilesafe",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 320,
+            "name_apk": "com.lingan.seeyou",
+            "name_cn": "美柚",
+            "name_en": "meetyou",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 321,
+            "name_apk": "com.codoon.gps",
+            "name_cn": "咕咚",
+            "name_en": "codoon",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 322,
+            "name_apk": "com.yuedong.sport",
+            "name_cn": "悦动圈",
+            "name_en": "yuedong",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 323,
+            "name_apk": "com.bokecc.dance",
+            "name_cn": "糖豆网",
+            "name_en": "tangdou",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 324,
+            "name_apk": "com.gotokeep.keep",
+            "name_cn": "Keep",
+            "name_en": "keep",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 325,
+            "name_apk": "com.yoloho.dayima",
+            "name_cn": "大姨妈",
+            "name_en": "dayima",
+            "popular": true
+        },
+        {
+            "domain": "health",
+            "id": 326,
+            "name_apk": "com.xiaomi.hm.health",
+            "name_cn": "小米运动",
+            "name_en": "xiaomihealth",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 340,
+            "name_apk": "com.mt.mtxx.mtxx",
+            "name_cn": "美图秀秀",
+            "name_en": "meitu",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 341,
+            "name_apk": "com.meitu.meiyancamera",
+            "name_cn": "美颜相机",
+            "name_en": "beautycam",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 342,
+            "name_apk": "com.tencent.ttpic",
+            "name_cn": "天天P图",
+            "name_en": "ttpic",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 343,
+            "name_apk": "com.lemon.faceu",
+            "name_cn": "Faceu激萌",
+            "name_en": "faceu",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 344,
+            "name_apk": "com.campmobile.snowcamera",
+            "name_cn": "B612咔叽",
+            "name_en": "b612kaji",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 345,
+            "name_apk": "com.benqu.wuta",
+            "name_cn": "无他相机",
+            "name_en": "wutacam",
+            "popular": true
+        },
+        {
+            "domain": "graphics",
+            "id": 346,
+            "name_apk": "com.tencent.gallerymanager",
+            "name_cn": "相册管家",
+            "name_en": "qqgallerymanager",
+            "popular": true
+        },
+        {
+            "domain": "catering",
+            "id": 360,
+            "name_apk": "com.dianping.v1",
+            "name_cn": "大众点评",
+            "name_en": "dianping",
+            "popular": true
+        },
+        {
+            "domain": "catering",
+            "id": 361,
+            "name_apk": "com.sankuai.meituan.takeoutnew",
+            "name_cn": "美团外卖",
+            "name_en": "meituantakeout",
+            "popular": true
+        },
+        {
+            "domain": "catering",
+            "id": 362,
+            "name_apk": "com.baidu.lbs.waimai",
+            "name_cn": "百度外卖",
+            "name_en": "baidutakeout",
+            "popular": true
+        },
+        {
+            "domain": "catering",
+            "id": 363,
+            "name_apk": "me.ele",
+            "name_cn": "饿了么",
+            "name_en": "eleme",
+            "popular": true
+        },
+        {
+            "domain": "catering",
+            "id": 364,
+            "name_apk": "com.taobao.mobile.dipei",
+            "name_cn": "口碑",
+            "name_en": "koubei",
+            "popular": true
+        },
+        {
+            "domain": "recruitment",
+            "id": 380,
+            "name_apk": "com.zhaopin.social",
+            "name_cn": "智联招聘",
+            "name_en": "zhaopin",
+            "popular": true
+        },
+        {
+            "domain": "recruitment",
+            "id": 381,
+            "name_apk": "com.job.android",
+            "name_cn": "前程无忧",
+            "name_en": "51job",
+            "popular": true
+        },
+        {
+            "domain": "recruitment",
+            "id": 382,
+            "name_apk": "com.hpbr.bosszhipin",
+            "name_cn": "Boss直聘",
+            "name_en": "zhipin",
+            "popular": true
+        },
+        {
+            "domain": "recruitment",
+            "id": 383,
+            "name_apk": "com.lietou.mishu",
+            "name_cn": "猎聘同道",
+            "name_en": "lietou",
+            "popular": true
+        },
+        {
+            "domain": "recruitment",
+            "id": 384,
+            "name_apk": "com.wuba.bangjob",
+            "name_cn": "招财猫直聘",
+            "name_en": "zhaoren",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 400,
+            "name_apk": "com.quanleimu.activity",
+            "name_cn": "百姓网",
+            "name_en": "baixing",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 401,
+            "name_apk": "com.wuba",
+            "name_cn": "58同城",
+            "name_en": "58tongcheng",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 402,
+            "name_apk": "com.ganji.android",
+            "name_cn": "赶集网",
+            "name_en": "ganji",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 403,
+            "name_apk": "com.wm.dmall",
+            "name_cn": "多点",
+            "name_en": "dmall",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 404,
+            "name_apk": "com.jingdong.pdj",
+            "name_cn": "京东到家",
+            "name_en": "jddj",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 405,
+            "name_apk": "com.gov.cn",
+            "name_cn": "国务院",
+            "name_en": "gov",
+            "popular": true
+        },
+        {
+            "domain": "information",
+            "id": 406,
+            "name_apk": "me.suncloud.marrymemo",
+            "name_cn": "婚礼纪",
+            "name_en": "hunliji",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 420,
+            "name_apk": "com.jingdong.app.mall",
+            "name_cn": "京东",
+            "name_en": "jd",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 421,
+            "name_apk": "com.suning.mobile.ebuy",
+            "name_cn": "苏宁",
+            "name_en": "suning",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 422,
+            "name_apk": "com.taobao.taobao",
+            "name_cn": "淘宝",
+            "name_en": "taobao",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 423,
+            "name_apk": "com.sankuai.meituan",
+            "name_cn": "美团",
+            "name_en": "meituan",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 424,
+            "name_apk": "com.xunmeng.pinduoduo",
+            "name_cn": "拼多多",
+            "name_en": "pinduoduo",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 425,
+            "name_apk": "com.tmall.wireless",
+            "name_cn": "天猫",
+            "name_en": "tmall",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 426,
+            "name_apk": "com.achievo.vipshop",
+            "name_cn": "唯品会",
+            "name_en": "vipshop",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 427,
+            "name_apk": "com.mogujie",
+            "name_cn": "蘑菇街",
+            "name_en": "mogujie",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 428,
+            "name_apk": "com.taobao.idlefish",
+            "name_cn": "闲鱼",
+            "name_en": "xianyu",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 429,
+            "name_apk": "com.gewara",
+            "name_cn": "格瓦拉",
+            "name_en": "gewara",
+            "popular": false
+        },
+        {
+            "domain": "ecommerce",
+            "id": 430,
+            "name_apk": "com.taobao.movie.android",
+            "name_cn": "淘票票",
+            "name_en": "taopiaopiao",
+            "popular": false
+        },
+        {
+            "domain": "ecommerce",
+            "id": 431,
+            "name_apk": "com.tencent.movieticket",
+            "name_cn": "微票",
+            "name_en": "weipiao",
+            "popular": false
+        },
+        {
+            "domain": "ecommerce",
+            "id": 432,
+            "name_apk": "com.sankuai.movie",
+            "name_cn": "猫眼",
+            "name_en": "maoyan",
+            "popular": false
+        },
+        {
+            "domain": "ecommerce",
+            "id": 433,
+            "name_apk": "com.wuba.zhuanzhuan",
+            "name_cn": "转转",
+            "name_en": "zhuanzhuan",
+            "popular": true
+        },
+        {
+            "domain": "ecommerce",
+            "id": 434,
+            "name_apk": "com.xingin.xhs",
+            "name_cn": "小红书",
+            "name_en": "xiaohongshu",
+            "popular": true
+        },
+        {
+            "domain": "online",
+            "id": 440,
+            "name_apk": "tv.danmaku.bili",
+            "name_cn": "哔哩哔哩",
+            "name_en": "bilibili",
+            "popular": true
+        },
+        {
+            "domain": "online",
+            "id": 441,
+            "name_apk": "tv.acfundanmaku.video",
+            "name_cn": "AcFun",
+            "name_en": "acfun",
+            "popular": true
+        },
+        {
+            "domain": "online",
+            "id": 442,
+            "name_apk": "com.cmvideo.migumovie",
+            "name_cn": "咪咕影院",
+            "name_en": "miguvideo",
+            "popular": true
+        },
+        {
+            "domain": "online",
+            "id": 443,
+            "name_apk": "com.m1905.mobilefree",
+            "name_cn": "1905电影网",
+            "name_en": "1905moive",
+            "popular": true
+        },
+        {
+            "domain": "online",
+            "id": 444,
+            "name_apk": "com.erdo.android.FJDXCartoon",
+            "name_cn": "爱动漫",
+            "name_en": "icartoon",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 460,
+            "name_apk": "com.chaozh.iReaderFree",
+            "name_cn": "掌阅iReader",
+            "name_en": "ireader",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 462,
+            "name_apk": "com.qq.reader",
+            "name_cn": "QQ阅读",
+            "name_en": "qqreader",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 463,
+            "name_apk": "com.kuaikan.comic",
+            "name_cn": "快看漫画",
+            "name_en": "kuaikanmanhua",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 464,
+            "name_apk": "com.shuqi.controller",
+            "name_cn": "书旗小说",
+            "name_en": "shuqireader",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 465,
+            "name_apk": "com.baidu.yuedu",
+            "name_cn": "百度阅读",
+            "name_en": "baidureader",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 466,
+            "name_apk": "com.qq.ac.android",
+            "name_cn": "腾讯动漫",
+            "name_en": "tencentcomic",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 467,
+            "name_apk": "com.wbxm.icartoon",
+            "name_cn": "看漫画",
+            "name_en": "kanmanhua",
+            "popular": true
+        },
+        {
+            "domain": "reader",
+            "id": 468,
+            "name_apk": "com.qidian.QDReader",
+            "name_cn": "起点读书",
+            "name_en": "qidian",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 480,
+            "name_apk": "com.cainiao.wireless",
+            "name_cn": "菜鸟裹裹",
+            "name_en": "guoguo",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 481,
+            "name_apk": "com.xiwei.logistics",
+            "name_cn": "运满满",
+            "name_en": "ymm56",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 482,
+            "name_apk": "com.Kingdee.Express",
+            "name_cn": "快递100",
+            "name_en": "kuaidi100",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 483,
+            "name_apk": "com.wlqq",
+            "name_cn": "货车帮",
+            "name_en": "huochebang",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 484,
+            "name_apk": "cn.ishansong",
+            "name_cn": "闪送",
+            "name_en": "ishansong",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 485,
+            "name_apk": "com.wuba.huoyun",
+            "name_cn": "58速运",
+            "name_en": "58suyun",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 486,
+            "name_apk": "com.sf.activity",
+            "name_cn": "顺丰速运",
+            "name_en": "sfexpress",
+            "popular": true
+        },
+        {
+            "domain": "express",
+            "id": 487,
+            "name_apk": "com.dada.mobile.shop.android",
+            "name_cn": "达达",
+            "name_en": "dada",
+            "popular": true
+        },
+        {
+            "domain": "hardware",
+            "id": 500,
+            "name_apk": "com.wukongtv.wkremote.client",
+            "name_cn": "悟空遥控器",
+            "name_en": "wukongtv",
+            "popular": true
+        },
+        {
+            "domain": "hardware",
+            "id": 501,
+            "name_apk": "com.tiqiaa.icontrol",
+            "name_cn": "遥控精灵",
+            "name_en": "tiqiaa",
+            "popular": true
+        },
+        {
+            "domain": "hardware",
+            "id": 502,
+            "name_apk": "com.haieruhome.www.uHomeHaierGoodAir",
+            "name_cn": "海尔好空气",
+            "name_en": "haierairkit",
+            "popular": true
+        },
+        {
+            "domain": "hardware",
+            "id": 503,
+            "name_apk": "com.hiwifi",
+            "name_cn": "极路由",
+            "name_en": "hiwifi",
+            "popular": true
+        },
+        {
+            "domain": "hardware",
+            "id": 504,
+            "name_apk": "com.huawei.bone",
+            "name_cn": "华为穿戴",
+            "name_en": "huaweibone",
+            "popular": true
+        },
+        {
+            "domain": "decoration",
+            "id": 520,
+            "name_apk": "com.qijia.o2o",
+            "name_cn": "齐家",
+            "name_en": "jia",
+            "popular": true
+        },
+        {
+            "domain": "decoration",
+            "id": 521,
+            "name_apk": "com.to8to.housekeeper",
+            "name_cn": "土巴兔装修",
+            "name_en": "to8to",
+            "popular": true
+        },
+        {
+            "domain": "decoration",
+            "id": 522,
+            "name_apk": "com.lingduo.acorn",
+            "name_cn": "窝牛装修",
+            "name_en": "lingduohome",
+            "popular": true
+        },
+        {
+            "domain": "decoration",
+            "id": 523,
+            "name_apk": "com.suryani.jiagallery",
+            "name_cn": "最美装修",
+            "name_en": "zuimeizhuangxiu",
+            "popular": true
+        },
+        {
+            "domain": "career",
+            "id": 540,
+            "name_apk": "com.alibaba.android.rimet",
+            "name_cn": "钉钉",
+            "name_en": "dingtalk",
+            "popular": true
+        },
+        {
+            "domain": "career",
+            "id": 541,
+            "name_apk": "com.tencent.wework",
+            "name_cn": "企业微信",
+            "name_en": "wework",
+            "popular": true
+        },
+        {
+            "domain": "career",
+            "id": 542,
+            "name_apk": "com.taou.maimai",
+            "name_cn": "脉脉",
+            "name_en": "maimai",
+            "popular": true
+        },
+        {
+            "domain": "career",
+            "id": 543,
+            "name_apk": "com.linkedin.android",
+            "name_cn": "领英",
+            "name_en": "linkedin",
+            "popular": true
+        },
+        {
+            "domain": "game",
+            "id": 560,
+            "name_apk": "com.tencent.tmgp.sgame",
+            "name_cn": "王者荣耀",
+            "name_en": "wangzherongyao",
+            "popular": true
+        },
+        {
+            "domain": "game",
+            "id": 561,
+            "name_apk": "com.happyelements.AndroidAnimal.qq",
+            "name_cn": "开心消消乐",
+            "name_en": "kaixinxiaoxiaole",
+            "popular": true
+        },
+        {
+            "domain": "game",
+            "id": 562,
+            "name_apk": "com.qqgame.hlddz",
+            "name_cn": "欢乐斗地主",
+            "name_en": "huanledoudizhu",
+            "popular": true
+        },
+        {
+            "domain": "game",
+            "id": 563,
+            "name_apk": "com.netease.hyxd",
+            "name_cn": "荒野行动",
+            "name_en": "huangyexingdong",
+            "popular": true
+        },
+        {
+            "domain": "game",
+            "id": 564,
+            "name_apk": "com.tencent.tmgp.cf",
+            "name_cn": "穿越火线-枪战王者",
+            "name_en": "cf",
+            "popular": true
+        },
+        {
+            "domain": "game",
+            "id": 565,
+            "name_apk": "com.minitech.miniworld",
+            "name_cn": "迷你世界",
+            "name_en": "miniworld",
+            "popular": true
+        }
+    ],
+    "domain": [
+        {
+            "id": 0,
+            "name_cn": "社交",
+            "name_en": "social"
+        },
+        {
+            "id": 1,
+            "name_cn": "汽车",
+            "name_en": "motor"
+        },
+        {
+            "id": 2,
+            "name_cn": "房产",
+            "name_en": "estate"
+        },
+        {
+            "id": 3,
+            "name_cn": "医疗",
+            "name_en": "medical"
+        },
+        {
+            "id": 4,
+            "name_cn": "母婴",
+            "name_en": "maternal"
+        },
+        {
+            "id": 5,
+            "name_cn": "教育",
+            "name_en": "education"
+        },
+        {
+            "id": 6,
+            "name_cn": "金融",
+            "name_en": "finance"
+        },
+        {
+            "id": 7,
+            "name_cn": "旅游",
+            "name_en": "tourism"
+        },
+        {
+            "id": 8,
+            "name_cn": "下载",
+            "name_en": "appstore"
+        },
+        {
+            "id": 9,
+            "name_cn": "出行",
+            "name_en": "transport"
+        },
+        {
+            "id": 10,
+            "name_cn": "职场",
+            "name_en": "career"
+        },
+        {
+            "id": 11,
+            "name_cn": "新闻",
+            "name_en": "news"
+        },
+        {
+            "id": 12,
+            "name_cn": "音乐",
+            "name_en": "music"
+        },
+        {
+            "id": 13,
+            "name_cn": "视频",
+            "name_en": "video"
+        },
+        {
+            "id": 14,
+            "name_cn": "直播",
+            "name_en": "live"
+        },
+        {
+            "id": 15,
+            "name_cn": "工具",
+            "name_en": "utility"
+        },
+        {
+            "id": 16,
+            "name_cn": "健康",
+            "name_en": "health"
+        },
+        {
+            "id": 17,
+            "name_cn": "图像",
+            "name_en": "graphics"
+        },
+        {
+            "id": 18,
+            "name_cn": "餐饮",
+            "name_en": "catering"
+        },
+        {
+            "id": 19,
+            "name_cn": "招聘",
+            "name_en": "recruitment"
+        },
+        {
+            "id": 20,
+            "name_cn": "综合",
+            "name_en": "information"
+        },
+        {
+            "id": 21,
+            "name_cn": "电商",
+            "name_en": "ecommerce"
+        },
+        {
+            "id": 22,
+            "name_cn": "装修",
+            "name_en": "decoration"
+        },
+        {
+            "id": 23,
+            "name_cn": "快递",
+            "name_en": "express"
+        },
+        {
+            "id": 24,
+            "name_cn": "阅读",
+            "name_en": "reader"
+        },
+        {
+            "id": 25,
+            "name_cn": "在线",
+            "name_en": "online"
+        },
+        {
+            "id": 26,
+            "name_cn": "短视频",
+            "name_en": "shortvideo"
+        },
+        {
+            "id": 27,
+            "name_cn": "硬件",
+            "name_en": "hardware"
+        },
+        {
+            "id": 28,
+            "name_cn": "游戏",
+            "name_en": "game"
+        }
+    ],
+    "service": [
+	
+        {
+            "id": 0,
+            "name_cn": "腾讯_基础_服务",
+            "name_en": "tencent_basic_service"
+        },
+        {
+            "id": 1,
+            "name_cn": "腾讯_手机_服务",
+            "name_en": "tencent_mobile_service"
+        },
+        {
+            "id": 2,
+            "name_cn": "腾讯_云_服务",
+            "name_en": "tencent_cloud_service"
+        },
+        {
+            "id": 3,
+            "name_cn": "腾讯_图片_服务",
+            "name_en": "tencent_image_service"
+        },
+        {
+            "id": 4,
+            "name_cn": "腾讯_视频_服务",
+            "name_en": "tencent_video_service"
+        },
+        {
+            "id": 20,
+            "name_cn": "阿里巴巴_基础_服务",
+            "name_en": "alibaba_basic_service"
+        },
+        {
+            "id": 21,
+            "name_cn": "阿里巴巴_API接口_服务",
+            "name_en": "alibaba_api_service"
+        },
+        {
+            "id": 22,
+            "name_cn": "阿里巴巴_云_服务",
+            "name_en": "alibaba_cloud_service"
+        },
+        {
+            "id": 23,
+            "name_cn": "阿里巴巴_下载_服务",
+            "name_en": "alibaba_download_service"
+        },
+        {
+            "id": 24,
+            "name_cn": "阿里巴巴_图片_服务",
+            "name_en": "alibaba_image_service"
+        },
+        {
+            "id": 25,
+            "name_cn": "阿里巴巴_视频_服务",
+            "name_en": "alibaba_video_service"
+        },
+        {
+            "id": 40,
+            "name_cn": "百度_基础_服务",
+            "name_en": "baidu_basic_service"
+        },
+        {
+            "id": 41,
+            "name_cn": "百度_图片_服务",
+            "name_en": "baidu_image_service"
+        },
+        {
+            "id": 60,
+            "name_cn": "奇虎360_基础_服务",
+            "name_en": "qihoo360_basic_service"
+        },
+        {
+            "id": 61,
+            "name_cn": "奇虎360_API接口_服务",
+            "name_en": "qihoo360_api_service"
+        },
+        {
+            "id": 62,
+            "name_cn": "奇虎360_视频_服务",
+            "name_en": "qihoo360_video_service"
+        },
+        {
+            "id": 63,
+            "name_cn": "奇虎360_图片_服务",
+            "name_en": "qihoo360_image_service"
+        },
+        {
+            "id": 80,
+            "name_cn": "搜狐_基础_服务",
+            "name_en": "sohu_basic_service"
+        },
+        {
+            "id": 81,
+            "name_cn": "搜狐_API接口_服务",
+            "name_en": "sohu_api_service"
+        },
+        {
+            "id": 82,
+            "name_cn": "搜狐_云_服务",
+            "name_en": "sohu_cloud_service"
+        },
+        {
+            "id": 83,
+            "name_cn": "搜狐_广告_服务",
+            "name_en": "sohu_ad_service"
+        },
+        {
+            "id": 84,
+            "name_cn": "搜狐_图片_服务",
+            "name_en": "sohu_image_service"
+        },
+        {
+            "id": 100,
+            "name_cn": "网易_基础_服务",
+            "name_en": "netease_basic_service"
+        },
+        {
+            "id": 101,
+            "name_cn": "网易_API接口_服务",
+            "name_en": "netease_api_service"
+        },
+        {
+            "id": 120,
+            "name_cn": "新浪_基础_服务",
+            "name_en": "sina_basic_service"
+        },
+        {
+            "id": 121,
+            "name_cn": "新浪_图片_服务",
+            "name_en": "sina_image_service"
+        },
+        {
+            "id": 122,
+            "name_cn": "新浪_API接口_服务",
+            "name_en": "sina_api_service"
+        },
+        {
+            "id": 140,
+            "name_cn": "京东_基础_服务",
+            "name_en": "jingdong_basic_service"
+        },
+        {
+            "id": 160,
+            "name_cn": "小米_基础_服务",
+            "name_en": "xiaomi_basic_service"
+        },
+        {
+            "id": 161,
+            "name_cn": "小米_API接口_服务",
+            "name_en": "xiaomi_api_service"
+        },
+        {
+            "id": 162,
+            "name_cn": "小米_云_服务",
+            "name_en": "xiaomi_cloud_service"
+        },
+        {
+            "id": 163,
+            "name_cn": "小米_广告_服务",
+            "name_en": "xiaomi_ad_service"
+        },
+        {
+            "id": 180,
+            "name_cn": "58同城_基础_服务",
+            "name_en": "58tongcheng_basic_service"
+        },
+        {
+            "id": 181,
+            "name_cn": "58同城_云_服务",
+            "name_en": "58tongcheng_cloud_service"
+        },
+        {
+            "id": 182,
+            "name_cn": "58同城_图片_服务",
+            "name_en": "58tongcheng_image_service"
+        },
+        {
+            "id": 200,
+            "name_cn": "有道_基础_服务",
+            "name_en": "youdao_basic_service"
+        },
+        {
+            "id": 220,
+            "name_cn": "搜狗_基础_服务",
+            "name_en": "sogou_basic_service"
+        },
+        {
+            "id": 221,
+            "name_cn": "搜狗_云_服务",
+            "name_en": "sogou_cloud_service"
+        },
+        {
+            "id": 222,
+            "name_cn": "搜狗_图片_服务",
+            "name_en": "sogou_image_service"
+        },
+        {
+            "id": 240,
+            "name_cn": "美柚_基础_服务",
+            "name_en": "meiyou_basic_service"
+        },
+        {
+            "id": 241,
+            "name_cn": "美柚_API接口_服务",
+            "name_en": "meiyou_api_service"
+        },
+        {
+            "id": 242,
+            "name_cn": "美柚_广告_服务",
+            "name_en": "meiyou_ad_service"
+        },
+        {
+            "id": 260,
+            "name_cn": "乐视_云_服务",
+            "name_en": "letv_cloud_service"
+        },
+        {
+            "id": 280,
+            "name_cn": "华为_云_服务",
+            "name_en": "huawei_cloud_service"
+        },
+        {
+            "id": 300,
+            "name_cn": "PPTV_云_服务",
+            "name_en": "pptv_cloud_service"
+        },
+        {
+            "id": 320,
+            "name_cn": "美图_基础_服务",
+            "name_en": "meitu_basic_service"
+        },
+        {
+            "id": 340,
+            "name_cn": "今日头条_基础_服务",
+            "name_en": "toutiao_basic_service"
+        },
+        {
+            "id": 360,
+            "name_cn": "七牛_API接口_服务",
+            "name_en": "qiniu_api_service"
+        },
+        {
+            "id": 361,
+            "name_cn": "七牛_云_服务",
+            "name_en": "qiniu_cloud_service"
+        },
+        {
+            "id": 380,
+            "name_cn": "友盟_云_服务",
+            "name_en": "umeng_cloud_service"
+        },
+        {
+            "id": 400,
+            "name_cn": "海度_云_服务",
+            "name_en": "hiido_cloud_service"
+        },
+        {
+            "id": 420,
+            "name_cn": "Mob_云_服务",
+            "name_en": "mob_cloud_service"
+        },
+        {
+            "id": 440,
+            "name_cn": "环信_云_服务",
+            "name_en": "easemob_cloud_service"
+        },
+        {
+            "id": 460,
+            "name_cn": "个推_云_服务",
+            "name_en": "getui_cloud_service"
+        },
+        {
+            "id": 480,
+            "name_cn": "个信_云_服务",
+            "name_en": "gexin_cloud_service"
+        },
+        {
+            "id": 500,
+            "name_cn": "金山_云_服务",
+            "name_en": "gexin_cloud_service"
+        },
+        {
+            "id": 520,
+            "name_cn": "掌阅_基础_服务",
+            "name_en": "gexin_basic_service"
+        },
+        {
+            "id": 540,
+            "name_cn": "腾云天下_云_服务",
+            "name_en": "talkdata_cloud_service"
+        },
+        {
+            "id": 560,
+            "name_cn": "听云_云_服务",
+            "name_en": "tingyun_cloud_service"
+        },
+        {
+            "id": 580,
+            "name_cn": "米折_基础_服务",
+            "name_en": "mizhe_basic_service"
+        }
+    ]
+	"giturl": “172.16.0.11”
+	"commitid": "latest"
+	
+	}
