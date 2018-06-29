@@ -73,6 +73,7 @@
                         {% if key == i %}
                             {% for k in value%}
                                 b.push({ id:m*1000+n, pId:m, name:"{{k}}" })
+                                // b.push({ id:0, pId:m, name:"{{k}}" })
                                 n+=1
                             {% endfor %}
                         {% endif %}
@@ -110,10 +111,9 @@
 		var submit_2 = document.getElementById("submit_2");
 
 		function filter(node) {
-                return (node.id == 0 && node.checked
+                return (node.id >= 1001000 && node.checked
                 );
             }
-
 
 
 
@@ -121,6 +121,8 @@
 
             var treeObj=$.fn.zTree.getZTreeObj("treeDemo");
             var nodes=treeObj.getNodesByFilter(filter);
+            console.log(treeObj);
+            console.log(nodes);
             for(var i=0;i<nodes.length;i++){
                 v="";
 				v+=nodes[i].name + ",";
@@ -136,7 +138,10 @@
                        if (msg) {//根据返回值进行跳转
                         window.location.href = '/web/finish';
                         }
-            	}
+            	},
+				error:function(err){
+                             alert("网络连接,稍后重试",err)
+                     }
 			});
 		};
 	</script>

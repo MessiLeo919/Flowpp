@@ -124,9 +124,6 @@ def index(request):
 def test(request):
     return HttpResponse("aaction.html")
 def action(request):
-    '''
-    Action加载页面
-    '''
     if request.method == 'GET':
         parameter = json_transfer(file)
         return render(request,'Action.html',
@@ -138,7 +135,7 @@ def action(request):
         )
     elif request.method == 'POST':
         result =json.loads(request.body)
-        # print(result)
+        print(result)
         json_modified(file, result)
         print("数据提交成功！")
         return render(request,'Finish.html')
@@ -155,9 +152,9 @@ def Domain(request):
                           'dict_All_3': parameter[3]
                       }
                     )
-
     elif request.method == 'POST':
         result = json.loads(request.body)
+        print(result)
         json_modified(file, result)
         print("数据提交成功！")
         return render(request, 'Finish.html')

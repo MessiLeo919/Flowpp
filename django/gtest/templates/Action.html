@@ -104,6 +104,8 @@
 
             var treeObj=$.fn.zTree.getZTreeObj("treeDemo");
             var nodes=treeObj.getNodesByFilter(filter);
+            console.log(treeObj);
+            console.log(nodes);
             for(var i=0;i<nodes.length;i++){
                 v="";
 				v+=nodes[i].name + ",";
