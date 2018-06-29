@@ -24,4 +24,5 @@ urlpatterns = [
     path('', admin.site.urls),
     path('head/', views.registerTestcase),
     url(r'^case/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT }),
+    url('^web/', include('web.urls')),
 ]
